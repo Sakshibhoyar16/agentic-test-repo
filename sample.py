@@ -1,2 +1,2 @@
-def power(a, b):
-    return a ** b
+def demo_function():
+    return "Agent working"
