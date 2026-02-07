@@ -1,2 +1,2 @@
-def demo_function():
-    return "Agent working"
+def demo_add(int a,int b):
+    return a + b
