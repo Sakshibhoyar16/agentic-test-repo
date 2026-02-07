@@ -1,2 +1,2 @@
-def demo_add(int a,int b):
-    return a + b
+def demo():
+    return print("Hello")
