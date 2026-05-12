@@ -1,31 +1,53 @@
-## No Functions Available
+## Calculator Functions
+The calculator module contains a set of functions for basic arithmetic operations.
 
-**Description:** There are no functions available to document.
+## add
 
-**Parameters:** None
-
-**Returns:** None
-
-**Example:** None
-
-Since there are no functions provided in the code analysis, there is no code to document. If you provide the actual functions, I can generate the documentation for you. 
-
-For now, this is the documentation based on the information provided. 
-
-If you have functions to document, the format will be as follows for each function:
-
-## function_name
-
-**Description:** what the function does
+**Description:** Adds two numbers and returns the result.
 
 **Parameters:**
-- param1: description
-- param2: description
+- a: The first number to add
+- b: The second number to add
 
-**Returns:** what it returns
+**Returns:** The sum of a and b
 
 **Example:**
 
 ```python
-result = function_name(param1, param2)
+result = add(5, 7)
+print(result)  # Outputs: 12
+```
+
+## subtract
+
+**Description:** Subtracts b from a and returns the result.
+
+**Parameters:**
+- a: The number to subtract from
+- b: The number to subtract
+
+**Returns:** The difference between a and b
+
+**Example:**
+
+```python
+result = subtract(10, 4)
+print(result)  # Outputs: 6
+```
+
+## multiply
+
+**Description:** Multiplies two numbers.
+
+**Parameters:**
+- a: The first number to multiply
+- b: The second number to multiply
+
+**Returns:** The product of a and b
+
+**Example:**
+
+```python
+result = multiply(6, 9)
+print(result)  # Outputs: 54
 ```
