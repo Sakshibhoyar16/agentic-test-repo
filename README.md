@@ -1,97 +1,42 @@
-## Calculator Functions
-The following calculator functions are available:
+## No Functions Available
 
-### add
+**Description:** There are no functions available to document.
 
-**Description:** Adds two numbers and returns the result.
+**Parameters:** None
 
-**Parameters:**
-- a: The first number to add
-- b: The second number to add
+**Returns:** None
 
-**Returns:** The sum of a and b
+**Example:** 
+There are no functions to provide an example for. 
 
-**Example:**
-```python
-result = add(5, 3)
-print(result)  # Outputs: 8
-```
+Please provide the Python code analysis to generate the documentation. The current analysis is empty. 
 
-### subtract
+If you provide the code analysis, I can generate the documentation according to the specified format. 
 
-**Description:** Subtracts b from a and returns the result.
+For now, this documentation reflects the state of the provided code analysis, which is empty. 
 
-**Parameters:**
-- a: The number to subtract from
-- b: The number to subtract
+If there were functions to document, they would be listed here with their descriptions, parameters, return values, and example usage. 
 
-**Returns:** The difference between a and b
+Please provide the necessary information to complete the documentation. 
 
-**Example:**
-```python
-result = subtract(10, 4)
-print(result)  # Outputs: 6
-```
+If you have any questions or need further assistance, feel free to ask. 
 
-### multiply
+This documentation will be updated when the code analysis is provided. 
 
-**Description:** Multiplies two numbers.
+In the future, the documentation will follow this format for each function:
+
+## function_name
+
+**Description:** what the function does
 
 **Parameters:**
-- a: The first number to multiply
-- b: The second number to multiply
+- param1: description
+- param2: description
 
-**Returns:** The product of a and b
-
-**Example:**
-```python
-result = multiply(7, 2)
-print(result)  # Outputs: 14
-```
-
-### divide
-
-**Description:** Divides a by b and returns the result.
-
-**Parameters:**
-- a: The dividend
-- b: The divisor
-
-**Returns:** The quotient of a and b
+**Returns:** what it returns
 
 **Example:**
+
 ```python
-result = divide(9, 3)
-print(result)  # Outputs: 3.0
-```
-
-### power
-
-**Description:** Raises base to the power of exponent.
-
-**Parameters:**
-- base: The base number
-- exponent: The power to which the base is raised
-
-**Returns:** The result of raising base to the power of exponent
-
-**Example:**
-```python
-result = power(2, 3)
-print(result)  # Outputs: 8
-```
-
-### factorial
-
-**Description:** Calculates the factorial of a non-negative integer n.
-
-**Parameters:**
-- n: The non-negative integer
-
-**Returns:** The factorial of n
-
-**Example:**
-```python
-result = factorial(5)
-print(result)  # Outputs: 120
+result = function_name(param1, param2)
 ```
