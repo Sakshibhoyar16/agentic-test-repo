@@ -9,3 +9,6 @@ def subtract(a, b):
 def multiply(a, b):
     """Multiplies two numbers."""
     return a * b
+def divide(a,b):
+    """Divide two numbers."""
+    return a/b
