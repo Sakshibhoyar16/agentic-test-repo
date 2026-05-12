@@ -15,3 +15,6 @@ def divide(a,b):
 def power(a,b):
     """Exponential"""
     return a**b
+def cube(n):
+    """Returns the cube of a number."""
+    return n ** 3
