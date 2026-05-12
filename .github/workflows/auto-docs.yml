@@ -5,12 +5,18 @@ on:
     branches:
       - main
 
+# Give GitHub Actions permission to write to this repo
+permissions:
+  contents: write
+
 jobs:
   update-docs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate Documentation
         uses: Sakshibhoyar16/agentic-ai-doc-maintainer@main
