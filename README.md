@@ -8,8 +8,24 @@
 
 **Example:** None
 
-Since there are no functions provided in the Python code analysis, there is no specific function to document. If you provide the actual functions, I can assist in creating the professional Markdown documentation. 
+Since there are no functions provided in the code analysis, there is no code to document. If you provide the actual functions, I can generate the documentation for you. 
 
-Please provide the necessary functions to document, and I will be happy to help. 
+For now, this is the documentation based on the information provided. 
 
-For now, this is the only information available for documentation purposes.
+If you have functions to document, the format will be as follows for each function:
+
+## function_name
+
+**Description:** what the function does
+
+**Parameters:**
+- param1: description
+- param2: description
+
+**Returns:** what it returns
+
+**Example:**
+
+```python
+result = function_name(param1, param2)
+```
