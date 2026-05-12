@@ -1,70 +1,24 @@
-## Calculator Functions
-The following functions are available in the calculator module.
+# agentic-test-repo
 
-## add
+This repository is automatically documented by the
+[Agentic AI Documentation Maintainer](https://github.com/Sakshibhoyar16/agentic-ai-doc-maintainer).
 
-**Description:** Adds two numbers and returns the result.
+## What is this?
 
-**Parameters:**
-- a: The first number to add.
-- b: The second number to add.
+Every time code is pushed to this repository, an AI system
+automatically reads the Python files, understands the functions,
+and updates the documentation — with zero human effort.
 
-**Returns:** The sum of a and b.
+## Documentation
 
-**Example:**
+See [DOCUMENTATION.md](./DOCUMENTATION.md) for full API documentation.
 
-```python
-result = add(5, 3)
-print(result)  # Outputs: 8
-```
+## How it works
 
-## subtract
+1. Developer pushes new code
+2. AI system detects the change
+3. AST parser reads all Python functions
+4. Groq LLM writes the documentation
+5. DOCUMENTATION.md is automatically updated
 
-**Description:** Subtracts b from a and returns the result.
-
-**Parameters:**
-- a: The number to subtract from.
-- b: The number to subtract.
-
-**Returns:** The difference of a and b.
-
-**Example:**
-
-```python
-result = subtract(10, 4)
-print(result)  # Outputs: 6
-```
-
-## multiply
-
-**Description:** Multiplies two numbers.
-
-**Parameters:**
-- a: The first number to multiply.
-- b: The second number to multiply.
-
-**Returns:** The product of a and b.
-
-**Example:**
-
-```python
-result = multiply(6, 7)
-print(result)  # Outputs: 42
-```
-
-## divide
-
-**Description:** Divide two numbers.
-
-**Parameters:**
-- a: The dividend.
-- b: The divisor.
-
-**Returns:** The quotient of a and b.
-
-**Example:**
-
-```python
-result = divide(12, 3)
-print(result)  # Outputs: 4.0
-```
+*Last updated automatically by AI Documentation Bot.*
