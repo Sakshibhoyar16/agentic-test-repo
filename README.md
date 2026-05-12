@@ -1,21 +1,21 @@
 ## Calculator Functions
-The calculator module contains a set of functions for basic arithmetic operations.
+The following functions are available in the calculator module.
 
 ## add
 
 **Description:** Adds two numbers and returns the result.
 
 **Parameters:**
-- a: The first number to add
-- b: The second number to add
+- a: The first number to add.
+- b: The second number to add.
 
-**Returns:** The sum of a and b
+**Returns:** The sum of a and b.
 
 **Example:**
 
 ```python
-result = add(5, 7)
-print(result)  # Outputs: 12
+result = add(5, 3)
+print(result)  # Outputs: 8
 ```
 
 ## subtract
@@ -23,10 +23,10 @@ print(result)  # Outputs: 12
 **Description:** Subtracts b from a and returns the result.
 
 **Parameters:**
-- a: The number to subtract from
-- b: The number to subtract
+- a: The number to subtract from.
+- b: The number to subtract.
 
-**Returns:** The difference between a and b
+**Returns:** The difference of a and b.
 
 **Example:**
 
@@ -40,14 +40,31 @@ print(result)  # Outputs: 6
 **Description:** Multiplies two numbers.
 
 **Parameters:**
-- a: The first number to multiply
-- b: The second number to multiply
+- a: The first number to multiply.
+- b: The second number to multiply.
 
-**Returns:** The product of a and b
+**Returns:** The product of a and b.
 
 **Example:**
 
 ```python
-result = multiply(6, 9)
-print(result)  # Outputs: 54
+result = multiply(6, 7)
+print(result)  # Outputs: 42
+```
+
+## divide
+
+**Description:** Divide two numbers.
+
+**Parameters:**
+- a: The dividend.
+- b: The divisor.
+
+**Returns:** The quotient of a and b.
+
+**Example:**
+
+```python
+result = divide(12, 3)
+print(result)  # Outputs: 4.0
 ```
