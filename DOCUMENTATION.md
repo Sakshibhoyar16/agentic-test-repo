@@ -8,7 +8,7 @@
 **Returns:** The sum of a and b.
 **Example:**
 ```python
-result = add(5, 7)
+result = add(5, 3)
 ```
 
 ### subtract
@@ -30,7 +30,7 @@ result = subtract(10, 4)
 **Returns:** The product of a and b.
 **Example:**
 ```python
-result = multiply(6, 9)
+result = multiply(6, 7)
 ```
 
 ### divide
@@ -45,11 +45,11 @@ result = divide(12, 3)
 ```
 
 ### power
-**Description:** Exponential
+**Description:** Exponential calculation of a to the power of b.
 **Parameters:**
 - a: The base number.
 - b: The exponent.
-**Returns:** a raised to the power of b.
+**Returns:** The result of a to the power of b.
 **Example:**
 ```python
 result = power(2, 3)
