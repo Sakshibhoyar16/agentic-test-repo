@@ -6,24 +6,10 @@
 
 **Returns:** None
 
-**Example:** 
-There are no examples to provide as there are no functions available.
+**Example:** None
 
+Since there are no functions provided in the Python code analysis, there is no specific function to document. If you provide the actual functions, I can assist in creating the professional Markdown documentation. 
 
-Since there are no functions available, there is no additional documentation to provide. If functions become available in the future, they can be documented using the following format:
+Please provide the necessary functions to document, and I will be happy to help. 
 
-## function_name
-
-**Description:** what the function does
-
-**Parameters:**
-- param1: description
-- param2: description
-
-**Returns:** what it returns
-
-**Example:**
-
-```python
-result = function_name(param1, param2)
-```
+For now, this is the only information available for documentation purposes.
