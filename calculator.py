@@ -12,9 +12,6 @@ def multiply(a, b):
 def divide(a,b):
     """Divide two numbers."""
     return a/b
-def power(a,b):
-    """Exponential"""
-    return a**b
 def cube(n):
     """Returns the cube of a number."""
     return n ** 3
