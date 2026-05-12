@@ -9,3 +9,12 @@ def subtract(a, b):
 def multiply(a, b):
     """Multiplies two numbers."""
     return a * b
+def divide(a, b):
+    """Divides a by b and returns the result."""
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
+
+def power(base, exponent):
+    """Raises base to the power of exponent."""
+    return base ** exponent
