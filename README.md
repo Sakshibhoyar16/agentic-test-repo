@@ -1,24 +1,65 @@
 # agentic-test-repo
 
-This repository is automatically documented by the
-[Agentic AI Documentation Maintainer](https://github.com/Sakshibhoyar16/agentic-ai-doc-maintainer).
+Auto-documented by [Agentic AI Documentation Maintainer](https://github.com/Sakshibhoyar16/agentic-ai-doc-maintainer).
 
-## What is this?
+---
 
-Every time code is pushed to this repository, an AI system
-automatically reads the Python files, understands the functions,
-and updates the documentation — with zero human effort.
+# API Documentation
+## calculator.py
+### add
+**Description:** Adds two numbers and returns the result.
+**Parameters:**
+- a: the first number to add
+- b: the second number to add
+**Returns:** the sum of a and b
+**Example:**
+```python
+result = add(5, 3)
+```
 
-## Documentation
+### subtract
+**Description:** Subtracts b from a and returns the result.
+**Parameters:**
+- a: the number to subtract from
+- b: the number to subtract
+**Returns:** the difference between a and b
+**Example:**
+```python
+result = subtract(10, 4)
+```
 
-See [DOCUMENTATION.md](./DOCUMENTATION.md) for full API documentation.
+### multiply
+**Description:** Multiplies two numbers.
+**Parameters:**
+- a: the first number to multiply
+- b: the second number to multiply
+**Returns:** the product of a and b
+**Example:**
+```python
+result = multiply(7, 2)
+```
 
-## How it works
+### divide
+**Description:** Divide two numbers.
+**Parameters:**
+- a: the dividend
+- b: the divisor
+**Returns:** the quotient of a and b
+**Example:**
+```python
+result = divide(9, 3)
+```
 
-1. Developer pushes new code
-2. AI system detects the change
-3. AST parser reads all Python functions
-4. Groq LLM writes the documentation
-5. DOCUMENTATION.md is automatically updated
+### cube
+**Description:** Returns the cube of a number.
+**Parameters:**
+- n: the number to cube
+**Returns:** the cube of n
+**Example:**
+```python
+result = cube(4)
+```
 
-*Last updated automatically by AI Documentation Bot.*
+---
+
+*Last updated automatically by AI on every code push.*
