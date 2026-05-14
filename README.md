@@ -11,7 +11,7 @@ Auto-documented by [Agentic AI Documentation Maintainer](https://github.com/Saks
 **Parameters:**
 - a: The first number to be added.
 - b: The second number to be added.
-**Returns:** The sum of the two input numbers.
+**Returns:** The sum of the two numbers.
 **Example:**
 ```python
 result = add(5, 7)
@@ -22,7 +22,7 @@ result = add(5, 7)
 **Parameters:**
 - a: The number from which to subtract.
 - b: The number to subtract.
-**Returns:** The difference between the two input numbers.
+**Returns:** The result of the subtraction.
 **Example:**
 ```python
 result = subtract(10, 4)
@@ -33,10 +33,10 @@ result = subtract(10, 4)
 **Parameters:**
 - a: The first number to be multiplied.
 - b: The second number to be multiplied.
-**Returns:** The product of the two input numbers.
+**Returns:** The product of the two numbers.
 **Example:**
 ```python
-result = multiply(3, 9)
+result = multiply(6, 9)
 ```
 
 ### divide
@@ -44,7 +44,7 @@ result = multiply(3, 9)
 **Parameters:**
 - a: The dividend.
 - b: The divisor.
-**Returns:** The quotient of the two input numbers.
+**Returns:** The result of the division.
 **Example:**
 ```python
 result = divide(12, 3)
