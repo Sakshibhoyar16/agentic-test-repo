@@ -11,7 +11,7 @@ Auto-documented by [Agentic AI Documentation Maintainer](https://github.com/Saks
 **Parameters:**
 - a: the first number to add
 - b: the second number to add
-**Returns:** the sum of a and b
+**Returns:** The sum of a and b
 **Example:**
 ```python
 result = add(5, 3)
@@ -22,7 +22,7 @@ result = add(5, 3)
 **Parameters:**
 - a: the number to subtract from
 - b: the number to subtract
-**Returns:** the difference between a and b
+**Returns:** The difference of a and b
 **Example:**
 ```python
 result = subtract(10, 4)
@@ -33,10 +33,10 @@ result = subtract(10, 4)
 **Parameters:**
 - a: the first number to multiply
 - b: the second number to multiply
-**Returns:** the product of a and b
+**Returns:** The product of a and b
 **Example:**
 ```python
-result = multiply(6, 7)
+result = multiply(7, 2)
 ```
 
 ### divide
@@ -44,7 +44,7 @@ result = multiply(6, 7)
 **Parameters:**
 - a: the dividend
 - b: the divisor
-**Returns:** the quotient of a and b
+**Returns:** The quotient of a and b
 **Example:**
 ```python
 result = divide(9, 3)
@@ -54,7 +54,7 @@ result = divide(9, 3)
 **Description:** Returns the cube of a number.
 **Parameters:**
 - n: the number to cube
-**Returns:** the cube of n
+**Returns:** The cube of n
 **Example:**
 ```python
 result = cube(5)
