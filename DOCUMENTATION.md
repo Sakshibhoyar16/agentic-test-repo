@@ -30,7 +30,7 @@ result = subtract(10, 4)
 **Returns:** the product of a and b
 **Example:**
 ```python
-result = multiply(6, 7)
+result = multiply(7, 2)
 ```
 
 ### divide
@@ -41,7 +41,7 @@ result = multiply(6, 7)
 **Returns:** the quotient of a and b
 **Example:**
 ```python
-result = divide(12, 3)
+result = divide(9, 3)
 ```
 
 ### cube
@@ -51,5 +51,5 @@ result = divide(12, 3)
 **Returns:** the cube of n
 **Example:**
 ```python
-result = cube(5)
+result = cube(4)
 ```
