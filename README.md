@@ -11,10 +11,10 @@ Auto-documented by [Agentic AI Documentation Maintainer](https://github.com/Saks
 **Parameters:**
 - a: the first number to add
 - b: the second number to add
-**Returns:** The sum of a and b
+**Returns:** the sum of the two numbers
 **Example:**
 ```python
-result = add(5, 3)
+result = add(2, 3)
 ```
 
 ### subtract
@@ -22,10 +22,10 @@ result = add(5, 3)
 **Parameters:**
 - a: the number to subtract from
 - b: the number to subtract
-**Returns:** The difference between a and b
+**Returns:** the difference between the two numbers
 **Example:**
 ```python
-result = subtract(10, 4)
+result = subtract(5, 2)
 ```
 
 ### multiply
@@ -33,10 +33,10 @@ result = subtract(10, 4)
 **Parameters:**
 - a: the first number to multiply
 - b: the second number to multiply
-**Returns:** The product of a and b
+**Returns:** the product of the two numbers
 **Example:**
 ```python
-result = multiply(7, 2)
+result = multiply(4, 5)
 ```
 
 ### divide
@@ -44,20 +44,20 @@ result = multiply(7, 2)
 **Parameters:**
 - a: the dividend
 - b: the divisor
-**Returns:** The quotient of a and b
+**Returns:** the quotient of the two numbers
 **Example:**
 ```python
-result = divide(9, 3)
+result = divide(10, 2)
 ```
 
 ### cube
 **Description:** Returns the cube of a number.
 **Parameters:**
 - n: the number to cube
-**Returns:** The cube of n
+**Returns:** the cube of the number
 **Example:**
 ```python
-result = cube(5)
+result = cube(3)
 ```
 
 ---
