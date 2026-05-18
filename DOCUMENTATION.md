@@ -5,10 +5,10 @@
 **Parameters:**
 - a: the first number to add
 - b: the second number to add
-**Returns:** The sum of a and b
+**Returns:** the sum of a and b
 **Example:**
 ```python
-result = add(5, 3)
+result = add(5, 7)
 ```
 
 ### subtract
@@ -16,7 +16,7 @@ result = add(5, 3)
 **Parameters:**
 - a: the number to subtract from
 - b: the number to subtract
-**Returns:** The difference of a and b
+**Returns:** the difference between a and b
 **Example:**
 ```python
 result = subtract(10, 4)
@@ -27,10 +27,10 @@ result = subtract(10, 4)
 **Parameters:**
 - a: the first number to multiply
 - b: the second number to multiply
-**Returns:** The product of a and b
+**Returns:** the product of a and b
 **Example:**
 ```python
-result = multiply(7, 2)
+result = multiply(6, 9)
 ```
 
 ### divide
@@ -38,17 +38,17 @@ result = multiply(7, 2)
 **Parameters:**
 - a: the dividend
 - b: the divisor
-**Returns:** The quotient of a and b
+**Returns:** the quotient of a and b
 **Example:**
 ```python
-result = divide(9, 3)
+result = divide(12, 3)
 ```
 
 ### cube
 **Description:** Returns the cube of a number.
 **Parameters:**
 - n: the number to cube
-**Returns:** The cube of n
+**Returns:** the cube of n
 **Example:**
 ```python
 result = cube(5)
