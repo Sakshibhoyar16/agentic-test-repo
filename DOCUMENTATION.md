@@ -3,53 +3,53 @@
 ### add
 **Description:** Adds two numbers and returns the result.
 **Parameters:**
-- a: The first number to add.
-- b: The second number to add.
-**Returns:** The sum of a and b.
+- a: the first number
+- b: the second number
+**Returns:** The sum of a and b
 **Example:**
 ```python
-result = add(5, 3)
+result = add(2, 3)
 ```
 
 ### subtract
 **Description:** Subtracts b from a and returns the result.
 **Parameters:**
-- a: The number to subtract from.
-- b: The number to subtract.
-**Returns:** The difference of a and b.
+- a: the first number
+- b: the second number
+**Returns:** The difference of a and b
 **Example:**
 ```python
-result = subtract(10, 4)
+result = subtract(5, 2)
 ```
 
 ### multiply
 **Description:** Multiplies two numbers.
 **Parameters:**
-- a: The first number to multiply.
-- b: The second number to multiply.
-**Returns:** The product of a and b.
+- a: the first number
+- b: the second number
+**Returns:** The product of a and b
 **Example:**
 ```python
-result = multiply(7, 2)
+result = multiply(4, 5)
 ```
 
 ### divide
-**Description:** Divides two numbers.
+**Description:** Divide two numbers.
 **Parameters:**
-- a: The dividend.
-- b: The divisor.
-**Returns:** The quotient of a and b.
+- a: the dividend
+- b: the divisor
+**Returns:** The quotient of a and b
 **Example:**
 ```python
-result = divide(9, 3)
+result = divide(10, 2)
 ```
 
 ### cube
 **Description:** Returns the cube of a number.
 **Parameters:**
-- n: The number to cube.
-**Returns:** The cube of n.
+- n: the number to be cubed
+**Returns:** The cube of n
 **Example:**
 ```python
-result = cube(4)
+result = cube(3)
 ```
