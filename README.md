@@ -20,7 +20,7 @@ result = add(5, 3)
 ### subtract
 **Description:** Subtracts b from a and returns the result.
 **Parameters:**
-- a: The number to subtract from.
+- a: The number from which to subtract.
 - b: The number to subtract.
 **Returns:** The difference between a and b.
 **Example:**
