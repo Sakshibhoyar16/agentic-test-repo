@@ -22,7 +22,7 @@ result = add(5, 7)
 **Parameters:**
 - a: The number to subtract from.
 - b: The number to subtract.
-**Returns:** The difference of a and b.
+**Returns:** The result of subtracting b from a.
 **Example:**
 ```python
 result = subtract(10, 4)
@@ -44,7 +44,7 @@ result = multiply(6, 9)
 **Parameters:**
 - a: The dividend.
 - b: The divisor.
-**Returns:** The quotient of a and b.
+**Returns:** The quotient of a divided by b.
 **Example:**
 ```python
 result = divide(12, 3)
@@ -53,7 +53,7 @@ result = divide(12, 3)
 ### cube
 **Description:** Returns the cube of a number.
 **Parameters:**
-- n: The number to calculate the cube of.
+- n: The number to cube.
 **Returns:** The cube of n.
 **Example:**
 ```python
