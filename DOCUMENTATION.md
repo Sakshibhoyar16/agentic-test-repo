@@ -51,5 +51,5 @@ result = divide(9, 3)
 **Returns:** the cube of n
 **Example:**
 ```python
-result = cube(5)
+result = cube(4)
 ```
