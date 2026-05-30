@@ -40,7 +40,7 @@ result = multiply(3, 9)
 ```
 
 ### divide
-**Description:** Divides two numbers.
+**Description:** Divide two numbers.
 **Parameters:**
 - a: The dividend.
 - b: The divisor.
