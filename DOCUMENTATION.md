@@ -16,7 +16,7 @@ result = add(5, 3)
 **Parameters:**
 - a: The number to subtract from.
 - b: The number to subtract.
-**Returns:** The difference between a and b.
+**Returns:** The result of subtracting b from a.
 **Example:**
 ```python
 result = subtract(10, 4)
@@ -38,7 +38,7 @@ result = multiply(7, 2)
 **Parameters:**
 - a: The dividend.
 - b: The divisor.
-**Returns:** The quotient of a and b.
+**Returns:** The result of dividing a by b.
 **Example:**
 ```python
 result = divide(9, 3)
