@@ -14,7 +14,7 @@ Auto-documented by [Agentic AI Documentation Maintainer](https://github.com/Saks
 **Returns:** The sum of a and b.
 **Example:**
 ```python
-result = add(5, 10)
+result = add(5, 3)
 ```
 
 ### subtract
@@ -22,10 +22,10 @@ result = add(5, 10)
 **Parameters:**
 - a: The number to subtract from.
 - b: The number to subtract.
-**Returns:** The difference of a and b.
+**Returns:** The difference between a and b.
 **Example:**
 ```python
-result = subtract(15, 5)
+result = subtract(10, 4)
 ```
 
 ### multiply
@@ -36,7 +36,7 @@ result = subtract(15, 5)
 **Returns:** The product of a and b.
 **Example:**
 ```python
-result = multiply(4, 6)
+result = multiply(7, 2)
 ```
 
 ### divide
@@ -47,7 +47,7 @@ result = multiply(4, 6)
 **Returns:** The quotient of a and b.
 **Example:**
 ```python
-result = divide(12, 3)
+result = divide(9, 3)
 ```
 
 ### cube
