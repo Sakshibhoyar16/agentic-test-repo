@@ -5,10 +5,7 @@ Auto-documented by [Agentic AI Documentation Maintainer](https://github.com/Saks
 ---
 
 # API Documentation
-
 ## calculator.py
-This section documents the functions found in the calculator.py file.
-
 ### add
 **Description:** Adds two numbers and returns the result.
 **Parameters:**
@@ -25,7 +22,7 @@ result = add(5, 7)
 **Parameters:**
 - a: The number to subtract from.
 - b: The number to subtract.
-**Returns:** The difference of a and b.
+**Returns:** The difference between a and b.
 **Example:**
 ```python
 result = subtract(10, 4)
