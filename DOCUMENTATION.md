@@ -8,7 +8,7 @@
 **Returns:** The sum of a and b.
 **Example:**
 ```python
-result = add(5, 7)
+result = add(5, 3)
 ```
 
 ### subtract
@@ -30,7 +30,7 @@ result = subtract(10, 4)
 **Returns:** The product of a and b.
 **Example:**
 ```python
-result = multiply(6, 9)
+result = multiply(7, 2)
 ```
 
 ### divide
@@ -41,7 +41,7 @@ result = multiply(6, 9)
 **Returns:** The quotient of a and b.
 **Example:**
 ```python
-result = divide(12, 3)
+result = divide(9, 3)
 ```
 
 ### cube
