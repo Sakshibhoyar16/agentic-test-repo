@@ -22,7 +22,7 @@ result = add(5, 3)
 **Parameters:**
 - a: the number to subtract from
 - b: the number to subtract
-**Returns:** The difference of a and b
+**Returns:** The difference between a and b
 **Example:**
 ```python
 result = subtract(10, 4)
