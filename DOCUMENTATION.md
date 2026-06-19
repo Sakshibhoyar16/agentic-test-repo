@@ -14,7 +14,7 @@ The sum of `a` and `b`.
 #### Example
 ```python
 result = add(5, 7)
-print(result)  # Output: 12
+print(result)  # Outputs: 12
 ```
 
 ### sub(c, d)
@@ -31,5 +31,22 @@ The difference between `c` and `d`.
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
+```
+
+### mul(a, b)
+#### Description
+The `mul` function calculates the product of two numbers.
+
+#### Parameters
+* `a`: The first number to be multiplied.
+* `b`: The second number to be multiplied.
+
+#### Returns
+The product of `a` and `b`.
+
+#### Example
+```python
+result = mul(6, 9)
+print(result)  # Outputs: 54
 ```
