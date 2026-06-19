@@ -1,14 +1,16 @@
 # API Documentation
 ## calculator.py
-The calculator.py file contains module-level code that executes when the file is run.
+The `calculator.py` file contains module-level code that executes when the file is run.
 
 ### Module-Level Code
-The module-level code in calculator.py consists of a single print statement.
-#### Execution Behavior
-When the calculator.py file is executed, it prints the string 'Hello World' to the console.
-#### Example
-Running the calculator.py file will output:
+The module-level code in `calculator.py` consists of a single print statement that outputs "Hello World" to the console.
+
+* Execution Behavior: When `calculator.py` is executed, it prints "Hello World" to the standard output.
+* Example:
+```python
+# Running calculator.py will output:
+# Hello World
 ```
-Hello World
-```
-Note: There are no functions, classes, or variables defined in this file. The code simply prints a greeting message when executed.
+There are no functions, classes, or variables defined in this file. The code simply executes the print statement when the file is run.
+
+Note: This documentation is based on the provided code analysis, which found no functions, classes, or variables in the `calculator.py` file. As a result, there is limited information to document. If the code is updated to include functions, classes, or variables, this documentation will need to be revised accordingly.
