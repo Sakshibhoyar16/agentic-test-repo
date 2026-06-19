@@ -1,15 +1,19 @@
 # API Documentation
 ## calculator.py
-The calculator.py module is a simple Python script that prints a greeting message when executed.
+### Function: add(a, b)
+#### Description
+The `add` function is designed to perform basic arithmetic addition. It takes two parameters, adds them together, and returns the result.
 
-### Module-Level Code
-The module-level code in calculator.py is executed when the script is run directly. It consists of a single print statement that outputs the string 'Hello World'.
+#### Parameters
+* `a`: The first number to be added.
+* `b`: The second number to be added.
 
-* Execution Behavior: When the calculator.py script is executed, it prints 'Hello World' to the console.
-* Example:
+#### Returns
+The sum of `a` and `b`.
+
+#### Example
 ```python
-# Running the calculator.py script
-$ python calculator.py
-Hello World
+result = add(5, 7)
+print(result)  # Output: 12
 ```
-Note: Since the calculator.py module does not contain any functions, classes, or variables, there is no further documentation to provide for this file.
+This example demonstrates how to use the `add` function to add two numbers together and print the result.
