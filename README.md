@@ -6,9 +6,9 @@ Auto-documented by Agentic AI Documentation Maintainer.
 
 # API Documentation
 ## calculator.py
-### Function: add(a, b)
+### add(a, b)
 #### Description
-The `add` function is designed to perform basic arithmetic addition. It takes two parameters, adds them together, and returns the result.
+The `add` function calculates the sum of two numbers.
 
 #### Parameters
 * `a`: The first number to be added.
@@ -22,7 +22,23 @@ The sum of `a` and `b`.
 result = add(5, 7)
 print(result)  # Output: 12
 ```
-This example demonstrates how to use the `add` function to add two numbers together and print the result.
+
+### sub(c, d)
+#### Description
+The `sub` function calculates the difference between two numbers.
+
+#### Parameters
+* `c`: The first number.
+* `d`: The second number to be subtracted from the first.
+
+#### Returns
+The difference between `c` and `d`.
+
+#### Example
+```python
+result = sub(10, 4)
+print(result)  # Output: 6
+```
 
 ---
 
