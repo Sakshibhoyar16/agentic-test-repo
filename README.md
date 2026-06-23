@@ -5,62 +5,63 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
-
 ## calculator.py
-The calculator.py file contains a set of basic arithmetic functions.
+The calculator.py module provides basic arithmetic operations.
 
-### add(a, b)
-#### Description
-The `add` function takes two parameters and returns their sum.
+### Functions
+#### add(a, b)
+##### Description
+The `add` function calculates the sum of two numbers.
 
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 
-#### Returns
-The sum of `a` and `b` (int or float).
+##### Returns
+* `int` or `float`: The sum of `a` and `b`.
 
-#### Example
+##### Example
 ```python
 result = add(5, 3)
-print(result)  # Outputs: 8
+print(result)  # Output: 8
 ```
 
-### sub(c, d)
-#### Description
-The `sub` function takes two parameters and returns their difference.
+#### sub(c, d)
+##### Description
+The `sub` function calculates the difference between two numbers.
 
-#### Parameters
+##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to subtract.
 
-#### Returns
-The difference between `c` and `d` (int or float).
+##### Returns
+* `int` or `float`: The difference between `c` and `d`.
 
-#### Example
+##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
-### mul(a, b)
-#### Description
-The `mul` function takes two parameters and returns their product.
+#### mul(a, b)
+##### Description
+The `mul` function calculates the product of two numbers.
 
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 
-#### Returns
-The product of `a` and `b` (int or float).
+##### Returns
+* `int` or `float`: The product of `a` and `b`.
 
-#### Example
+##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Outputs: 30
+result = mul(7, 2)
+print(result)  # Output: 14
 ```
 
-Since the calculator.py file contains more than one function, the execution flow can be represented as follows:
+### Execution Flow
+Since there are multiple functions in this module, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -70,6 +71,10 @@ flowchart TD
     C --> E
     D --> E
 ```
+Note: The execution flow may vary depending on how the functions are called and used in the program.
+
+### Module-Level Code
+When run directly, this script does not have any module-level code that executes. It provides a set of reusable functions for arithmetic operations.
 
 ---
 
