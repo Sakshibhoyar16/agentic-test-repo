@@ -1,50 +1,59 @@
 # API Documentation
 ## calculator.py
-### Functions
-#### add(a, b)
-##### Description
+The calculator.py file contains a set of functions for basic arithmetic operations.
+
+### add(a, b)
+#### Description
 The `add` function calculates the sum of two numbers.
-##### Parameters
+
+#### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-##### Returns
-The sum of `a` and `b`.
-##### Example
+
+#### Returns
+The sum of `a` and `b` as an integer or float.
+
+#### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
-#### sub(c, d)
-##### Description
+### sub(c, d)
+#### Description
 The `sub` function calculates the difference between two numbers.
-##### Parameters
+
+#### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
-##### Returns
-The difference between `c` and `d`.
-##### Example
+* `d` (int or float): The second number to subtract from the first.
+
+#### Returns
+The difference between `c` and `d` as an integer or float.
+
+#### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
-#### mul(a, b)
-##### Description
+### mul(a, b)
+#### Description
 The `mul` function calculates the product of two numbers.
-##### Parameters
+
+#### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-##### Returns
-The product of `a` and `b`.
-##### Example
+
+#### Returns
+The product of `a` and `b` as an integer or float.
+
+#### Example
 ```python
-result = mul(5, 3)
-print(result)  # Output: 15
+result = mul(6, 8)
+print(result)  # Outputs: 48
 ```
 
-### Execution Flow
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since there are multiple functions in this file, here's a flowchart showing the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -54,6 +63,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The execution flow assumes that the functions are called independently, and the order of execution may vary depending on the specific use case. 
+This flowchart illustrates that the execution can start with any of the `add`, `sub`, or `mul` functions, and each leads to the end of the execution.
 
-No classes or variables are defined in this file. If the file contained module-level code, a description of what the script does when run directly would be included here.
+Note that this repository does not include any classes or variables. When run directly, this script does not execute any specific block of code as it only contains function definitions.
