@@ -1,6 +1,7 @@
 # API Documentation
+
 ## calculator.py
-The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
+The calculator.py file contains a collection of mathematical functions.
 
 ### add(a, b)
 #### Description
@@ -11,29 +12,29 @@ The `add` function calculates the sum of two numbers.
 * `b` (int or float): The second number to be added.
 
 #### Returns
-* `int` or `float`: The sum of `a` and `b`.
+The sum of `a` and `b`.
 
 #### Example
 ```python
 result = add(5, 3)
-print(result)  # Outputs: 8
+print(result)  # Output: 8
 ```
 
 ### sub(c, d)
 #### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function calculates the difference of two numbers.
 
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to be subtracted from `c`.
+* `d` (int or float): The second number to be subtracted.
 
 #### Returns
-* `int` or `float`: The difference between `c` and `d`.
+The difference of `c` and `d`.
 
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 ### mul(a, b)
@@ -45,15 +46,16 @@ The `mul` function calculates the product of two numbers.
 * `b` (int or float): The second number to be multiplied.
 
 #### Returns
-* `int` or `float`: The product of `a` and `b`.
+The product of `a` and `b`.
 
 #### Example
 ```python
 result = mul(5, 6)
-print(result)  # Outputs: 30
+print(result)  # Output: 30
 ```
 
 Since the calculator.py file contains more than one function, the following flowchart illustrates the execution flow:
+
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -63,4 +65,5 @@ flowchart TD
     C --> E
     D --> E
 ```
-When run directly, the calculator.py script does not contain any module-level code, so it does not perform any actions without being imported as a module.
+
+Note: The flowchart shows the possible execution paths for each function. The actual execution flow may vary depending on how the functions are called in the code.
