@@ -7,9 +7,11 @@ Auto-documented by Agentic AI Documentation Maintainer.
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
+### Overview
+The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
 
 ### Functions
+
 #### add(a, b)
 ##### Description
 The `add` function takes two numbers as input and returns their sum.
@@ -20,8 +22,8 @@ The `add` function takes two numbers as input and returns their sum.
 * `int` or `float`: The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 3)
-print(result)  # Outputs: 8
+result = add(5, 7)
+print(result)  # Output: 12
 ```
 
 #### sub(c, d)
@@ -35,7 +37,7 @@ The `sub` function takes two numbers as input and returns their difference.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 #### mul(a, b)
@@ -48,12 +50,12 @@ The `mul` function takes two numbers as input and returns their product.
 * `int` or `float`: The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Outputs: 30
+result = mul(6, 9)
+print(result)  # Output: 54
 ```
 
-## Execution Flow
-Since the calculator.py file contains more than one function, the following Mermaid flowchart illustrates the execution flow:
+### Execution Flow
+Since there are multiple functions in this file, here is a flowchart showing the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -63,10 +65,11 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The execution flow assumes that the functions are called independently, and the flowchart does not represent a specific sequence of function calls.
 
-## Module-Level Code
-When run directly, the calculator.py script does not have any specific module-level code that performs a task. It only defines the mathematical functions that can be imported and used in other scripts.
+### Module-Level Code
+When run directly, this script does not execute any specific module-level code, as it only contains function definitions. However, you can use the functions provided to perform arithmetic operations. 
+
+Note: There are no classes or variables in this file.
 
 ---
 
