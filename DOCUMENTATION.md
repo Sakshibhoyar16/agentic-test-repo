@@ -1,50 +1,48 @@
 # API Documentation
 ## calculator.py
-The calculator.py file contains a set of functions for basic arithmetic operations.
-
-### add(a, b)
+### Function: add(a, b)
 #### Description
 The `add` function calculates the sum of two numbers.
 #### Parameters
-* `a` (number): The first number to add.
-* `b` (number): The second number to add.
+* `a` (int or float): The first number to be added.
+* `b` (int or float): The second number to be added.
 #### Returns
 The sum of `a` and `b`.
 #### Example
 ```python
-result = add(5, 3)
-print(result)  # Outputs: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
-### sub(c, d)
+### Function: sub(c, d)
 #### Description
-The `sub` function calculates the difference of two numbers.
+The `sub` function calculates the difference between two numbers.
 #### Parameters
-* `c` (number): The first number.
-* `d` (number): The second number to subtract from the first.
+* `c` (int or float): The first number.
+* `d` (int or float): The second number to be subtracted from the first.
 #### Returns
-The difference of `c` and `d`.
+The difference between `c` and `d`.
 #### Example
 ```python
 result = sub(10, 4)
 print(result)  # Outputs: 6
 ```
 
-### mul(a, b)
+### Function: mul(a, b)
 #### Description
 The `mul` function calculates the product of two numbers.
 #### Parameters
-* `a` (number): The first number to multiply.
-* `b` (number): The second number to multiply.
+* `a` (int or float): The first number to be multiplied.
+* `b` (int or float): The second number to be multiplied.
 #### Returns
 The product of `a` and `b`.
 #### Example
 ```python
-result = mul(7, 2)
-print(result)  # Outputs: 14
+result = mul(3, 9)
+print(result)  # Outputs: 27
 ```
 
-Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
+Since there are multiple functions in this file, here is a flowchart showing the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -54,6 +52,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart represents the individual execution paths of each function. In a real-world scenario, the actual execution flow may vary based on how these functions are called and used within the program. 
-
-There are no classes or variables defined in this file. When run directly, this script does not execute any code as it only contains function definitions.
+Note: This flowchart assumes that the functions can be called independently, and the execution flow can start with any of the functions. In a real-world scenario, the flowchart may vary depending on the actual implementation and the relationships between the functions.
