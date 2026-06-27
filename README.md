@@ -5,53 +5,61 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
-## calculator.py
-The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
 
-### Functions
-#### add(a, b)
-##### Description
-The `add` function takes two numbers as input and returns their sum.
-##### Parameters
+## calculator.py
+This file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
+
+### add(a, b)
+#### Description
+This function takes two numbers as input and returns their sum.
+
+#### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-##### Returns
+
+#### Returns
 * `int` or `float`: The sum of `a` and `b`.
-##### Example
+
+#### Example
 ```python
 result = add(5, 3)
 print(result)  # Output: 8
 ```
 
-#### sub(c, d)
-##### Description
-The `sub` function takes two numbers as input and returns their difference.
-##### Parameters
+### sub(c, d)
+#### Description
+This function takes two numbers as input and returns their difference.
+
+#### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
-##### Returns
+* `d` (int or float): The second number to subtract from the first.
+
+#### Returns
 * `int` or `float`: The difference between `c` and `d`.
-##### Example
+
+#### Example
 ```python
 result = sub(10, 4)
 print(result)  # Output: 6
 ```
 
-#### mul(a, b)
-##### Description
-The `mul` function takes two numbers as input and returns their product.
-##### Parameters
+### mul(a, b)
+#### Description
+This function takes two numbers as input and returns their product.
+
+#### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-##### Returns
+
+#### Returns
 * `int` or `float`: The product of `a` and `b`.
-##### Example
+
+#### Example
 ```python
 result = mul(5, 6)
 print(result)  # Output: 30
 ```
 
-### Execution Flow
 Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
@@ -62,10 +70,9 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart shows that the program can start with any of the three functions (`add`, `sub`, or `mul`) and will end after executing the chosen function.
+This flowchart shows that the execution can start with any of the three functions (`add`, `sub`, or `mul`), and each function will return a result. 
 
-### Module-Level Code
-When run directly, this script does not have any module-level code that executes. It is designed to be imported and used as a module in other scripts.
+Note: There are no classes or variables in this file, so no documentation is provided for those.
 
 ---
 
