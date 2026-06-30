@@ -5,62 +5,65 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
-## calculator.py
-The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
 
-### add(a, b)
-#### Description
-The `add` function takes two numbers as input and returns their sum.
-#### Parameters
-* `a` (int or float): The first number to add.
-* `b` (int or float): The second number to add.
-#### Returns
+## calculator.py
+The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
+
+### Functions
+#### add(a, b)
+##### Description
+The `add` function takes two numbers as input, adds them together, and returns the result.
+##### Parameters
+* `a` (int or float): The first number to be added.
+* `b` (int or float): The second number to be added.
+##### Returns
 * `int` or `float`: The sum of `a` and `b`.
-#### Example
+##### Example
 ```python
 result = add(5, 3)
 print(result)  # Output: 8
 ```
 
-### sub(c, d)
-#### Description
-The `sub` function takes two numbers as input and returns their difference.
-#### Parameters
+#### sub(c, d)
+##### Description
+The `sub` function takes two numbers as input, subtracts the second from the first, and returns the result.
+##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
-#### Returns
+* `d` (int or float): The second number to be subtracted.
+##### Returns
 * `int` or `float`: The difference between `c` and `d`.
-#### Example
+##### Example
 ```python
 result = sub(10, 4)
 print(result)  # Output: 6
 ```
 
-### mul(a, b)
-#### Description
-The `mul` function takes two numbers as input and returns their product.
-#### Parameters
-* `a` (int or float): The first number to multiply.
-* `b` (int or float): The second number to multiply.
-#### Returns
+#### mul(a, b)
+##### Description
+The `mul` function takes two numbers as input, multiplies them together, and returns the result.
+##### Parameters
+* `a` (int or float): The first number to be multiplied.
+* `b` (int or float): The second number to be multiplied.
+##### Returns
 * `int` or `float`: The product of `a` and `b`.
-#### Example
+##### Example
 ```python
 result = mul(5, 6)
 print(result)  # Output: 30
 ```
 
-Since the calculator.py file contains more than one function, the execution flow can be represented as follows:
+### Flowchart
+As there are multiple functions in this file, a flowchart is included to illustrate the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
-    A --> C[sub]
-    A --> D[mul]
-    B --> E[End]
-    C --> E
-    D --> E
+    B --> C[sub]
+    C --> D[mul]
+    D --> E[End]
 ```
-This flowchart illustrates the possible execution paths when using the functions provided in the calculator.py file. Note that the actual execution flow may vary depending on how these functions are used in a larger program.
+Note: The flowchart shows a sequential execution of the functions. However, in a real-world scenario, the execution flow may vary depending on how the functions are called and used. 
+
+This documentation provides a clear overview of the calculator.py file, including its functions, parameters, return types, and examples. The flowchart adds a visual representation of the execution flow, making it easier to understand the relationships between the functions.
 
 ---
 
