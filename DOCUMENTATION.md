@@ -1,5 +1,9 @@
 # API Documentation
+
 ## calculator.py
+### Overview
+This module provides a set of basic arithmetic functions.
+
 ### Functions
 #### add(a, b)
 ##### Description
@@ -11,22 +15,22 @@ The `add` function calculates the sum of two numbers.
 The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 7)
-print(result)  # Outputs: 12
+result = add(3, 5)
+print(result)  # Output: 8
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function calculates the difference of two numbers.
+The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
+* `d` (int or float): The second number to subtract from the first.
 ##### Returns
-The difference of `c` and `d`.
+The difference between `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 #### mul(a, b)
@@ -39,11 +43,12 @@ The `mul` function calculates the product of two numbers.
 The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Outputs: 30
+result = mul(4, 5)
+print(result)  # Output: 20
 ```
 
 ### Execution Flow
+Since this module contains multiple functions, the execution flow is as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -53,6 +58,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The execution flow shows the possible paths of execution when the `calculator.py` file is run directly. However, without the actual code, it's assumed that each function can be called independently. 
+Note: The execution flow is not a traditional flowchart, as the functions in this module are independent and can be called separately. The flowchart above represents the possible entry points into the module.
 
-There are no classes or variables in this file, so those sections are omitted. If there were module-level code, it would be described here, but since the provided information only includes function definitions, that section is also omitted.
+### Module-Level Code
+This module does not contain any module-level code. It is intended to be used as a library, with its functions being imported and used in other scripts.
