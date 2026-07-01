@@ -6,50 +6,51 @@ Auto-documented by Agentic AI Documentation Maintainer.
 
 # API Documentation
 ## calculator.py
-### Functions
-#### add(a, b)
-##### Description
+The calculator.py file contains a set of basic arithmetic functions. 
+
+### add(a, b)
+#### Description
 The `add` function calculates the sum of two numbers.
-##### Parameters
+#### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-##### Returns
-The sum of `a` and `b`.
-##### Example
+#### Returns
+* `int` or `float`: The sum of `a` and `b`.
+#### Example
 ```python
 result = add(5, 7)
-print(result)  # Output: 12
+print(result)  # Outputs: 12
 ```
 
-#### sub(c, d)
-##### Description
+### sub(c, d)
+#### Description
 The `sub` function calculates the difference between two numbers.
-##### Parameters
+#### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
-##### Returns
-The difference between `c` and `d`.
-##### Example
+* `d` (int or float): The second number to subtract.
+#### Returns
+* `int` or `float`: The difference between `c` and `d`.
+#### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
-#### mul(a, b)
-##### Description
+### mul(a, b)
+#### Description
 The `mul` function calculates the product of two numbers.
-##### Parameters
+#### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-##### Returns
-The product of `a` and `b`.
-##### Example
+#### Returns
+* `int` or `float`: The product of `a` and `b`.
+#### Example
 ```python
 result = mul(5, 6)
-print(result)  # Output: 30
+print(result)  # Outputs: 30
 ```
 
-### Execution Flow
+Since there are multiple functions in this file, here is a flowchart showing the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -59,9 +60,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart illustrates the possible execution paths of the functions in the `calculator.py` file. The `add`, `sub`, and `mul` functions can be called independently, and each function has its own separate execution path. 
-
-Note: As there are no classes, variables, or module-level code in this file, only the functions and their execution flow are documented.
 
 ---
 
