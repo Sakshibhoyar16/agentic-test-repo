@@ -1,60 +1,53 @@
 # API Documentation
 
 ## calculator.py
-This module contains basic arithmetic operations. 
+The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
 
-### add(a, b)
-#### Description
-This function adds two numbers together. It takes in two parameters, adds them, and returns the result.
-
-#### Parameters
+### Functions
+#### add(a, b)
+##### Description
+The `add` function takes two numbers as input and returns their sum.
+##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-
-#### Returns
-The sum of `a` and `b`.
-
-#### Example
+##### Returns
+* `int` or `float`: The sum of `a` and `b`.
+##### Example
 ```python
-result = add(5, 7)
-print(result)  # Outputs: 12
+result = add(5, 3)
+print(result)  # Outputs: 8
 ```
 
-### sub(c, d)
-#### Description
-This function subtracts one number from another. It takes in two parameters, subtracts the second from the first, and returns the result.
-
-#### Parameters
-* `c` (int or float): The number to subtract from.
-* `d` (int or float): The number to subtract.
-
-#### Returns
-The difference between `c` and `d`.
-
-#### Example
+#### sub(c, d)
+##### Description
+The `sub` function takes two numbers as input and returns their difference.
+##### Parameters
+* `c` (int or float): The first number.
+* `d` (int or float): The second number to subtract from the first.
+##### Returns
+* `int` or `float`: The difference between `c` and `d`.
+##### Example
 ```python
 result = sub(10, 4)
 print(result)  # Outputs: 6
 ```
 
-### mul(a, b)
-#### Description
-This function multiplies two numbers together. It takes in two parameters, multiplies them, and returns the result.
-
-#### Parameters
+#### mul(a, b)
+##### Description
+The `mul` function takes two numbers as input and returns their product.
+##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-
-#### Returns
-The product of `a` and `b`.
-
-#### Example
+##### Returns
+* `int` or `float`: The product of `a` and `b`.
+##### Example
 ```python
-result = mul(6, 8)
-print(result)  # Outputs: 48
+result = mul(5, 6)
+print(result)  # Outputs: 30
 ```
 
-Since this module contains more than one function, here's an overview of the execution flow:
+### Execution Flow
+Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -64,6 +57,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart illustrates that the module can start with any of the three functions (`add`, `sub`, `mul`), and each function leads to the end of the execution. 
+Note: The execution flow is dependent on the specific use case and the functions called by the user.
 
-Note: There are no classes or variables in this module, so those sections are not applicable. Additionally, there is no module-level code (like print statements or a main block) to describe.
+### Module-Level Code
+When run directly, this script does not contain any module-level code that executes automatically. It is designed to be imported as a module in other scripts, where its functions can be used to perform arithmetic operations.
