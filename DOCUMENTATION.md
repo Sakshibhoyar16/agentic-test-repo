@@ -12,8 +12,8 @@ The `add` function takes two numbers as input and returns their sum.
 * `int` or `float`: The sum of `a` and `b`.
 #### Example
 ```python
-result = add(5, 7)
-print(result)  # Outputs: 12
+result = add(5, 3)
+print(result)  # Output: 8
 ```
 
 ### sub(c, d)
@@ -21,13 +21,13 @@ print(result)  # Outputs: 12
 The `sub` function takes two numbers as input and returns their difference.
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to be subtracted from `c`.
+* `d` (int or float): The second number to be subtracted from the first.
 #### Returns
 * `int` or `float`: The difference between `c` and `d`.
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 ### mul(a, b)
@@ -40,11 +40,12 @@ The `mul` function takes two numbers as input and returns their product.
 * `int` or `float`: The product of `a` and `b`.
 #### Example
 ```python
-result = mul(6, 9)
-print(result)  # Outputs: 54
+result = mul(4, 5)
+print(result)  # Output: 20
 ```
 
 Since the calculator.py file has more than one function, the following flowchart illustrates the execution flow:
+
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -54,6 +55,5 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart shows that the script can start with any of the three functions (`add`, `sub`, or `mul`) and will terminate after executing the chosen function.
 
-When run directly, the calculator.py script does not have any module-level code, so it will not perform any actions without being imported and used in another script.
+When run directly, this script does not have any specific functionality as it only defines functions. The functions can be imported and used in other scripts to perform arithmetic operations.
