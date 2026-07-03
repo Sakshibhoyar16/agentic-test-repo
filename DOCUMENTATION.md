@@ -1,64 +1,50 @@
 # API Documentation
-
 ## calculator.py
-### Overview
-The `calculator.py` file contains a set of functions for basic arithmetic operations. When run directly, this script does not have a main block, so it does not execute any operations by itself.
+The calculator.py file contains a set of functions for basic arithmetic operations.
 
-### Functions
-
-#### add(a, b)
-##### Description
+### add(a, b)
+#### Description
 The `add` function takes two numbers as input and returns their sum.
-
-##### Parameters
-* `a` (int or float): The first number to add.
-* `b` (int or float): The second number to add.
-
-##### Returns
+#### Parameters
+* `a` (int or float): The first number to be added.
+* `b` (int or float): The second number to be added.
+#### Returns
 * `int` or `float`: The sum of `a` and `b`.
-
-##### Example
+#### Example
 ```python
-result = add(5, 7)
-print(result)  # Output: 12
+result = add(5, 3)
+print(result)  # Output: 8
 ```
 
-#### sub(c, d)
-##### Description
+### sub(c, d)
+#### Description
 The `sub` function takes two numbers as input and returns their difference.
-
-##### Parameters
+#### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
-
-##### Returns
+* `d` (int or float): The second number to be subtracted from the first.
+#### Returns
 * `int` or `float`: The difference between `c` and `d`.
-
-##### Example
+#### Example
 ```python
 result = sub(10, 4)
 print(result)  # Output: 6
 ```
 
-#### mul(a, b)
-##### Description
+### mul(a, b)
+#### Description
 The `mul` function takes two numbers as input and returns their product.
-
-##### Parameters
-* `a` (int or float): The first number to multiply.
-* `b` (int or float): The second number to multiply.
-
-##### Returns
+#### Parameters
+* `a` (int or float): The first number to be multiplied.
+* `b` (int or float): The second number to be multiplied.
+#### Returns
 * `int` or `float`: The product of `a` and `b`.
-
-##### Example
+#### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(4, 5)
+print(result)  # Output: 20
 ```
 
-### Execution Flow
-Since there are multiple functions in this file, the execution flow can be described as follows:
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -68,4 +54,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart shows that the execution can start with any of the `add`, `sub`, or `mul` functions, and each function executes independently before reaching the end.
+Note: This flowchart indicates that the `add`, `sub`, and `mul` functions can be called independently, and each function executes separately. 
+
+When run directly, this script does not have a main block or any module-level code that executes, so there is no specific behavior to describe in that context.
