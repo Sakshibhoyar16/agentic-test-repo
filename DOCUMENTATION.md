@@ -1,18 +1,17 @@
 # API Documentation
-
 ## calculator.py
-The `calculator.py` file contains a set of functions for basic arithmetic operations.
+The calculator.py file contains a set of mathematical functions that can be used for basic arithmetic operations.
 
 ### add(a, b)
 #### Description
 The `add` function takes two numbers as input and returns their sum.
 
 #### Parameters
-* `a` (int or float): The first number to add.
-* `b` (int or float): The second number to add.
+* `a` (int or float): The first number to be added
+* `b` (int or float): The second number to be added
 
 #### Returns
-* `int` or `float`: The sum of `a` and `b`.
+* `int` or `float`: The sum of `a` and `b`
 
 #### Example
 ```python
@@ -25,11 +24,11 @@ print(result)  # Outputs: 8
 The `sub` function takes two numbers as input and returns their difference.
 
 #### Parameters
-* `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `c` (int or float): The first number
+* `d` (int or float): The second number to be subtracted from the first
 
 #### Returns
-* `int` or `float`: The difference between `c` and `d`.
+* `int` or `float`: The difference between `c` and `d`
 
 #### Example
 ```python
@@ -42,11 +41,11 @@ print(result)  # Outputs: 6
 The `mul` function takes two numbers as input and returns their product.
 
 #### Parameters
-* `a` (int or float): The first number to multiply.
-* `b` (int or float): The second number to multiply.
+* `a` (int or float): The first number to be multiplied
+* `b` (int or float): The second number to be multiplied
 
 #### Returns
-* `int` or `float`: The product of `a` and `b`.
+* `int` or `float`: The product of `a` and `b`
 
 #### Example
 ```python
@@ -54,7 +53,7 @@ result = mul(5, 6)
 print(result)  # Outputs: 30
 ```
 
-Since `calculator.py` contains more than one function, the following flowchart illustrates the execution flow:
+Since there are multiple functions in this file, here is a flowchart showing the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -64,4 +63,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The flowchart shows that the execution can start with any of the three functions (`add`, `sub`, or `mul`), and each function will execute independently before reaching the end.
+Note: This flowchart assumes that each function can be called independently, and the order of execution is not dependent on the previous function calls.
