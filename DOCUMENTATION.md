@@ -1,5 +1,8 @@
 # API Documentation
+
 ## calculator.py
+This module provides basic arithmetic operations.
+
 ### Functions
 #### add(a, b)
 ##### Description
@@ -11,18 +14,18 @@ The `add` function calculates the sum of two numbers.
 The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 7)
-print(result)  # Outputs: 12
+result = add(5, 3)
+print(result)  # Outputs: 8
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function calculates the difference of two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract.
 ##### Returns
-The difference between `c` and `d`.
+The difference of `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
@@ -39,11 +42,12 @@ The `mul` function calculates the product of two numbers.
 The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(3, 9)
-print(result)  # Outputs: 27
+result = mul(7, 2)
+print(result)  # Outputs: 14
 ```
 
 ### Execution Flow
+Since there are multiple functions in this module, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -53,6 +57,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: Since there are no classes or variables in this file, only the functions and their execution flow are documented. The execution flow shows that the `add`, `sub`, and `mul` functions can be called independently. 
-
-When run directly, this script does not have a main block, so there is no specific behavior described. The functions can be imported and used in other scripts as needed.
+Note that the actual execution flow may vary depending on how the functions are called and used in the program. This flowchart is a simplified representation of the possible execution paths.
