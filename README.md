@@ -5,74 +5,65 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
-
 ## calculator.py
-The calculator.py module provides basic arithmetic operations.
-
-### add(a, b)
-#### Description
-The `add` function takes two numbers as input and returns their sum.
-
-#### Parameters
+### Functions
+#### add(a, b)
+##### Description
+The `add` function calculates the sum of two numbers.
+##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-
-#### Returns
-* `int` or `float`: The sum of `a` and `b`.
-
-#### Example
+##### Returns
+The sum of `a` and `b`.
+##### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
-### sub(c, d)
-#### Description
-The `sub` function takes two numbers as input and returns their difference.
-
-#### Parameters
+#### sub(c, d)
+##### Description
+The `sub` function calculates the difference of two numbers.
+##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
-
-#### Returns
-* `int` or `float`: The difference between `c` and `d`.
-
-#### Example
+* `d` (int or float): The second number to subtract.
+##### Returns
+The difference of `c` and `d`.
+##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
-### mul(a, b)
-#### Description
-The `mul` function takes two numbers as input and returns their product.
-
-#### Parameters
+#### mul(a, b)
+##### Description
+The `mul` function calculates the product of two numbers.
+##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-
-#### Returns
-* `int` or `float`: The product of `a` and `b`.
-
-#### Example
+##### Returns
+The product of `a` and `b`.
+##### Example
 ```python
-result = mul(7, 2)
-print(result)  # Output: 14
+result = mul(3, 9)
+print(result)  # Outputs: 27
 ```
 
-Since the calculator.py module contains more than one function, the following flowchart illustrates the execution flow:
+### Execution Flow
+Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
 ```mermaid
-flowchart TD
-    A[Start] --> B[add]
-    A --> C[sub]
-    A --> D[mul]
-    B --> E[End]
-    C --> E
-    D --> E
+   flowchart TD
+       A[Start] --> B[add]
+       A --> C[sub]
+       A --> D[mul]
+       B --> E[End]
+       C --> E
+       D --> E
 ```
-Note: This flowchart assumes that the functions can be called independently. In a real-world scenario, the flowchart might be more complex, depending on how the functions are used together. 
+Note that this flowchart assumes that the functions can be called independently, and the execution flow may vary based on the actual usage of the functions.
 
-There are no classes or variables defined in this module. When run directly, this script does not execute any specific code, as it only defines functions.
+### Module-Level Code
+When run directly, this script does not contain any module-level code that executes. It provides a set of functions for calculations that can be used in other scripts or programs.
 
 ---
 
