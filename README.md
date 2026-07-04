@@ -5,13 +5,12 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
-
 ## calculator.py
-The calculator.py file contains a set of mathematical functions to perform basic arithmetic operations. 
+The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
 
 ### add(a, b)
 #### Description
-The `add(a, b)` function calculates the sum of two numbers, `a` and `b`, and returns the result.
+The `add` function takes two numbers as input and returns their sum.
 
 #### Parameters
 * `a` (int or float): The first number to add.
@@ -22,13 +21,13 @@ The `add(a, b)` function calculates the sum of two numbers, `a` and `b`, and ret
 
 #### Example
 ```python
-result = add(5, 7)
-print(result)  # Output: 12
+result = add(5, 3)
+print(result)  # Output: 8
 ```
 
 ### sub(c, d)
 #### Description
-The `sub(c, d)` function calculates the difference between two numbers, `c` and `d`, and returns the result.
+The `sub` function takes two numbers as input and returns their difference.
 
 #### Parameters
 * `c` (int or float): The first number.
@@ -45,7 +44,7 @@ print(result)  # Output: 6
 
 ### mul(a, b)
 #### Description
-The `mul(a, b)` function calculates the product of two numbers, `a` and `b`, and returns the result.
+The `mul` function takes two numbers as input and returns their product.
 
 #### Parameters
 * `a` (int or float): The first number to multiply.
@@ -56,21 +55,21 @@ The `mul(a, b)` function calculates the product of two numbers, `a` and `b`, and
 
 #### Example
 ```python
-result = mul(5, 7)
-print(result)  # Output: 35
+result = mul(5, 6)
+print(result)  # Output: 30
 ```
 
-Since there are multiple functions in the calculator.py file, here is a Mermaid flowchart showing the execution flow:
+Since the calculator.py file contains more than one function, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
-    A[Start] --> B[add(a, b)]
-    A --> C[sub(c, d)]
-    A --> D[mul(a, b)]
+    A[Start] --> B[add]
+    A --> C[sub]
+    A --> D[mul]
     B --> E[End]
     C --> E
     D --> E
 ```
-When run directly, the script does not have any specific execution flow as it only contains function definitions. To use these functions, you would need to call them explicitly, as shown in the examples above.
+Note: This flowchart shows the possible execution paths for each function, but it does not imply a specific order of execution. The actual execution flow may vary depending on how the functions are called and used in the program.
 
 ---
 
