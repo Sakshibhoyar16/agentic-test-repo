@@ -5,53 +5,62 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
-## calculator.py
-The calculator.py file contains a set of basic arithmetic functions.
 
-### Functions
-#### add(a, b)
-##### Description
+## calculator.py
+The calculator.py file contains a collection of mathematical functions to perform basic arithmetic operations.
+
+### add(a, b)
+#### Description
 The `add` function calculates the sum of two numbers.
-##### Parameters
-* `a` (int or float): The first number to be added.
-* `b` (int or float): The second number to be added.
-##### Returns
+
+#### Parameters
+* `a` (int or float): The first number to add.
+* `b` (int or float): The second number to add.
+
+#### Returns
 The sum of `a` and `b`.
-##### Example
+
+#### Example
 ```python
 result = add(5, 7)
 print(result)  # Output: 12
 ```
 
-#### sub(c, d)
-##### Description
+### sub(c, d)
+#### Description
 The `sub` function calculates the difference between two numbers.
-##### Parameters
+
+#### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to be subtracted.
-##### Returns
+* `d` (int or float): The second number to subtract from the first.
+
+#### Returns
 The difference between `c` and `d`.
-##### Example
+
+#### Example
 ```python
 result = sub(10, 4)
 print(result)  # Output: 6
 ```
 
-#### mul(a, b)
-##### Description
+### mul(a, b)
+#### Description
 The `mul` function calculates the product of two numbers.
-##### Parameters
-* `a` (int or float): The first number to be multiplied.
-* `b` (int or float): The second number to be multiplied.
-##### Returns
+
+#### Parameters
+* `a` (int or float): The first number to multiply.
+* `b` (int or float): The second number to multiply.
+
+#### Returns
 The product of `a` and `b`.
-##### Example
+
+#### Example
 ```python
-result = mul(6, 9)
-print(result)  # Output: 54
+result = mul(6, 8)
+print(result)  # Output: 48
 ```
 
-### Execution Flow
+Since there are multiple functions in this file, here is a flowchart showing the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -61,8 +70,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-
-Note: When run directly, this script does not have any module-level code, so there is no description for the script's behavior when executed directly. However, the provided functions can be used in other scripts to perform basic arithmetic operations.
+Note: This flowchart illustrates the possible execution paths for each function. In a real-world scenario, the actual flow would depend on the specific use case and how these functions are utilized within the program.
 
 ---
 
