@@ -1,10 +1,10 @@
 # API Documentation
 ## calculator.py
-The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
+The calculator.py file contains a set of mathematical functions for basic arithmetic operations.
 
 ### add(a, b)
 #### Description
-The `add` function takes two numbers as input and returns their sum.
+The `add` function calculates the sum of two numbers.
 #### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
@@ -13,12 +13,12 @@ The `add` function takes two numbers as input and returns their sum.
 #### Example
 ```python
 result = add(5, 3)
-print(result)  # Outputs: 8
+print(result)  # Output: 8
 ```
 
 ### sub(c, d)
 #### Description
-The `sub` function takes two numbers as input and returns their difference.
+The `sub` function calculates the difference between two numbers.
 #### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
@@ -27,12 +27,12 @@ The `sub` function takes two numbers as input and returns their difference.
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 ### mul(a, b)
 #### Description
-The `mul` function takes two numbers as input and returns their product.
+The `mul` function calculates the product of two numbers.
 #### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
@@ -40,11 +40,11 @@ The `mul` function takes two numbers as input and returns their product.
 * `int` or `float`: The product of `a` and `b`.
 #### Example
 ```python
-result = mul(5, 6)
-print(result)  # Outputs: 30
+result = mul(4, 5)
+print(result)  # Output: 20
 ```
 
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since the calculator.py file has more than one function, the following Mermaid flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -54,4 +54,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-When run directly, this script does not have any specific behavior, as it only contains function definitions. To use these functions, you would need to import this module into another Python script or use them in an interactive Python environment.
+Note: The flowchart assumes that the functions can be called independently, and the `Start` node represents the beginning of the program. The `End` node represents the completion of the program. 
+
+Module-level code is not provided in the given analysis, so there is no description for module-level code in this documentation.
