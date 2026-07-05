@@ -1,10 +1,6 @@
 # API Documentation
-
 ## calculator.py
-The calculator.py module contains a set of basic arithmetic functions. When run directly, this script does not have a main block and does not execute any module-level code.
-
 ### Functions
-
 #### add(a, b)
 ##### Description
 The `add` function calculates the sum of two numbers.
@@ -24,7 +20,7 @@ print(result)  # Outputs: 12
 The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
+* `d` (int or float): The second number to subtract from the first.
 ##### Returns
 The difference between `c` and `d`.
 ##### Example
@@ -43,17 +39,22 @@ The `mul` function calculates the product of two numbers.
 The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Outputs: 30
+result = mul(3, 9)
+print(result)  # Outputs: 27
 ```
 
 ### Execution Flow
-Since there are multiple functions in this module, the following flowchart illustrates the execution flow. Note that the actual execution flow may vary based on how these functions are called.
+Since this file contains multiple functions, the following flowchart represents a possible execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
-    B --> C[sub]
-    C --> D[mul]
-    D --> E[End]
+    A --> C[sub]
+    A --> D[mul]
+    B --> E[End]
+    C --> E
+    D --> E
 ```
-This flowchart shows a possible sequence of function calls but does not represent the only way these functions can be used, as their execution is dependent on the external code that calls them.
+Note: This flowchart assumes that each function is called independently. In a real-world scenario, the execution flow may vary based on the specific use case and how these functions are used together. 
+
+### Module-Level Code
+This script does not contain any module-level code. It only defines three functions for basic arithmetic operations.
