@@ -17,22 +17,22 @@ The `add` function calculates the sum of two numbers.
 The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 3)
-print(result)  # Outputs: 8
+result = add(5, 7)
+print(result)  # Output: 12
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function calculates the difference of two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to subtract.
 ##### Returns
-The difference between `c` and `d`.
+The difference of `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 #### mul(a, b)
@@ -45,12 +45,11 @@ The `mul` function calculates the product of two numbers.
 The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(4, 5)
-print(result)  # Outputs: 20
+result = mul(5, 6)
+print(result)  # Output: 30
 ```
 
 ### Execution Flow
-Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -60,10 +59,9 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note that the execution flow may vary depending on how the functions are called in the main program. This flowchart assumes that each function can be called independently. 
+Note: The execution flow assumes that the functions can be called independently. The actual flow may vary depending on how the functions are used in the program. 
 
-### Module-Level Code
-When run directly, this script does not contain any module-level code, such as print statements or a main block. It is designed to be imported as a module in other Python scripts.
+No classes or variables are defined in this module. If this script is run directly, it will define these functions, but it does not include any module-level code to execute.
 
 ---
 
