@@ -1,50 +1,50 @@
 # API Documentation
 ## calculator.py
-### Functions
-#### add(a, b)
-##### Description
+The calculator.py file contains a set of basic mathematical functions.
+
+### add(a, b)
+#### Description
 The `add` function calculates the sum of two numbers.
-##### Parameters
+#### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-##### Returns
+#### Returns
 The sum of `a` and `b`.
-##### Example
+#### Example
 ```python
 result = add(5, 7)
-print(result)  # Output: 12
+print(result)  # Outputs: 12
 ```
 
-#### sub(c, d)
-##### Description
+### sub(c, d)
+#### Description
 The `sub` function calculates the difference of two numbers.
-##### Parameters
+#### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
-##### Returns
+* `d` (int or float): The second number to subtract.
+#### Returns
 The difference of `c` and `d`.
-##### Example
+#### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
-#### mul(a, b)
-##### Description
+### mul(a, b)
+#### Description
 The `mul` function calculates the product of two numbers.
-##### Parameters
+#### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-##### Returns
+#### Returns
 The product of `a` and `b`.
-##### Example
+#### Example
 ```python
-result = mul(3, 9)
-print(result)  # Output: 27
+result = mul(5, 7)
+print(result)  # Outputs: 35
 ```
 
-### Execution Flow
-Since there are multiple functions in this file, the following Mermaid flowchart illustrates the execution flow:
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -54,7 +54,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The flowchart shows the possible execution paths for each function. However, the actual flow may vary depending on how the functions are called in the code.
-
-### Module-Level Code
-This script does not contain any module-level code. It only defines functions for basic arithmetic operations.
+When run directly, the calculator.py script does not contain any module-level code, such as print statements or main blocks, that would execute when the script is run. It is intended to be imported and used as a module by other scripts.
