@@ -18,7 +18,7 @@ The sum of `a` and `b`.
 ##### Example
 ```python
 result = add(5, 7)
-print(result)  # Outputs: 12
+print(result)  # Output: 12
 ```
 
 #### sub(c, d)
@@ -32,7 +32,7 @@ The difference between `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 #### mul(a, b)
@@ -46,10 +46,11 @@ The product of `a` and `b`.
 ##### Example
 ```python
 result = mul(5, 6)
-print(result)  # Outputs: 30
+print(result)  # Output: 30
 ```
 
 ### Execution Flow
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -59,7 +60,10 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: Since the provided code analysis does not include any specific execution order or dependencies between the functions, the flowchart shows all functions as possible entry points. In a real-world scenario, the actual execution flow would depend on how these functions are used within the larger program.
+Note: This flowchart shows the possible execution paths for each function, but does not imply a specific order of execution.
+
+### Module-Level Code
+When run directly, this script does not have any module-level code that executes. It only defines the `add`, `sub`, and `mul` functions for use in other scripts or programs.
 
 ---
 
