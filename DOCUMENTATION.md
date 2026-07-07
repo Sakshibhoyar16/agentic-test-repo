@@ -1,50 +1,49 @@
 # API Documentation
 ## calculator.py
-The calculator.py file contains a set of basic mathematical functions.
-
-### add(a, b)
-#### Description
+### Functions
+#### add(a, b)
+##### Description
 The `add` function calculates the sum of two numbers.
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-#### Returns
+##### Returns
 The sum of `a` and `b`.
-#### Example
+##### Example
 ```python
 result = add(5, 7)
 print(result)  # Outputs: 12
 ```
 
-### sub(c, d)
-#### Description
-The `sub` function calculates the difference of two numbers.
-#### Parameters
+#### sub(c, d)
+##### Description
+The `sub` function calculates the difference between two numbers.
+##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract.
-#### Returns
-The difference of `c` and `d`.
-#### Example
+##### Returns
+The difference between `c` and `d`.
+##### Example
 ```python
 result = sub(10, 4)
 print(result)  # Outputs: 6
 ```
 
-### mul(a, b)
-#### Description
+#### mul(a, b)
+##### Description
 The `mul` function calculates the product of two numbers.
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-#### Returns
+##### Returns
 The product of `a` and `b`.
-#### Example
+##### Example
 ```python
-result = mul(5, 7)
-print(result)  # Outputs: 35
+result = mul(5, 6)
+print(result)  # Outputs: 30
 ```
 
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+### Execution Flow
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -54,4 +53,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-When run directly, the calculator.py script does not contain any module-level code, such as print statements or main blocks, that would execute when the script is run. It is intended to be imported and used as a module by other scripts.
+Note: Since the provided code analysis does not include any specific execution order or dependencies between the functions, the flowchart shows all functions as possible entry points. In a real-world scenario, the actual execution flow would depend on how these functions are used within the larger program.
