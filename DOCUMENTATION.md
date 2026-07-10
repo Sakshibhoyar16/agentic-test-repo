@@ -1,11 +1,10 @@
 # API Documentation
-
 ## calculator.py
 The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
 
 ### add(a, b)
 #### Description
-The `add` function takes two numbers as input and returns their sum.
+The `add` function takes two parameters and returns their sum.
 
 #### Parameters
 * `a` (int or float): The first number to add.
@@ -16,13 +15,13 @@ The `add` function takes two numbers as input and returns their sum.
 
 #### Example
 ```python
-result = add(5, 7)
-print(result)  # Outputs: 12
+result = add(5, 3)
+print(result)  # Output: 8
 ```
 
 ### sub(c, d)
 #### Description
-The `sub` function takes two numbers as input and returns their difference.
+The `sub` function takes two parameters and returns their difference.
 
 #### Parameters
 * `c` (int or float): The first number.
@@ -34,12 +33,12 @@ The `sub` function takes two numbers as input and returns their difference.
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 ### mul(a, b)
 #### Description
-The `mul` function takes two numbers as input and returns their product.
+The `mul` function takes two parameters and returns their product.
 
 #### Parameters
 * `a` (int or float): The first number to multiply.
@@ -51,10 +50,10 @@ The `mul` function takes two numbers as input and returns their product.
 #### Example
 ```python
 result = mul(5, 6)
-print(result)  # Outputs: 30
+print(result)  # Output: 30
 ```
 
-Since the calculator.py file contains more than one function, the following flowchart illustrates the execution flow:
+Since this file has more than one function, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -64,8 +63,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note that the flowchart shows the possible execution paths for each function, but the actual flow may vary depending on how the functions are called. 
+This flowchart shows that the script can start with any of the three functions (`add`, `sub`, or `mul`) and will end after the function has been executed. 
 
-There are no classes or variables in the calculator.py file. 
-
-When run directly, this script does not have any module-level code, so there is no specific behavior to describe.
+No classes or variables are defined in this file. If the script is run directly, it will simply define these functions without executing any code. To use these functions, you would need to call them explicitly.
