@@ -7,7 +7,7 @@ Auto-documented by Agentic AI Documentation Maintainer.
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a set of functions for performing basic arithmetic operations.
+This module provides basic arithmetic operations.
 
 ### add(a, b)
 #### Description
@@ -18,7 +18,7 @@ The `add` function calculates the sum of two numbers.
 * `b` (int or float): The second number to add.
 
 #### Returns
-The sum of `a` and `b`.
+* The sum of `a` and `b` (int or float).
 
 #### Example
 ```python
@@ -35,7 +35,7 @@ The `sub` function calculates the difference of two numbers.
 * `d` (int or float): The second number to subtract.
 
 #### Returns
-The difference of `c` and `d`.
+* The difference of `c` and `d` (int or float).
 
 #### Example
 ```python
@@ -52,15 +52,15 @@ The `mul` function calculates the product of two numbers.
 * `b` (int or float): The second number to multiply.
 
 #### Returns
-The product of `a` and `b`.
+* The product of `a` and `b` (int or float).
 
 #### Example
 ```python
-result = mul(7, 2)
-print(result)  # Outputs: 14
+result = mul(5, 6)
+print(result)  # Outputs: 30
 ```
 
-Since the calculator.py file contains more than one function, the following flowchart illustrates the execution flow:
+Since there are multiple functions in this module, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -70,7 +70,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The flowchart shows the possible execution paths for each function, but it does not imply a specific order of execution, as the functions can be called independently.
 
 ---
 
