@@ -1,50 +1,53 @@
 # API Documentation
-## calculator.py
-The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
 
-### add(a, b)
-#### Description
+## calculator.py
+### Overview
+The calculator.py file contains a set of basic arithmetic functions.
+
+### Functions
+#### add(a, b)
+##### Description
 The `add` function calculates the sum of two numbers.
-#### Parameters
-* `a` (number): The first number to be added.
-* `b` (number): The second number to be added.
-#### Returns
+##### Parameters
+* `a`: The first number to add.
+* `b`: The second number to add.
+##### Returns
 The sum of `a` and `b`.
-#### Example
+##### Example
 ```python
 result = add(5, 3)
-print(result)  # Outputs: 8
+print(result)  # Output: 8
 ```
 
-### sub(c, d)
-#### Description
+#### sub(c, d)
+##### Description
 The `sub` function calculates the difference of two numbers.
-#### Parameters
-* `c` (number): The first number.
-* `d` (number): The second number to be subtracted from the first.
-#### Returns
+##### Parameters
+* `c`: The first number.
+* `d`: The second number to subtract from the first.
+##### Returns
 The difference of `c` and `d`.
-#### Example
+##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
-### mul(a, b)
-#### Description
+#### mul(a, b)
+##### Description
 The `mul` function calculates the product of two numbers.
-#### Parameters
-* `a` (number): The first number to be multiplied.
-* `b` (number): The second number to be multiplied.
-#### Returns
+##### Parameters
+* `a`: The first number to multiply.
+* `b`: The second number to multiply.
+##### Returns
 The product of `a` and `b`.
-#### Example
+##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Outputs: 30
+result = mul(7, 2)
+print(result)  # Output: 14
 ```
 
-Since the calculator.py file contains more than one function, the following flowchart illustrates the execution flow:
+### Execution Flow
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -54,6 +57,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart assumes that the functions can be called independently, and the execution flow may vary depending on the actual usage of the functions. 
+Note: The execution flow chart shows the possible entry points into the calculator functions. The actual execution flow depends on how the functions are called. 
 
-There is no module-level code, class, or variable in this file.
+No classes or variables are defined in this module. When run directly, this script does not execute any code, as it only contains function definitions.
