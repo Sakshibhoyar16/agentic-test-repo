@@ -6,11 +6,11 @@ Auto-documented by Agentic AI Documentation Maintainer.
 
 # API Documentation
 ## calculator.py
-The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
+The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
 
 ### add(a, b)
 #### Description
-The `add` function takes two numbers as input and returns their sum.
+The `add` function calculates the sum of two numbers.
 
 #### Parameters
 * `a` (int or float): The first number to add.
@@ -22,12 +22,12 @@ The `add` function takes two numbers as input and returns their sum.
 #### Example
 ```python
 result = add(5, 3)
-print(result)  # Output: 8
+print(result)  # Outputs: 8
 ```
 
 ### sub(c, d)
 #### Description
-The `sub` function takes two numbers as input and returns their difference.
+The `sub` function calculates the difference between two numbers.
 
 #### Parameters
 * `c` (int or float): The first number.
@@ -39,12 +39,12 @@ The `sub` function takes two numbers as input and returns their difference.
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
 ### mul(a, b)
 #### Description
-The `mul` function takes two numbers as input and returns their product.
+The `mul` function calculates the product of two numbers.
 
 #### Parameters
 * `a` (int or float): The first number to multiply.
@@ -55,11 +55,11 @@ The `mul` function takes two numbers as input and returns their product.
 
 #### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(5, 3)
+print(result)  # Outputs: 15
 ```
 
-Since there are multiple functions in the calculator.py file, the following flowchart illustrates the execution flow:
+Since the calculator.py file contains more than one function, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -69,7 +69,9 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart shows the possible execution paths for each function in the calculator.py file. The actual execution flow may vary depending on how the functions are called and used in the program.
+Note: This flowchart assumes that the functions are called independently, and there is no specific order of execution defined in the code.
+
+When run directly, the calculator.py script does not contain any module-level code, such as print statements or a main block, that would execute automatically. It is intended to be imported and used as a module in other Python scripts.
 
 ---
 
