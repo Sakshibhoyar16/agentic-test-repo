@@ -1,15 +1,12 @@
 # API Documentation
-
 ## calculator.py
-This module provides basic arithmetic operations.
-
 ### Functions
 #### add(a, b)
 ##### Description
 The `add` function calculates the sum of two numbers.
 ##### Parameters
-* `a` (int or float): The first number to add.
-* `b` (int or float): The second number to add.
+* `a` (number): The first number to add.
+* `b` (number): The second number to add.
 ##### Returns
 The sum of `a` and `b`.
 ##### Example
@@ -20,12 +17,12 @@ print(result)  # Output: 8
 
 #### sub(c, d)
 ##### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function calculates the difference of two numbers.
 ##### Parameters
-* `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `c` (number): The first number.
+* `d` (number): The second number to subtract from the first.
 ##### Returns
-The difference between `c` and `d`.
+The difference of `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
@@ -36,8 +33,8 @@ print(result)  # Output: 6
 ##### Description
 The `mul` function calculates the product of two numbers.
 ##### Parameters
-* `a` (int or float): The first number to multiply.
-* `b` (int or float): The second number to multiply.
+* `a` (number): The first number to multiply.
+* `b` (number): The second number to multiply.
 ##### Returns
 The product of `a` and `b`.
 ##### Example
@@ -47,16 +44,19 @@ print(result)  # Output: 30
 ```
 
 ### Execution Flow
-Since this module has multiple functions, the execution flow can be represented as follows:
+Since there are multiple functions in this file, the following flowchart illustrates a possible execution flow:
 ```mermaid
-   flowchart TD
-       A[Start] --> B[add]
-       A --> C[sub]
-       A --> D[mul]
-       B --> E[End]
-       C --> E
-       D --> E
+flowchart TD
+    A[Start] --> B[add]
+    A --> C[sub]
+    A --> D[mul]
+    B --> E[End]
+    C --> E
+    D --> E
 ```
-This flowchart illustrates the possible execution paths for the functions in this module. Note that the actual flow depends on how the functions are called and used in the program. 
+Note that this flowchart assumes that the functions are called independently. The actual execution flow may vary depending on how the functions are used in the program. 
 
-When run directly, this script does not have a main block or any module-level code that executes, so there is no specific description for that case.
+### Module-Level Code
+When run directly, this script does not have any module-level code, so there is no description to provide. 
+
+Note: There are no classes or variables in this file, so those sections are not included in this documentation.
