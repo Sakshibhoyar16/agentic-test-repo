@@ -1,7 +1,6 @@
 # API Documentation
-
 ## calculator.py
-This file contains a collection of basic arithmetic functions.
+The calculator.py file contains a collection of mathematical functions.
 
 ### add(a, b)
 #### Description
@@ -13,8 +12,8 @@ The `add` function calculates the sum of two numbers.
 The sum of `a` and `b`.
 #### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
 ### sub(c, d)
@@ -28,7 +27,7 @@ The difference between `c` and `d`.
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
 ### mul(a, b)
@@ -41,11 +40,11 @@ The `mul` function calculates the product of two numbers.
 The product of `a` and `b`.
 #### Example
 ```python
-result = mul(7, 2)
-print(result)  # Output: 14
+result = mul(6, 9)
+print(result)  # Outputs: 54
 ```
 
-Since there are multiple functions in this file, here is a flowchart showing the execution flow:
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -55,6 +54,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart assumes that the functions are called separately, and there is no specific order of execution. In a real-world scenario, the execution flow would depend on the specific use case and how the functions are being used. 
+Note: This flowchart shows that the execution starts at the beginning of the script and can proceed to any of the three functions (`add`, `sub`, or `mul`) before reaching the end. 
 
-There are no classes or variables defined in this file, and there is no module-level code. Therefore, there is no additional documentation to provide.
+When run directly, this script does not contain any module-level code, such as print statements or main blocks, that would execute automatically. The functions must be called explicitly to perform calculations.
