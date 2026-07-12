@@ -55,23 +55,21 @@ The `mul` function takes two numbers as input and returns their product.
 
 #### Example
 ```python
-result = mul(5, 6)
-print(result)  # Outputs: 30
+result = mul(7, 2)
+print(result)  # Outputs: 14
 ```
 
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
 ```mermaid
-flowchart TD
-    A[Start] --> B[add]
-    A --> C[sub]
-    A --> D[mul]
-    B --> E[End]
-    C --> E
-    D --> E
+   flowchart TD
+       A[Start] --> B[add]
+       A --> C[sub]
+       A --> D[mul]
+       B --> E[End]
+       C --> E
+       D --> E
 ```
-This flowchart illustrates the possible execution paths when using the functions provided in the calculator.py file. 
-
-When run directly, this script does not have a main block or any module-level code that executes, so there is no specific behavior to describe in that context.
+Note that this flowchart assumes that each function can be called independently from the start. In a real-world scenario, the actual execution flow may vary depending on the specific use case and how these functions are integrated into a larger program.
 
 ---
 
