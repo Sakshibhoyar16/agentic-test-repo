@@ -7,60 +7,53 @@ Auto-documented by Agentic AI Documentation Maintainer.
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a set of mathematical functions to perform basic arithmetic operations.
+This file contains a collection of basic arithmetic functions.
 
-### add(a, b)
-#### Description
+### Functions
+#### add(a, b)
+##### Description
 The `add` function takes two numbers as input and returns their sum.
-
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-
-#### Returns
+##### Returns
 * `int` or `float`: The sum of `a` and `b`.
-
-#### Example
+##### Example
 ```python
 result = add(5, 3)
 print(result)  # Output: 8
 ```
 
-### sub(c, d)
-#### Description
+#### sub(c, d)
+##### Description
 The `sub` function takes two numbers as input and returns their difference.
-
-#### Parameters
+##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
-
-#### Returns
+##### Returns
 * `int` or `float`: The difference between `c` and `d`.
-
-#### Example
+##### Example
 ```python
 result = sub(10, 4)
 print(result)  # Output: 6
 ```
 
-### mul(a, b)
-#### Description
+#### mul(a, b)
+##### Description
 The `mul` function takes two numbers as input and returns their product.
-
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-
-#### Returns
+##### Returns
 * `int` or `float`: The product of `a` and `b`.
-
-#### Example
+##### Example
 ```python
-result = mul(7, 2)
-print(result)  # Output: 14
+result = mul(5, 6)
+print(result)  # Output: 30
 ```
 
-Since the calculator.py file contains more than one function, the execution flow can be represented as follows:
+### Execution Flow
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -70,7 +63,10 @@ flowchart TD
     C --> E
     D --> E
 ```
-There are no classes or variables defined in this file. When run directly, this script does not execute any specific code as it only contains function definitions.
+Note: The execution flow is not a traditional flowchart, as the functions do not call each other in a specific order. Instead, they are independent functions that can be called separately.
+
+### Module-Level Code
+When run directly, this script does not have any specific module-level code, as it only contains function definitions. To use these functions, you would need to call them explicitly, as shown in the examples above.
 
 ---
 
