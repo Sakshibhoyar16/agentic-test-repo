@@ -1,16 +1,15 @@
 # API Documentation
 
 ## calculator.py
-### Overview
-The calculator.py file contains a set of basic arithmetic functions. 
+The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
 
 ### Functions
 #### add(a, b)
 ##### Description
 The `add` function takes two numbers as input and returns their sum.
 ##### Parameters
-* `a` (int or float): The first number to add.
-* `b` (int or float): The second number to add.
+* `a` (int or float): The first number to be added.
+* `b` (int or float): The second number to be added.
 ##### Returns
 * `int` or `float`: The sum of `a` and `b`.
 ##### Example
@@ -24,7 +23,7 @@ print(result)  # Output: 8
 The `sub` function takes two numbers as input and returns their difference.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to be subtracted from the first.
 ##### Returns
 * `int` or `float`: The difference between `c` and `d`.
 ##### Example
@@ -37,14 +36,14 @@ print(result)  # Output: 6
 ##### Description
 The `mul` function takes two numbers as input and returns their product.
 ##### Parameters
-* `a` (int or float): The first number to multiply.
-* `b` (int or float): The second number to multiply.
+* `a` (int or float): The first number to be multiplied.
+* `b` (int or float): The second number to be multiplied.
 ##### Returns
 * `int` or `float`: The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(4, 5)
+print(result)  # Output: 20
 ```
 
 ### Execution Flow
@@ -58,6 +57,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart shows that the execution can start with any of the three functions (`add`, `sub`, or `mul`), and each function leads to the end of the execution. 
+Note that the execution flow is not necessarily sequential, as the functions can be called independently. This flowchart simply illustrates the possible paths of execution.
 
-Note: There are no classes or variables in this file, so there is no corresponding documentation for those.
+### Module-Level Code
+When run directly, this script does not execute any specific block of code, as it only contains function definitions. To use the functions, you would need to call them explicitly, as shown in the examples above.
