@@ -1,7 +1,8 @@
 # API Documentation
 
 ## calculator.py
-This module provides basic arithmetic operations.
+### Introduction
+The calculator.py module provides basic arithmetic operations.
 
 ### Functions
 #### add(a, b)
@@ -14,8 +15,8 @@ The `add` function calculates the sum of two numbers.
 The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 3)
-print(result)  # Outputs: 8
+result = add(5, 7)
+print(result)  # Output: 12
 ```
 
 #### sub(c, d)
@@ -29,7 +30,7 @@ The difference between `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 #### mul(a, b)
@@ -43,21 +44,19 @@ The product of `a` and `b`.
 ##### Example
 ```python
 result = mul(5, 6)
-print(result)  # Outputs: 30
+print(result)  # Output: 30
 ```
 
 ### Execution Flow
-Since this module has more than one function, the execution flow is as follows:
 ```mermaid
-flowchart TD
-    A[Start] --> B[add]
-    A --> C[sub]
-    A --> D[mul]
-    B --> E[End]
-    C --> E
-    D --> E
+   flowchart TD
+       A[Start] --> B[add]
+       A --> C[sub]
+       A --> D[mul]
+       B --> E[End]
+       C --> E
+       D --> E
 ```
-Note: The execution flow is not a direct sequence, as these functions can be called independently.
 
 ### Module-Level Code
-When run directly, this script does not have any module-level code. It only provides the above functions for use in other scripts.
+When run directly, this script does not execute any specific code as it only contains function definitions. The functions provided can be imported and used in other scripts for basic arithmetic operations.
