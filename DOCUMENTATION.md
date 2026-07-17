@@ -1,11 +1,8 @@
 # API Documentation
-
 ## calculator.py
-The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
-
 ### add(a, b)
 #### Description
-The `add` function takes two numbers as input and returns their sum.
+The `add` function calculates the sum of two numbers.
 
 #### Parameters
 * `a` (int or float): The first number to be added.
@@ -16,13 +13,13 @@ The `add` function takes two numbers as input and returns their sum.
 
 #### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
 ### sub(c, d)
 #### Description
-The `sub` function takes two numbers as input and returns their difference.
+The `sub` function calculates the difference between two numbers.
 
 #### Parameters
 * `c` (int or float): The first number.
@@ -34,12 +31,12 @@ The `sub` function takes two numbers as input and returns their difference.
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
 ### mul(a, b)
 #### Description
-The `mul` function takes two numbers as input and returns their product.
+The `mul` function calculates the product of two numbers.
 
 #### Parameters
 * `a` (int or float): The first number to be multiplied.
@@ -50,11 +47,11 @@ The `mul` function takes two numbers as input and returns their product.
 
 #### Example
 ```python
-result = mul(7, 2)
-print(result)  # Output: 14
+result = mul(5, 6)
+print(result)  # Outputs: 30
 ```
 
-Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
+Since there are multiple functions in this file, here is a flowchart showing the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -64,6 +61,3 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart assumes that the functions are called independently, and there is no specific order of execution defined in the code. 
-
-When run directly, this script does not have a main block or any module-level code, so there is no specific behavior to describe. It is intended to be imported and used as a module in other Python scripts.
