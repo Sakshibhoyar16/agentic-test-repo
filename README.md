@@ -7,7 +7,7 @@ Auto-documented by Agentic AI Documentation Maintainer.
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
+The calculator.py file contains a set of functions for basic arithmetic operations.
 
 ### add(a, b)
 #### Description
