@@ -7,17 +7,15 @@ Auto-documented by Agentic AI Documentation Maintainer.
 # API Documentation
 
 ## calculator.py
-### Overview
-The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
+The calculator.py module contains a set of basic arithmetic functions. 
 
 ### Functions
-
 #### add(a, b)
 ##### Description
 The `add` function calculates the sum of two numbers.
 ##### Parameters
-* `a` (int or float): The first number to add.
-* `b` (int or float): The second number to add.
+* `a`: The first number to add.
+* `b`: The second number to add.
 ##### Returns
 The sum of `a` and `b`.
 ##### Example
@@ -28,12 +26,12 @@ print(result)  # Output: 8
 
 #### sub(c, d)
 ##### Description
-The `sub` function calculates the difference of two numbers.
+The `sub` function calculates the difference between two numbers.
 ##### Parameters
-* `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
+* `c`: The first number.
+* `d`: The second number to subtract from the first.
 ##### Returns
-The difference of `c` and `d`.
+The difference between `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
@@ -44,14 +42,14 @@ print(result)  # Output: 6
 ##### Description
 The `mul` function calculates the product of two numbers.
 ##### Parameters
-* `a` (int or float): The first number to multiply.
-* `b` (int or float): The second number to multiply.
+* `a`: The first number to multiply.
+* `b`: The second number to multiply.
 ##### Returns
 The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(7, 2)
+print(result)  # Output: 14
 ```
 
 ### Execution Flow
@@ -64,9 +62,9 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart illustrates the possible execution paths of the calculator.py file. The file starts at the beginning, and the user can choose to call any of the three functions: `add`, `sub`, or `mul`. Each function performs its respective operation and returns the result, ultimately leading to the end of the execution. 
+This flowchart illustrates the possible execution paths when using the functions provided in the calculator.py module. The program starts and can execute any of the `add`, `sub`, or `mul` functions before reaching the end. 
 
-Note: Since there are no classes, variables, or module-level code in the provided summary, this documentation only covers the functions and their execution flow.
+Note: There are no classes or variables defined in this module.
 
 ---
 
