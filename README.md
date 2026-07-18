@@ -6,7 +6,7 @@ Auto-documented by Agentic AI Documentation Maintainer.
 
 # API Documentation
 ## calculator.py
-The calculator.py file contains a set of basic arithmetic functions. 
+The `calculator.py` file contains a set of functions for basic mathematical operations.
 
 ### add(a, b)
 #### Description
@@ -18,18 +18,18 @@ The `add` function calculates the sum of two numbers.
 The sum of `a` and `b`.
 #### Example
 ```python
-result = add(5, 7)
-print(result)  # Output: 12
+result = add(5, 3)
+print(result)  # Output: 8
 ```
 
 ### sub(c, d)
 #### Description
-The `sub` function calculates the difference of two numbers.
+The `sub` function calculates the difference between two numbers.
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
+* `d` (int or float): The second number to subtract from the first.
 #### Returns
-The difference of `c` and `d`.
+The difference between `c` and `d`.
 #### Example
 ```python
 result = sub(10, 4)
@@ -46,21 +46,21 @@ The `mul` function calculates the product of two numbers.
 The product of `a` and `b`.
 #### Example
 ```python
-result = mul(6, 8)
-print(result)  # Output: 48
+result = mul(5, 6)
+print(result)  # Output: 30
 ```
 
-Since calculator.py has more than one function, the following flowchart illustrates the execution flow:
+Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
 ```mermaid
-flowchart TD
-    A[Start] --> B[add]
-    A --> C[sub]
-    A --> D[mul]
-    B --> E[End]
-    C --> E
-    D --> E
+   flowchart TD
+       A[Start] --> B[add]
+       A --> C[sub]
+       A --> D[mul]
+       B --> E[End]
+       C --> E
+       D --> E
 ```
-Note that the functions can be called independently, and the flowchart represents the possible execution paths. When run directly, the calculator.py script does not have a main block, so it does not perform any specific task by default.
+Note: This flowchart assumes that each function can be called independently from the start. The actual execution flow may vary depending on how these functions are used in a larger program.
 
 ---
 
