@@ -1,8 +1,5 @@
 # API Documentation
-
 ## calculator.py
-The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
-
 ### Functions
 #### add(a, b)
 ##### Description
@@ -14,8 +11,8 @@ The `add` function calculates the sum of two numbers.
 The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Output: 12
 ```
 
 #### sub(c, d)
@@ -42,12 +39,12 @@ The `mul` function calculates the product of two numbers.
 The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(7, 2)
-print(result)  # Output: 14
+result = mul(5, 7)
+print(result)  # Output: 35
 ```
 
 ### Execution Flow
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since there are multiple functions in this file, the following flowchart represents a possible execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -57,7 +54,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart shows that the execution can start with any of the three functions, and each function will return the result without calling any other functions.
+Note: The actual execution flow may vary depending on how the functions are called in the code. This flowchart represents one possible scenario where all functions are called. 
 
 ### Module-Level Code
-When run directly, this script does not execute any code, as it only contains function definitions. To use these functions, you would need to import this module in another script or call the functions directly in an interactive Python environment.
+When run directly, this script does not contain any module-level code, so there is no description to provide.
