@@ -1,7 +1,8 @@
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a collection of mathematical functions. When run directly, this script does not execute any specific code block, but rather provides a set of functions for external use.
+### Description
+This module provides basic arithmetic operations, including addition, subtraction, and multiplication.
 
 ### Functions
 #### add(a, b)
@@ -11,11 +12,11 @@ The `add` function calculates the sum of two numbers.
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 ##### Returns
-* `int` or `float`: The sum of `a` and `b`.
+The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 7)
-print(result)  # Output: 12
+result = add(2, 3)
+print(result)  # Output: 5
 ```
 
 #### sub(c, d)
@@ -25,11 +26,11 @@ The `sub` function calculates the difference between two numbers.
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
 ##### Returns
-* `int` or `float`: The difference between `c` and `d`.
+The difference between `c` and `d`.
 ##### Example
 ```python
-result = sub(10, 4)
-print(result)  # Output: 6
+result = sub(5, 2)
+print(result)  # Output: 3
 ```
 
 #### mul(a, b)
@@ -39,19 +40,23 @@ The `mul` function calculates the product of two numbers.
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 ##### Returns
-* `int` or `float`: The product of `a` and `b`.
+The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(4, 5)
+print(result)  # Output: 20
 ```
 
-Since there are multiple functions in this file, the following flowchart illustrates the execution flow when these functions are used in sequence:
+### Execution Flow
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
-    B --> C[sub]
-    C --> D[mul]
-    D --> E[End]
+    A --> C[sub]
+    A --> D[mul]
+    B --> E[End]
+    C --> E
+    D --> E
 ```
-Note: This flowchart assumes a sequence where `add` is called first, followed by `sub`, and then `mul`. The actual execution flow may vary based on the specific use case and how these functions are integrated into a larger program.
+Note: The execution flow chart shows that the module can start with any of the three functions (`add`, `sub`, or `mul`), and each function will execute independently. 
+
+No module-level code, classes, or variables are present in this file.
