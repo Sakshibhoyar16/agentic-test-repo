@@ -5,8 +5,9 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
+
 ## calculator.py
-The calculator.py file contains a set of basic arithmetic functions.
+The calculator.py file contains a collection of mathematical functions. When run directly, this script does not execute any specific code block, but rather provides a set of functions for external use.
 
 ### Functions
 #### add(a, b)
@@ -19,22 +20,22 @@ The `add` function calculates the sum of two numbers.
 * `int` or `float`: The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 3)
-print(result)  # Outputs: 8
+result = add(5, 7)
+print(result)  # Output: 12
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function calculates the difference of two numbers.
+The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
 ##### Returns
-* `int` or `float`: The difference of `c` and `d`.
+* `int` or `float`: The difference between `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 #### mul(a, b)
@@ -48,24 +49,18 @@ The `mul` function calculates the product of two numbers.
 ##### Example
 ```python
 result = mul(5, 6)
-print(result)  # Outputs: 30
+print(result)  # Output: 30
 ```
 
-### Execution Flow
-Since there are multiple functions in this file, the following flowchart illustrates the potential execution flow:
+Since there are multiple functions in this file, the following flowchart illustrates the execution flow when these functions are used in sequence:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
-    A --> C[sub]
-    A --> D[mul]
-    B --> E[End]
-    C --> E
-    D --> E
+    B --> C[sub]
+    C --> D[mul]
+    D --> E[End]
 ```
-This flowchart shows that the program can start with any of the three functions (`add`, `sub`, or `mul`) and then terminate. Note that in a real-world application, the actual execution flow would depend on how these functions are called and used. 
-
-### Module-Level Code
-When run directly, this script does not contain any module-level code (e.g., print statements, main blocks) that executes by default. It is designed to be imported and used within other Python programs.
+Note: This flowchart assumes a sequence where `add` is called first, followed by `sub`, and then `mul`. The actual execution flow may vary based on the specific use case and how these functions are integrated into a larger program.
 
 ---
 
