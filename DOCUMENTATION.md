@@ -1,50 +1,58 @@
 # API Documentation
 ## calculator.py
-The `calculator.py` file contains a set of basic arithmetic functions.
-
-### add(a, b)
-#### Description
+### Functions
+#### add(a, b)
+##### Description
 The `add` function calculates the sum of two numbers.
-#### Parameters
+
+##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-#### Returns
-* `int` or `float`: The sum of `a` and `b`.
-#### Example
+
+##### Returns
+The sum of `a` and `b`.
+
+##### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Output: 12
 ```
 
-### sub(c, d)
-#### Description
+#### sub(c, d)
+##### Description
 The `sub` function calculates the difference between two numbers.
-#### Parameters
+
+##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract.
-#### Returns
-* `int` or `float`: The difference between `c` and `d`.
-#### Example
+
+##### Returns
+The difference between `c` and `d`.
+
+##### Example
 ```python
 result = sub(10, 4)
 print(result)  # Output: 6
 ```
 
-### mul(a, b)
-#### Description
+#### mul(a, b)
+##### Description
 The `mul` function calculates the product of two numbers.
-#### Parameters
+
+##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-#### Returns
-* `int` or `float`: The product of `a` and `b`.
-#### Example
+
+##### Returns
+The product of `a` and `b`.
+
+##### Example
 ```python
-result = mul(4, 5)
-print(result)  # Output: 20
+result = mul(5, 6)
+print(result)  # Output: 30
 ```
 
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+### Execution Flow
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -54,6 +62,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note that the execution flow is not necessarily sequential, as these functions can be called independently. 
-
-When run directly, this script does not have any specific behavior, as it only contains function definitions. To use these functions, you would need to import this module in another script or call them directly in an interactive Python environment.
+Note: Since there are no classes, variables, or module-level code in this file, only the functions and their documentation are included.
