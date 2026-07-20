@@ -1,7 +1,7 @@
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a set of basic arithmetic functions.
+The `calculator.py` file contains a set of basic arithmetic functions. 
 
 ### add(a, b)
 #### Description
@@ -12,12 +12,12 @@ The `add` function takes two numbers as input and returns their sum.
 * `b` (int or float): The second number to be added.
 
 #### Returns
-* `result` (int or float): The sum of `a` and `b`.
+* `int` or `float`: The sum of `a` and `b`.
 
 #### Example
 ```python
-result = add(5, 3)
-print(result)  # Outputs: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
 ### sub(c, d)
@@ -29,7 +29,7 @@ The `sub` function takes two numbers as input and returns their difference.
 * `d` (int or float): The second number to be subtracted from the first.
 
 #### Returns
-* `result` (int or float): The difference between `c` and `d`.
+* `int` or `float`: The difference between `c` and `d`.
 
 #### Example
 ```python
@@ -46,15 +46,15 @@ The `mul` function takes two numbers as input and returns their product.
 * `b` (int or float): The second number to be multiplied.
 
 #### Returns
-* `result` (int or float): The product of `a` and `b`.
+* `int` or `float`: The product of `a` and `b`.
 
 #### Example
 ```python
-result = mul(7, 2)
-print(result)  # Outputs: 14
+result = mul(5, 6)
+print(result)  # Outputs: 30
 ```
 
-Since the calculator.py file contains more than one function, the following Mermaid flowchart illustrates a possible execution flow:
+Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -64,4 +64,5 @@ flowchart TD
     C --> E
     D --> E
 ```
-When run directly, this script does not have a main block or any module-level code that executes, so there is no specific behavior to describe. It is designed to be imported and used by other scripts.
+
+When run directly, this script does not execute any specific task as it only contains function definitions. It is designed to be imported and used within other Python scripts or applications.
