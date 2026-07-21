@@ -1,53 +1,53 @@
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a collection of mathematical functions to perform basic arithmetic operations.
+The calculator.py file contains a set of basic mathematical functions.
 
 ### Functions
 #### add(a, b)
 ##### Description
-The add function calculates the sum of two numbers.
+The `add` function calculates the sum of two numbers.
 ##### Parameters
-* `a` (int or float): The first number to add.
-* `b` (int or float): The second number to add.
+* `a` (int or float): The first number to be added.
+* `b` (int or float): The second number to be added.
 ##### Returns
 The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 7)
-print(result)  # Outputs: 12
+result = add(5, 3)
+print(result)  # Output: 8
 ```
 
 #### sub(c, d)
 ##### Description
-The sub function calculates the difference between two numbers.
+The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to be subtracted from the first.
 ##### Returns
 The difference between `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 #### mul(a, b)
 ##### Description
-The mul function calculates the product of two numbers.
+The `mul` function calculates the product of two numbers.
 ##### Parameters
-* `a` (int or float): The first number to multiply.
-* `b` (int or float): The second number to multiply.
+* `a` (int or float): The first number to be multiplied.
+* `b` (int or float): The second number to be multiplied.
 ##### Returns
 The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Outputs: 30
+result = mul(7, 2)
+print(result)  # Output: 14
 ```
 
 ### Execution Flow
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since there are multiple functions in this file, the execution flow is as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -57,6 +57,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The execution flow chart demonstrates the possible entry points for each function, but does not imply a specific order of execution, as these functions can be called independently. 
+Note: The execution flow is not necessarily a linear sequence, as the functions can be called independently.
 
-No classes or variables are defined in this file. The script does not contain any module-level code that would run when executed directly, aside from the function definitions themselves.
+### Module-Level Code
+When run directly, this script does not have any module-level code that executes. It is designed to be imported and used as a library.
