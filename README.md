@@ -7,60 +7,60 @@ Auto-documented by Agentic AI Documentation Maintainer.
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a set of mathematical functions.
+The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
 
 ### add(a, b)
 #### Description
-The `add` function takes two parameters and returns their sum.
+The `add` function calculates the sum of two numbers.
 
 #### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 
 #### Returns
-* The sum of `a` and `b` (int or float).
+* `int` or `float`: The sum of `a` and `b`.
 
 #### Example
 ```python
-result = add(5, 7)
-print(result)  # Outputs: 12
+result = add(5, 3)
+print(result)  # Output: 8
 ```
 
 ### sub(c, d)
 #### Description
-The `sub` function takes two parameters and returns their difference.
+The `sub` function calculates the difference between two numbers.
 
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to subtract.
 
 #### Returns
-* The difference between `c` and `d` (int or float).
+* `int` or `float`: The difference between `c` and `d`.
 
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 ### mul(a, b)
 #### Description
-The `mul` function takes two parameters and returns their product.
+The `mul` function calculates the product of two numbers.
 
 #### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 
 #### Returns
-* The product of `a` and `b` (int or float).
+* `int` or `float`: The product of `a` and `b`.
 
 #### Example
 ```python
-result = mul(3, 9)
-print(result)  # Outputs: 27
+result = mul(5, 6)
+print(result)  # Output: 30
 ```
 
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since the calculator.py file contains more than one function, the following Mermaid flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -70,9 +70,11 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart shows that the script can start with any of the three functions (`add`, `sub`, or `mul`) and ends after executing one of them. 
+Note: The flowchart shows that the execution flow can start with any of the three functions (`add`, `sub`, or `mul`) and ends with the `End` state. 
 
-When run directly, this script does not have a main block or any print statements, so it does not perform any specific action without being imported and used by another script.
+There are no classes or variables defined in this file. 
+
+When run directly, this script does not have a main block or print statements that execute any specific logic. It is intended to be used as a module, importing the functions as needed.
 
 ---
 
