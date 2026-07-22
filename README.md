@@ -6,70 +6,67 @@ Auto-documented by Agentic AI Documentation Maintainer.
 
 # API Documentation
 ## calculator.py
-### Functions
-#### add(a, b)
-##### Description
-The `add` function calculates the sum of two numbers.
+The calculator.py file contains a collection of mathematical functions. 
 
-##### Parameters
+### add(a, b)
+#### Description
+The `add(a, b)` function takes two parameters and returns their sum.
+
+#### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 
-##### Returns
-* `int` or `float`: The sum of `a` and `b`.
+#### Returns
+* `result` (int or float): The sum of `a` and `b`.
 
-##### Example
+#### Example
 ```python
-result = add(5, 3)
-print(result)  # Outputs: 8
+print(add(5, 3))  # Output: 8
 ```
 
-#### sub(c, d)
-##### Description
-The `sub` function calculates the difference between two numbers.
+### sub(c, d)
+#### Description
+The `sub(c, d)` function takes two parameters and returns their difference.
 
-##### Parameters
+#### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
+* `d` (int or float): The second number to subtract from the first.
 
-##### Returns
-* `int` or `float`: The difference between `c` and `d`.
+#### Returns
+* `result` (int or float): The difference of `c` and `d`.
 
-##### Example
+#### Example
 ```python
-result = sub(10, 4)
-print(result)  # Outputs: 6
+print(sub(10, 4))  # Output: 6
 ```
 
-#### mul(a, b)
-##### Description
-The `mul` function calculates the product of two numbers.
+### mul(a, b)
+#### Description
+The `mul(a, b)` function takes two parameters and returns their product.
 
-##### Parameters
+#### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 
-##### Returns
-* `int` or `float`: The product of `a` and `b`.
+#### Returns
+* `result` (int or float): The product of `a` and `b`.
 
-##### Example
+#### Example
 ```python
-result = mul(7, 2)
-print(result)  # Outputs: 14
+print(mul(7, 2))  # Output: 14
 ```
 
-### Execution Flow
-Since there are multiple functions in this file, the following flowchart represents the possible execution flow:
+Since this file has more than one function, here is a Mermaid flowchart showing the execution flow:
 ```mermaid
 flowchart TD
-    A[Start] --> B[add]
-    A --> C[sub]
-    A --> D[mul]
+    A[Start] --> B[add(a, b)]
+    A --> C[sub(c, d)]
+    A --> D[mul(a, b)]
     B --> E[End]
     C --> E
     D --> E
 ```
-Note: The actual execution flow may vary depending on how the functions are called in the script or other parts of the program. This flowchart is a simplified representation of the possible execution paths.
+No module-level code, classes, or variables are defined in this file.
 
 ---
 
