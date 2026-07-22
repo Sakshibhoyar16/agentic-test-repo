@@ -7,61 +7,61 @@ Auto-documented by Agentic AI Documentation Maintainer.
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a collection of mathematical functions. When run directly, this script does not have a main block, so it does not perform any operations on its own.
+The calculator.py file contains a collection of mathematical functions.
 
-### Functions
-#### add(a, b)
-##### Description
+### add(a, b)
+#### Description
 The `add` function calculates the sum of two numbers.
-##### Parameters
-* `a` (number): The first number to add.
-* `b` (number): The second number to add.
-##### Returns
+#### Parameters
+* `a` (int or float): The first number to add.
+* `b` (int or float): The second number to add.
+#### Returns
 The sum of `a` and `b`.
-##### Example
+#### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
-#### sub(c, d)
-##### Description
+### sub(c, d)
+#### Description
 The `sub` function calculates the difference between two numbers.
-##### Parameters
-* `c` (number): The first number.
-* `d` (number): The second number to subtract from the first.
-##### Returns
+#### Parameters
+* `c` (int or float): The first number.
+* `d` (int or float): The second number to subtract.
+#### Returns
 The difference between `c` and `d`.
-##### Example
+#### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
-#### mul(a, b)
-##### Description
+### mul(a, b)
+#### Description
 The `mul` function calculates the product of two numbers.
-##### Parameters
-* `a` (number): The first number to multiply.
-* `b` (number): The second number to multiply.
-##### Returns
+#### Parameters
+* `a` (int or float): The first number to multiply.
+* `b` (int or float): The second number to multiply.
+#### Returns
 The product of `a` and `b`.
-##### Example
+#### Example
 ```python
-result = mul(7, 2)
-print(result)  # Output: 14
+result = mul(5, 6)
+print(result)  # Outputs: 30
 ```
 
-### Execution Flow
-Since there are multiple functions in this file, the following flowchart illustrates a simple example of how these functions might be used in a sequence:
+Since this file contains more than one function, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
-    B --> C[sub]
-    C --> D[mul]
-    D --> E[End]
+    A --> C[sub]
+    A --> D[mul]
+    B --> E[End]
+    C --> E
+    D --> E
 ```
-This flowchart shows one possible order of operations, starting with addition, followed by subtraction, and ending with multiplication. The actual execution flow will depend on how these functions are called and used within a larger program.
+When run directly, this script does not contain any module-level code, so it does not perform any specific actions. The functions provided can be imported and used in other scripts to perform mathematical operations.
 
 ---
 
