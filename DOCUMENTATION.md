@@ -1,7 +1,5 @@
 # API Documentation
 ## calculator.py
-The calculator.py file contains a collection of basic mathematical functions.
-
 ### Functions
 #### add(a, b)
 ##### Description
@@ -13,8 +11,8 @@ The `add` function calculates the sum of two numbers.
 The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 7)
-print(result)  # Outputs: 12
+result = add(5, 3)
+print(result)  # Output: 8
 ```
 
 #### sub(c, d)
@@ -28,7 +26,7 @@ The difference of `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 #### mul(a, b)
@@ -42,7 +40,7 @@ The product of `a` and `b`.
 ##### Example
 ```python
 result = mul(5, 6)
-print(result)  # Outputs: 30
+print(result)  # Output: 30
 ```
 
 ### Execution Flow
@@ -56,7 +54,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note that the execution flow may vary depending on how the functions are called and used in the program.
+Note: The execution flow assumes that the functions are called individually, and the flowchart shows the possible paths of execution. 
 
-### Module-Level Code
-When run directly, this script does not have any module-level code that executes. It is intended to be imported as a module in other scripts, where the functions can be used to perform calculations.
+There are no classes or variables in this file, so there is no additional documentation to provide. When run directly, this script does not have a main block or any module-level code, so there is no description to provide for that.
