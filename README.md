@@ -6,18 +6,17 @@ Auto-documented by Agentic AI Documentation Maintainer.
 
 # API Documentation
 ## calculator.py
+The calculator.py file contains a collection of basic mathematical functions.
+
 ### Functions
 #### add(a, b)
 ##### Description
 The `add` function calculates the sum of two numbers.
-
 ##### Parameters
-* `a` (number): The first number to be added.
-* `b` (number): The second number to be added.
-
+* `a` (int or float): The first number to add.
+* `b` (int or float): The second number to add.
 ##### Returns
 The sum of `a` and `b`.
-
 ##### Example
 ```python
 result = add(5, 7)
@@ -26,15 +25,12 @@ print(result)  # Outputs: 12
 
 #### sub(c, d)
 ##### Description
-The `sub` function calculates the difference between two numbers.
-
+The `sub` function calculates the difference of two numbers.
 ##### Parameters
-* `c` (number): The first number.
-* `d` (number): The second number to be subtracted from the first.
-
+* `c` (int or float): The first number.
+* `d` (int or float): The second number to subtract.
 ##### Returns
-The difference between `c` and `d`.
-
+The difference of `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
@@ -44,14 +40,11 @@ print(result)  # Outputs: 6
 #### mul(a, b)
 ##### Description
 The `mul` function calculates the product of two numbers.
-
 ##### Parameters
-* `a` (number): The first number to be multiplied.
-* `b` (number): The second number to be multiplied.
-
+* `a` (int or float): The first number to multiply.
+* `b` (int or float): The second number to multiply.
 ##### Returns
 The product of `a` and `b`.
-
 ##### Example
 ```python
 result = mul(5, 6)
@@ -69,10 +62,10 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note that the execution flow is not strictly sequential, as the functions can be called independently. This flowchart simply illustrates the possible paths of execution.
+Note that the execution flow may vary depending on how the functions are called and used in the program.
 
 ### Module-Level Code
-When run directly, this script does not contain any module-level code, such as print statements or a main block, that would be executed. It is intended to be imported and used as a library of mathematical functions.
+When run directly, this script does not have any module-level code that executes. It is intended to be imported as a module in other scripts, where the functions can be used to perform calculations.
 
 ---
 
