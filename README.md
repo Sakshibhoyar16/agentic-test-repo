@@ -6,51 +6,60 @@ Auto-documented by Agentic AI Documentation Maintainer.
 
 # API Documentation
 ## calculator.py
-The calculator.py module contains a collection of mathematical functions that can be used for basic arithmetic operations.
-
-### add(a, b)
-#### Description
+### Functions
+#### add(a, b)
+##### Description
 The `add` function calculates the sum of two numbers.
-#### Parameters
-* `a` (int or float): The first number to be added.
-* `b` (int or float): The second number to be added.
-#### Returns
+
+##### Parameters
+* `a` (number): The first number to be added.
+* `b` (number): The second number to be added.
+
+##### Returns
 The sum of `a` and `b`.
-#### Example
+
+##### Example
 ```python
 result = add(5, 7)
-print(result)  # Output: 12
+print(result)  # Outputs: 12
 ```
 
-### sub(c, d)
-#### Description
+#### sub(c, d)
+##### Description
 The `sub` function calculates the difference between two numbers.
-#### Parameters
-* `c` (int or float): The first number.
-* `d` (int or float): The second number to be subtracted.
-#### Returns
+
+##### Parameters
+* `c` (number): The first number.
+* `d` (number): The second number to be subtracted from the first.
+
+##### Returns
 The difference between `c` and `d`.
-#### Example
+
+##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
-### mul(a, b)
-#### Description
+#### mul(a, b)
+##### Description
 The `mul` function calculates the product of two numbers.
-#### Parameters
-* `a` (int or float): The first number to be multiplied.
-* `b` (int or float): The second number to be multiplied.
-#### Returns
+
+##### Parameters
+* `a` (number): The first number to be multiplied.
+* `b` (number): The second number to be multiplied.
+
+##### Returns
 The product of `a` and `b`.
-#### Example
+
+##### Example
 ```python
-result = mul(6, 8)
-print(result)  # Output: 48
+result = mul(5, 6)
+print(result)  # Outputs: 30
 ```
 
-Since there are multiple functions in this module, here is a flowchart showing the execution flow:
+### Execution Flow
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -60,6 +69,10 @@ flowchart TD
     C --> E
     D --> E
 ```
+Note that the execution flow is not strictly sequential, as the functions can be called independently. This flowchart simply illustrates the possible paths of execution.
+
+### Module-Level Code
+When run directly, this script does not contain any module-level code, such as print statements or a main block, that would be executed. It is intended to be imported and used as a library of mathematical functions.
 
 ---
 
