@@ -1,5 +1,4 @@
 # API Documentation
-
 ## calculator.py
 The calculator.py file contains a set of mathematical functions to perform basic arithmetic operations.
 
@@ -12,29 +11,29 @@ The `add` function calculates the sum of two numbers.
 * `b` (int or float): The second number to add.
 
 #### Returns
-* `int` or `float`: The sum of `a` and `b`.
+The sum of `a` and `b`.
 
 #### Example
 ```python
 result = add(5, 7)
-print(result)  # Outputs: 12
+print(result)  # Output: 12
 ```
 
 ### sub(c, d)
 #### Description
-The `sub` function calculates the difference of two numbers.
+The `sub` function calculates the difference between two numbers.
 
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
+* `d` (int or float): The second number to subtract from the first.
 
 #### Returns
-* `int` or `float`: The difference of `c` and `d`.
+The difference between `c` and `d`.
 
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 ### mul(a, b)
@@ -46,15 +45,15 @@ The `mul` function calculates the product of two numbers.
 * `b` (int or float): The second number to multiply.
 
 #### Returns
-* `int` or `float`: The product of `a` and `b`.
+The product of `a` and `b`.
 
 #### Example
 ```python
-result = mul(6, 8)
-print(result)  # Outputs: 48
+result = mul(3, 9)
+print(result)  # Output: 27
 ```
 
-Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -64,4 +63,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart shows the possible functions that can be executed, but the actual execution flow depends on the specific use case and how the functions are called.
+When run directly, this script does not contain any module-level code that executes, as it only defines functions for arithmetic operations.
