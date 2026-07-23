@@ -5,62 +5,60 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
-
 ## calculator.py
-The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
+### Functions
+#### add(a, b)
+##### Description
+The `add` function takes two parameters, `a` and `b`, and returns their sum.
 
-### add(a, b)
-#### Description
-The `add` function calculates the sum of two numbers.
-
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 
-#### Returns
+##### Returns
 * `int` or `float`: The sum of `a` and `b`.
 
-#### Example
+##### Example
 ```python
 result = add(5, 3)
 print(result)  # Output: 8
 ```
 
-### sub(c, d)
-#### Description
-The `sub` function calculates the difference between two numbers.
+#### sub(c, d)
+##### Description
+The `sub` function takes two parameters, `c` and `d`, and returns their difference.
 
-#### Parameters
+##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
+* `d` (int or float): The second number to subtract from the first.
 
-#### Returns
+##### Returns
 * `int` or `float`: The difference between `c` and `d`.
 
-#### Example
+##### Example
 ```python
 result = sub(10, 4)
 print(result)  # Output: 6
 ```
 
-### mul(a, b)
-#### Description
-The `mul` function calculates the product of two numbers.
+#### mul(a, b)
+##### Description
+The `mul` function takes two parameters, `a` and `b`, and returns their product.
 
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 
-#### Returns
+##### Returns
 * `int` or `float`: The product of `a` and `b`.
 
-#### Example
+##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(5, 3)
+print(result)  # Output: 15
 ```
 
-Since the calculator.py file contains more than one function, the following Mermaid flowchart illustrates the execution flow:
+### Execution Flow
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -70,11 +68,10 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The flowchart shows that the execution flow can start with any of the three functions (`add`, `sub`, or `mul`) and ends with the `End` state. 
+Note: The execution flow chart shows the possible execution paths for the functions in the `calculator.py` file. Since these functions are independent, the flowchart shows each function as a separate path. 
 
-There are no classes or variables defined in this file. 
-
-When run directly, this script does not have a main block or print statements that execute any specific logic. It is intended to be used as a module, importing the functions as needed.
+### Module-Level Code
+When run directly, this script does not execute any specific code, as it only contains function definitions. To use these functions, you would need to call them explicitly, as shown in the examples above.
 
 ---
 
