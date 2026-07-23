@@ -1,51 +1,60 @@
 # API Documentation
 
 ## calculator.py
-This module provides basic arithmetic operations.
+The calculator.py file contains a set of mathematical functions to perform basic arithmetic operations.
 
 ### add(a, b)
 #### Description
 The `add` function calculates the sum of two numbers.
+
 #### Parameters
-* `a` (int or float): The first number to be added.
-* `b` (int or float): The second number to be added.
+* `a` (int or float): The first number to add.
+* `b` (int or float): The second number to add.
+
 #### Returns
-The sum of `a` and `b`.
+* `int` or `float`: The sum of `a` and `b`.
+
 #### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
 ### sub(c, d)
 #### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function calculates the difference of two numbers.
+
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to be subtracted from the first.
+* `d` (int or float): The second number to subtract.
+
 #### Returns
-The difference between `c` and `d`.
+* `int` or `float`: The difference of `c` and `d`.
+
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
 ### mul(a, b)
 #### Description
 The `mul` function calculates the product of two numbers.
+
 #### Parameters
-* `a` (int or float): The first number to be multiplied.
-* `b` (int or float): The second number to be multiplied.
+* `a` (int or float): The first number to multiply.
+* `b` (int or float): The second number to multiply.
+
 #### Returns
-The product of `a` and `b`.
+* `int` or `float`: The product of `a` and `b`.
+
 #### Example
 ```python
-result = mul(7, 2)
-print(result)  # Output: 14
+result = mul(6, 8)
+print(result)  # Outputs: 48
 ```
 
-Since this module contains more than one function, the following flowchart illustrates the execution flow:
+Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -55,4 +64,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The flowchart shows the possible execution paths for each function, but it does not imply a specific order of execution. The actual execution flow will depend on how the functions are called in the code.
+Note: This flowchart shows the possible functions that can be executed, but the actual execution flow depends on the specific use case and how the functions are called.
