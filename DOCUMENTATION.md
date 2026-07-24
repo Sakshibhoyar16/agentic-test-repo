@@ -1,6 +1,7 @@
 # API Documentation
+
 ## calculator.py
-The calculator.py file contains a set of mathematical functions to perform basic arithmetic operations.
+This module provides basic arithmetic operations.
 
 ### add(a, b)
 #### Description
@@ -21,14 +22,14 @@ print(result)  # Output: 12
 
 ### sub(c, d)
 #### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function calculates the difference of two numbers.
 
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to subtract.
 
 #### Returns
-The difference between `c` and `d`.
+The difference of `c` and `d`.
 
 #### Example
 ```python
@@ -53,14 +54,16 @@ result = mul(3, 9)
 print(result)  # Output: 27
 ```
 
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since there are multiple functions in this module, here is a Mermaid flowchart showing the execution flow:
 ```mermaid
-flowchart TD
-    A[Start] --> B[add]
-    A --> C[sub]
-    A --> D[mul]
-    B --> E[End]
-    C --> E
-    D --> E
+   flowchart TD
+       A[Start] --> B[add]
+       A --> C[sub]
+       A --> D[mul]
+       B --> E[End]
+       C --> E
+       D --> E
 ```
-When run directly, this script does not contain any module-level code that executes, as it only defines functions for arithmetic operations.
+Note: This flowchart is a simple representation and does not cover all possible execution paths. The actual execution flow may vary depending on the specific use case. 
+
+When run directly, this script does not have a main block, so there is no specific functionality executed. It provides a set of functions for arithmetic operations that can be used in other scripts or applications.
