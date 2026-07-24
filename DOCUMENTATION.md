@@ -1,60 +1,50 @@
 # API Documentation
-
 ## calculator.py
-The calculator.py file contains a collection of basic arithmetic functions.
+The calculator.py file contains a set of basic arithmetic functions.
 
 ### add(a, b)
 #### Description
 The `add` function takes two numbers as input and returns their sum.
-
 #### Parameters
-* `a`: The first number to add.
-* `b`: The second number to add.
-
+* `a` (int or float): The first number to add.
+* `b` (int or float): The second number to add.
 #### Returns
-The sum of `a` and `b`.
-
+* `int` or `float`: The sum of `a` and `b`.
 #### Example
 ```python
-result = add(5, 3)
-print(result)  # Outputs: 8
+result = add(5, 7)
+print(result)  # Output: 12
 ```
 
 ### sub(c, d)
 #### Description
 The `sub` function takes two numbers as input and returns their difference.
-
 #### Parameters
-* `c`: The first number.
-* `d`: The second number to subtract from the first.
-
+* `c` (int or float): The first number.
+* `d` (int or float): The second number to subtract from the first.
 #### Returns
-The difference between `c` and `d`.
-
+* `int` or `float`: The difference between `c` and `d`.
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 ### mul(a, b)
 #### Description
 The `mul` function takes two numbers as input and returns their product.
-
 #### Parameters
-* `a`: The first number to multiply.
-* `b`: The second number to multiply.
-
+* `a` (int or float): The first number to multiply.
+* `b` (int or float): The second number to multiply.
 #### Returns
-The product of `a` and `b`.
-
+* `int` or `float`: The product of `a` and `b`.
 #### Example
 ```python
-result = mul(5, 6)
-print(result)  # Outputs: 30
+result = mul(6, 8)
+print(result)  # Output: 48
 ```
 
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since there are multiple functions in this file, here is a Mermaid flowchart showing the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -64,4 +54,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The execution flow assumes that each function can be called independently from the start. In a real-world scenario, the actual flow may vary depending on how these functions are used within a larger program.
+Note: This flowchart assumes that the functions can be called independently. The actual execution flow may vary depending on the usage of these functions in the program. 
+
+No classes or variables are defined in this file. If there were any, they would be documented according to the provided rules.
