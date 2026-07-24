@@ -7,51 +7,54 @@ Auto-documented by Agentic AI Documentation Maintainer.
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
+### Overview
+The `calculator.py` file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
 
-### add(a, b)
-#### Description
-The `add` function takes two parameters, `a` and `b`, and returns their sum.
-#### Parameters
-* `a` (int or float): The first number to add.
-* `b` (int or float): The second number to add.
-#### Returns
+### Functions
+
+#### add(a, b)
+##### Description
+The `add` function calculates the sum of two numbers.
+##### Parameters
+* `a` (int or float): The first number to be added.
+* `b` (int or float): The second number to be added.
+##### Returns
 * `int` or `float`: The sum of `a` and `b`.
-#### Example
+##### Example
 ```python
-result = add(5, 3)
-print(result)  # Outputs: 8
+result = add(5, 7)
+print(result)  # Output: 12
 ```
 
-### sub(c, d)
-#### Description
-The `sub` function takes two parameters, `c` and `d`, and returns their difference.
-#### Parameters
+#### sub(c, d)
+##### Description
+The `sub` function calculates the difference between two numbers.
+##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
-#### Returns
+* `d` (int or float): The second number to be subtracted from `c`.
+##### Returns
 * `int` or `float`: The difference between `c` and `d`.
-#### Example
+##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
-### mul(a, b)
-#### Description
-The `mul` function takes two parameters, `a` and `b`, and returns their product.
-#### Parameters
-* `a` (int or float): The first number to multiply.
-* `b` (int or float): The second number to multiply.
-#### Returns
+#### mul(a, b)
+##### Description
+The `mul` function calculates the product of two numbers.
+##### Parameters
+* `a` (int or float): The first number to be multiplied.
+* `b` (int or float): The second number to be multiplied.
+##### Returns
 * `int` or `float`: The product of `a` and `b`.
-#### Example
+##### Example
 ```python
-result = mul(7, 2)
-print(result)  # Outputs: 14
+result = mul(6, 8)
+print(result)  # Output: 48
 ```
 
-Since there are multiple functions in this file, here is a flowchart showing the execution flow:
+### Execution Flow
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -61,7 +64,11 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart assumes that the functions are called independently, and the execution flow may vary depending on the actual usage of these functions in a larger program.
+Note: The execution flow chart shows that the script can start with any of the three functions (`add`, `sub`, or `mul`) and will end after the execution of any of these functions. 
+
+Since there are no classes or variables in this module, no additional documentation is provided for those sections. 
+
+Also, since this module only contains function definitions and does not have any module-level code (such as a `main` block or print statements), there is no description of what the script does when run directly.
 
 ---
 
