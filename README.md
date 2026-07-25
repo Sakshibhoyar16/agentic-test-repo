@@ -5,32 +5,31 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
-
 ## calculator.py
-The calculator.py file contains a collection of mathematical functions.
+The calculator.py file contains a collection of mathematical functions. 
 
 ### add(a, b)
 #### Description
 The `add` function calculates the sum of two numbers.
 #### Parameters
-* `a` (int or float): The first number to be added.
-* `b` (int or float): The second number to be added.
+* `a` (number): The first number to add.
+* `b` (number): The second number to add.
 #### Returns
-The sum of `a` and `b` (int or float).
+The sum of `a` and `b`.
 #### Example
 ```python
-result = add(5, 3)
-print(result)  # Outputs: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
 ### sub(c, d)
 #### Description
 The `sub` function calculates the difference between two numbers.
 #### Parameters
-* `c` (int or float): The first number.
-* `d` (int or float): The second number to be subtracted from the first.
+* `c` (number): The first number.
+* `d` (number): The second number to subtract.
 #### Returns
-The difference between `c` and `d` (int or float).
+The difference between `c` and `d`.
 #### Example
 ```python
 result = sub(10, 4)
@@ -41,31 +40,29 @@ print(result)  # Outputs: 6
 #### Description
 The `mul` function calculates the product of two numbers.
 #### Parameters
-* `a` (int or float): The first number to be multiplied.
-* `b` (int or float): The second number to be multiplied.
+* `a` (number): The first number to multiply.
+* `b` (number): The second number to multiply.
 #### Returns
-The product of `a` and `b` (int or float).
+The product of `a` and `b`.
 #### Example
 ```python
 result = mul(5, 6)
 print(result)  # Outputs: 30
 ```
 
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since there are multiple functions in this file, here is a flowchart showing the execution flow:
 ```mermaid
-flowchart TD
-    A[Start] --> B[add]
-    A --> C[sub]
-    A --> D[mul]
-    B --> E[End]
-    C --> E
-    D --> E
+   flowchart TD
+       A[Start] --> B[add]
+       A --> C[sub]
+       A --> D[mul]
+       B --> E[End]
+       C --> E
+       D --> E
 ```
-Note: The execution flow chart shows the possible paths of execution for each function. In a real-world scenario, the actual flow may depend on the specific use case or input provided to the functions. 
+Note: This flowchart assumes that the functions can be called independently. If there is a specific execution order or dependency between the functions, the flowchart should be adjusted accordingly. 
 
-There are no classes or variables in this file. 
-
-When run directly, this script does not have a main block or any module-level code, so there is no specific behavior to describe.
+When run directly, this script does not have a main block or module-level code, so there is no specific behavior to describe.
 
 ---
 
