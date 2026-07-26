@@ -7,7 +7,7 @@ Auto-documented by Agentic AI Documentation Maintainer.
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a set of functions that provide basic arithmetic operations. 
+The calculator.py file contains a collection of mathematical functions to perform basic arithmetic operations.
 
 ### add(a, b)
 #### Description
@@ -18,12 +18,12 @@ The `add` function takes two numbers as input and returns their sum.
 * `b` (int or float): The second number to be added.
 
 #### Returns
-* `result` (int or float): The sum of `a` and `b`.
+* `int` or `float`: The sum of `a` and `b`.
 
 #### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Output: 12
 ```
 
 ### sub(c, d)
@@ -32,10 +32,10 @@ The `sub` function takes two numbers as input and returns their difference.
 
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to be subtracted from the first.
+* `d` (int or float): The second number to be subtracted from `c`.
 
 #### Returns
-* `result` (int or float): The difference between `c` and `d`.
+* `int` or `float`: The difference between `c` and `d`.
 
 #### Example
 ```python
@@ -52,29 +52,24 @@ The `mul` function takes two numbers as input and returns their product.
 * `b` (int or float): The second number to be multiplied.
 
 #### Returns
-* `result` (int or float): The product of `a` and `b`.
+* `int` or `float`: The product of `a` and `b`.
 
 #### Example
 ```python
-result = mul(7, 2)
-print(result)  # Output: 14
+result = mul(6, 9)
+print(result)  # Output: 54
 ```
 
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since the calculator.py file has more than one function, the execution flow can be illustrated as follows:
 ```mermaid
-   flowchart TD
-       A[Start] --> B[add]
-       A --> C[sub]
-       A --> D[mul]
-       B --> E[End]
-       C --> E
-       D --> E
+flowchart TD
+    A[Start] --> B[add]
+    A --> C[sub]
+    A --> D[mul]
+    B --> E[End]
+    C --> E
+    D --> E
 ```
-Note: The flowchart illustrates the possible execution paths when using the functions provided in the calculator.py file. The actual execution flow may vary depending on the specific use case. 
-
-There are no classes or variables defined in this file. 
-
-When run directly, the script does not have a main block or any print statements, so it does not perform any specific actions.
 
 ---
 
