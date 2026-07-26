@@ -1,31 +1,30 @@
 # API Documentation
-
 ## calculator.py
-This module provides basic arithmetic operations.
+The `calculator.py` file contains a set of functions for basic arithmetic operations.
 
 ### Functions
 #### add(a, b)
 ##### Description
-The `add` function calculates the sum of two numbers.
+The `add` function takes two numbers as input and returns their sum.
 ##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 ##### Returns
-The sum of `a` and `b`.
+* The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 7)
-print(result)  # Output: 12
+result = add(5, 3)
+print(result)  # Output: 8
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function takes two numbers as input and returns their difference.
 ##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
 ##### Returns
-The difference between `c` and `d`.
+* The difference between `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
@@ -34,20 +33,20 @@ print(result)  # Output: 6
 
 #### mul(a, b)
 ##### Description
-The `mul` function calculates the product of two numbers.
+The `mul` function takes two numbers as input and returns their product.
 ##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 ##### Returns
-The product of `a` and `b`.
+* The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(6, 8)
-print(result)  # Output: 48
+result = mul(5, 6)
+print(result)  # Output: 30
 ```
 
 ### Execution Flow
-Since this module has multiple functions, the following flowchart illustrates a potential execution path:
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -57,6 +56,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart demonstrates a possible sequence of function calls when using the `calculator.py` module. Note that the actual execution flow may vary depending on the specific use case and how the functions are utilized.
+Note that the execution flow depends on how the functions are called in the script or by other parts of the program. This flowchart represents a general overview of the functions' relationships. 
 
-When run directly, this script does not contain a main block or any module-level code, so there is no specific behavior or output when executed as a standalone program.
+No module-level code, classes, or variables are provided in the given specification. Therefore, no additional documentation is included for those elements.
