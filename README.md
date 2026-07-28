@@ -5,10 +5,7 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
-
 ## calculator.py
-The `calculator.py` file contains a collection of mathematical functions for basic arithmetic operations.
-
 ### add(a, b)
 #### Description
 The `add` function calculates the sum of two numbers.
@@ -19,8 +16,8 @@ The `add` function calculates the sum of two numbers.
 The sum of `a` and `b`.
 #### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
 ### sub(c, d)
@@ -28,13 +25,13 @@ print(result)  # Output: 8
 The `sub` function calculates the difference between two numbers.
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to subtract.
 #### Returns
 The difference between `c` and `d`.
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
 ### mul(a, b)
@@ -47,11 +44,11 @@ The `mul` function calculates the product of two numbers.
 The product of `a` and `b`.
 #### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(5, 7)
+print(result)  # Outputs: 35
 ```
 
-Since `calculator.py` contains more than one function, the following flowchart illustrates the execution flow:
+Since there are multiple functions in this file, here is a flowchart showing the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -61,9 +58,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart assumes that the functions can be called independently, and the execution flow may vary depending on the actual usage of the functions. 
-
-When run directly, the `calculator.py` script does not contain any module-level code, such as print statements or a main block, that would execute when the script is run as a standalone program.
+Note: This flowchart assumes that the functions are called independently, as there is no clear indication of the execution order in the provided code.
 
 ---
 
