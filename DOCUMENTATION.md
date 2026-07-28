@@ -1,30 +1,31 @@
 # API Documentation
+
 ## calculator.py
-The calculator.py file contains a collection of basic mathematical functions. When run directly, this script does not have a main block, so it does not perform any operations on its own.
+The calculator.py file contains a collection of basic arithmetic functions.
 
 ### Functions
 #### add(a, b)
 ##### Description
-The `add` function takes two parameters and returns their sum.
+The `add` function calculates the sum of two numbers.
 ##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 ##### Returns
-* `int` or `float`: The sum of `a` and `b`.
+The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 3)
-print(result)  # Outputs: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function takes two parameters and returns their difference.
+The `sub` function calculates the difference of two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to subtract.
 ##### Returns
-* `int` or `float`: The difference between `c` and `d`.
+The difference of `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
@@ -33,25 +34,30 @@ print(result)  # Outputs: 6
 
 #### mul(a, b)
 ##### Description
-The `mul` function takes two parameters and returns their product.
+The `mul` function calculates the product of two numbers.
 ##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 ##### Returns
-* `int` or `float`: The product of `a` and `b`.
+The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Outputs: 30
+result = mul(3, 9)
+print(result)  # Outputs: 27
 ```
 
+### Execution Flow
 Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
 ```mermaid
-flowchart TD
-    A[Start] --> B[add]
-    A --> C[sub]
-    A --> D[mul]
-    B --> E[End]
-    C --> E
-    D --> E
+   flowchart TD
+       A[Start] --> B[add]
+       A --> C[sub]
+       A --> D[mul]
+       B --> E[End]
+       C --> E
+       D --> E
 ```
+Note: The execution flow is dependent on the specific use case and the functions called. This flowchart represents a general overview of the possible execution paths.
+
+### Module-Level Code
+When run directly, this script does not have any specific module-level code. It is designed to be used as a collection of functions for arithmetic operations.
