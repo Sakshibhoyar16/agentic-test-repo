@@ -1,13 +1,13 @@
 # API Documentation
 
 ## calculator.py
-### Overview
-The `calculator.py` file contains a collection of mathematical functions for basic arithmetic operations.
+### Description
+This module provides basic arithmetic operations.
 
 ### Functions
 #### add(a, b)
 ##### Description
-The `add` function takes two numbers as input and returns their sum.
+This function adds two numbers together.
 ##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
@@ -15,16 +15,16 @@ The `add` function takes two numbers as input and returns their sum.
 * `int` or `float`: The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 7)
-print(result)  # Outputs: 12
+result = add(5, 3)
+print(result)  # Outputs: 8
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function takes two numbers as input and returns their difference.
+This function subtracts one number from another.
 ##### Parameters
-* `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `c` (int or float): The number to subtract from.
+* `d` (int or float): The number to subtract.
 ##### Returns
 * `int` or `float`: The difference between `c` and `d`.
 ##### Example
@@ -35,7 +35,7 @@ print(result)  # Outputs: 6
 
 #### mul(a, b)
 ##### Description
-The `mul` function takes two numbers as input and returns their product.
+This function multiplies two numbers together.
 ##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
@@ -47,8 +47,7 @@ result = mul(5, 6)
 print(result)  # Outputs: 30
 ```
 
-### Execution Flow
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+### Flowchart
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -58,4 +57,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The `calculator.py` file does not contain any classes or variables, so there is no additional documentation for those elements. When run directly, this script does not execute any specific module-level code, as it is designed to be imported and used by other scripts.
+
+### Module-Level Code
+When run directly, this script does not execute any code. It is intended to be imported as a module to use its functions.
