@@ -1,22 +1,22 @@
 # API Documentation
+
 ## calculator.py
-The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
 
 ### add(a, b)
 #### Description
 The `add` function takes two numbers as input and returns their sum.
 
 #### Parameters
-* `a` (int or float): The first number to add.
-* `b` (int or float): The second number to add.
+* `a` (int or float): The first number to be added.
+* `b` (int or float): The second number to be added.
 
 #### Returns
 * `int` or `float`: The sum of `a` and `b`.
 
 #### Example
 ```python
-result = add(3, 5)
-print(result)  # Outputs: 8
+result = add(5, 3)
+print(result)  # Output: 8
 ```
 
 ### sub(c, d)
@@ -25,7 +25,7 @@ The `sub` function takes two numbers as input and returns their difference.
 
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to be subtracted from the first.
 
 #### Returns
 * `int` or `float`: The difference between `c` and `d`.
@@ -33,7 +33,7 @@ The `sub` function takes two numbers as input and returns their difference.
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 ### mul(a, b)
@@ -41,16 +41,16 @@ print(result)  # Outputs: 6
 The `mul` function takes two numbers as input and returns their product.
 
 #### Parameters
-* `a` (int or float): The first number to multiply.
-* `b` (int or float): The second number to multiply.
+* `a` (int or float): The first number to be multiplied.
+* `b` (int or float): The second number to be multiplied.
 
 #### Returns
 * `int` or `float`: The product of `a` and `b`.
 
 #### Example
 ```python
-result = mul(4, 5)
-print(result)  # Outputs: 20
+result = mul(7, 2)
+print(result)  # Output: 14
 ```
 
 Since there are multiple functions in this file, the execution flow can be represented as follows:
@@ -63,6 +63,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The flowchart shows the possible entry points for the functions, but the actual execution flow may vary depending on how the functions are called and used in the program. 
-
-This script does not contain any module-level code, such as print statements or a main block, so there is no additional description to provide for its execution when run directly.
+Note: This flowchart represents the possible execution paths of the functions in the `calculator.py` file. The actual execution flow may vary depending on how the functions are called in the script.
