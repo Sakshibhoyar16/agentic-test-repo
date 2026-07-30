@@ -1,6 +1,6 @@
 # API Documentation
 ## calculator.py
-The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
+The calculator.py file contains a collection of mathematical functions.
 
 ### Functions
 #### add(a, b)
@@ -10,7 +10,7 @@ The `add` function calculates the sum of two numbers.
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 ##### Returns
-* `int` or `float`: The sum of `a` and `b`.
+The sum of `a` and `b`.
 ##### Example
 ```python
 result = add(5, 3)
@@ -22,9 +22,9 @@ print(result)  # Output: 8
 The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to subtract.
 ##### Returns
-* `int` or `float`: The difference between `c` and `d`.
+The difference between `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
@@ -38,7 +38,7 @@ The `mul` function calculates the product of two numbers.
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 ##### Returns
-* `int` or `float`: The product of `a` and `b`.
+The product of `a` and `b`.
 ##### Example
 ```python
 result = mul(5, 6)
@@ -56,7 +56,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note that this flowchart does not represent a specific sequence of function calls, but rather the possible entry points into the calculator functions.
+Note: The execution flow assumes that the functions are called independently. In a real-world scenario, the actual flow may vary depending on the specific use case and implementation.
 
 ### Module-Level Code
-When run directly, this script does not have any specific behavior, as it only defines functions for later use. To use these functions, you would need to import them into another script or call them from an interactive Python environment.
+When run directly, the calculator.py script does not contain any module-level code, such as print statements or main blocks, that would execute by default. The functions provided can be imported and used in other scripts as needed.
