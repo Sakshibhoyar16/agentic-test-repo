@@ -1,60 +1,53 @@
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a collection of mathematical functions.
+This module provides basic arithmetic operations.
 
-### add(a, b)
-#### Description
+### Functions
+#### add(a, b)
+##### Description
 The `add` function calculates the sum of two numbers.
-
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-
-#### Returns
-* `int` or `float`: The sum of `a` and `b`.
-
-#### Example
+##### Returns
+The sum of `a` and `b`.
+##### Example
 ```python
 result = add(5, 7)
 print(result)  # Outputs: 12
 ```
 
-### sub(c, d)
-#### Description
+#### sub(c, d)
+##### Description
 The `sub` function calculates the difference between two numbers.
-
-#### Parameters
+##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
-
-#### Returns
-* `int` or `float`: The difference between `c` and `d`.
-
-#### Example
+* `d` (int or float): The second number to subtract from the first.
+##### Returns
+The difference between `c` and `d`.
+##### Example
 ```python
 result = sub(10, 4)
 print(result)  # Outputs: 6
 ```
 
-### mul(a, b)
-#### Description
+#### mul(a, b)
+##### Description
 The `mul` function calculates the product of two numbers.
-
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-
-#### Returns
-* `int` or `float`: The product of `a` and `b`.
-
-#### Example
+##### Returns
+The product of `a` and `b`.
+##### Example
 ```python
-result = mul(6, 9)
-print(result)  # Outputs: 54
+result = mul(5, 6)
+print(result)  # Outputs: 30
 ```
 
-Since there are multiple functions in the calculator.py file, the following flowchart illustrates the execution flow:
+### Execution Flow
+Since there are multiple functions in this module, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -64,4 +57,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart assumes that the functions can be executed independently, and the order of execution is not predetermined.
+Note: The execution flow is not necessarily sequential, as the functions can be called independently. This flowchart is meant to provide a general overview of the available functions. 
+
+There are no classes or variables in this module.
