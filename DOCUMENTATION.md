@@ -1,60 +1,52 @@
 # API Documentation
-
 ## calculator.py
-The calculator.py file contains a set of basic arithmetic functions.
+The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
 
-### add(a, b)
-#### Description
+### Functions
+#### add(a, b)
+##### Description
 The `add` function takes two numbers as input and returns their sum.
-
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-
-#### Returns
+##### Returns
 * `int` or `float`: The sum of `a` and `b`.
-
-#### Example
+##### Example
 ```python
 result = add(5, 3)
-print(result)  # Outputs: 8
+print(result)  # Output: 8
 ```
 
-### sub(c, d)
-#### Description
+#### sub(c, d)
+##### Description
 The `sub` function takes two numbers as input and returns their difference.
-
-#### Parameters
+##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
-
-#### Returns
+##### Returns
 * `int` or `float`: The difference between `c` and `d`.
-
-#### Example
+##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
-### mul(a, b)
-#### Description
+#### mul(a, b)
+##### Description
 The `mul` function takes two numbers as input and returns their product.
-
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-
-#### Returns
+##### Returns
 * `int` or `float`: The product of `a` and `b`.
-
-#### Example
+##### Example
 ```python
 result = mul(5, 6)
-print(result)  # Outputs: 30
+print(result)  # Output: 30
 ```
 
-Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
+### Execution Flow
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -64,6 +56,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart is a simplified representation and does not account for any potential conditional statements or function calls that may be added in the future. 
+Note: The execution flow chart shows that the program can start with any of the three functions (`add`, `sub`, or `mul`) and will end after executing the chosen function.
 
-When run directly, this script does not have a main block or any print statements, so it does not perform any actions on its own. It is meant to be imported and used as a module in other scripts.
+### Module-Level Code
+When run directly, this script does not execute any specific code as it only contains function definitions. To use the functions, you would need to import this module in another script or interactively in a Python environment.
