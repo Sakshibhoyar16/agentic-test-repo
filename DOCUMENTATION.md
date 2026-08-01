@@ -4,42 +4,54 @@
 #### add(a, b)
 ##### Description
 The `add` function calculates the sum of two numbers.
+
 ##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
+
 ##### Returns
 The sum of `a` and `b`.
+
 ##### Example
 ```python
-result = add(5, 7)
-print(result)  # Outputs: 12
+result = add(5, 3)
+print(result)  # Output: 8
 ```
+
 #### sub(c, d)
 ##### Description
 The `sub` function calculates the difference of two numbers.
+
 ##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract.
+
 ##### Returns
 The difference of `c` and `d`.
+
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
+
 #### mul(a, b)
 ##### Description
 The `mul` function calculates the product of two numbers.
+
 ##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
+
 ##### Returns
 The product of `a` and `b`.
+
 ##### Example
 ```python
-result = mul(3, 9)
-print(result)  # Outputs: 27
+result = mul(5, 6)
+print(result)  # Output: 30
 ```
+
 ### Execution Flow
 Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
@@ -51,6 +63,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The execution flow chart shows the possible paths of execution when the `calculator.py` file is run directly. However, in the context of a Python script, the functions `add`, `sub`, and `mul` would typically be called from a main block or other functions, and the execution flow would depend on the specific logic of the script. 
+Note that the actual execution flow may vary depending on how these functions are called in the script or by other parts of the program. This flowchart simply illustrates that these functions can be entry points. 
 
-No module-level code, classes, or variables were found in this file.
+There are no classes or variables in this file, and no module-level code is provided, so those sections are omitted from this documentation.
