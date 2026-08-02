@@ -1,5 +1,7 @@
 # API Documentation
 ## calculator.py
+The calculator.py file contains a set of mathematical functions for basic arithmetic operations.
+
 ### Functions
 #### add(a, b)
 ##### Description
@@ -11,22 +13,22 @@ The `add` function calculates the sum of two numbers.
 The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 7)
-print(result)  # Outputs: 12
+result = add(5, 3)
+print(result)  # Output: 8
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function calculates the difference of two numbers.
+The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract.
 ##### Returns
-The difference of `c` and `d`.
+The difference between `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 #### mul(a, b)
@@ -39,12 +41,12 @@ The `mul` function calculates the product of two numbers.
 The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(3, 9)
-print(result)  # Outputs: 27
+result = mul(7, 2)
+print(result)  # Output: 14
 ```
 
 ### Execution Flow
-Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -54,6 +56,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note that this flowchart represents the possible execution paths when calling the functions directly. In a real-world scenario, the actual execution flow would depend on the specific use case and how these functions are utilized. 
+Note: The flowchart shows the possible execution paths for each function. The actual flow may vary depending on how the functions are called in the script or by other modules.
 
-As there are no classes or variables in this file, and no module-level code, the documentation is complete with the functions and their execution flow.
+### Module-Level Code
+When run directly, this script does not have any module-level code that executes. It is designed to be imported as a module in other scripts, providing access to the mathematical functions.
