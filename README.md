@@ -6,8 +6,6 @@ Auto-documented by Agentic AI Documentation Maintainer.
 
 # API Documentation
 ## calculator.py
-The calculator.py file contains a set of mathematical functions for basic arithmetic operations.
-
 ### Functions
 #### add(a, b)
 ##### Description
@@ -19,8 +17,8 @@ The `add` function calculates the sum of two numbers.
 The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Output: 12
 ```
 
 #### sub(c, d)
@@ -47,8 +45,8 @@ The `mul` function calculates the product of two numbers.
 The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(7, 2)
-print(result)  # Output: 14
+result = mul(3, 9)
+print(result)  # Output: 27
 ```
 
 ### Execution Flow
@@ -62,10 +60,9 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The flowchart shows the possible execution paths for each function. The actual flow may vary depending on how the functions are called in the script or by other modules.
+Note: The execution flow chart shows that the `add`, `sub`, and `mul` functions can be called independently, and each function returns to the end of the execution flow. 
 
-### Module-Level Code
-When run directly, this script does not have any module-level code that executes. It is designed to be imported as a module in other scripts, providing access to the mathematical functions.
+No module-level code, classes, or variables are present in this file.
 
 ---
 
