@@ -6,48 +6,51 @@ Auto-documented by Agentic AI Documentation Maintainer.
 
 # API Documentation
 ## calculator.py
-### Function: add(a, b)
-#### Description
+### Functions
+#### add(a, b)
+##### Description
 The `add` function calculates the sum of two numbers.
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-#### Returns
+##### Returns
 The sum of `a` and `b`.
-#### Example
+##### Example
 ```python
 result = add(5, 7)
 print(result)  # Outputs: 12
 ```
 
-### Function: sub(c, d)
-#### Description
+#### sub(c, d)
+##### Description
 The `sub` function calculates the difference of two numbers.
-#### Parameters
+##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract.
-#### Returns
+##### Returns
 The difference of `c` and `d`.
-#### Example
+##### Example
 ```python
 result = sub(10, 4)
 print(result)  # Outputs: 6
 ```
 
-### Function: mul(a, b)
-#### Description
+#### mul(a, b)
+##### Description
 The `mul` function calculates the product of two numbers.
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-#### Returns
+##### Returns
 The product of `a` and `b`.
-#### Example
+##### Example
 ```python
 result = mul(3, 9)
 print(result)  # Outputs: 27
 ```
 
+### Execution Flow
+Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -57,7 +60,9 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: When run directly, this script does not have any module-level code, so there is no specific behavior to describe. The functions can be imported and used in other scripts as needed.
+Note that this flowchart represents the possible execution paths when calling the functions directly. In a real-world scenario, the actual execution flow would depend on the specific use case and how these functions are utilized. 
+
+As there are no classes or variables in this file, and no module-level code, the documentation is complete with the functions and their execution flow.
 
 ---
 
