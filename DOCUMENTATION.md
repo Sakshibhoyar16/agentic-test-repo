@@ -1,50 +1,50 @@
 # API Documentation
 ## calculator.py
-The calculator.py file contains a set of basic arithmetic functions. 
+The calculator.py file contains a collection of mathematical functions.
 
-### add(a, b)
+### Function: add(a, b)
 #### Description
 The `add` function calculates the sum of two numbers.
 #### Parameters
-* `a`: The first number to add.
-* `b`: The second number to add.
+* `a` (int or float): The first number to be added.
+* `b` (int or float): The second number to be added.
 #### Returns
-The sum of `a` and `b`.
+* The sum of `a` and `b`.
 #### Example
 ```python
-result = add(5, 3)
-print(result)  # Outputs: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
-### sub(c, d)
+### Function: sub(c, d)
 #### Description
 The `sub` function calculates the difference between two numbers.
 #### Parameters
-* `c`: The first number.
-* `d`: The second number to subtract from the first.
+* `c` (int or float): The first number.
+* `d` (int or float): The second number to be subtracted.
 #### Returns
-The difference between `c` and `d`.
+* The difference between `c` and `d`.
 #### Example
 ```python
 result = sub(10, 4)
 print(result)  # Outputs: 6
 ```
 
-### mul(a, b)
+### Function: mul(a, b)
 #### Description
 The `mul` function calculates the product of two numbers.
 #### Parameters
-* `a`: The first number to multiply.
-* `b`: The second number to multiply.
+* `a` (int or float): The first number to be multiplied.
+* `b` (int or float): The second number to be multiplied.
 #### Returns
-The product of `a` and `b`.
+* The product of `a` and `b`.
 #### Example
 ```python
-result = mul(7, 2)
-print(result)  # Outputs: 14
+result = mul(6, 9)
+print(result)  # Outputs: 54
 ```
 
-Since the calculator.py file has more than one function, the following flowchart describes the execution flow:
+Since there are multiple functions in the calculator.py file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -54,4 +54,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-When run directly, this script does not contain any module-level code, so there is no main execution block to describe.
+Note that this flowchart demonstrates the possible execution paths for each function, but does not necessarily imply a specific order of operations. 
+
+There is no module-level code or variables to document in this file.
