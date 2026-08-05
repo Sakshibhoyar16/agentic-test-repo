@@ -6,60 +6,51 @@ Auto-documented by Agentic AI Documentation Maintainer.
 
 # API Documentation
 ## calculator.py
-### Functions
-#### add(a, b)
-##### Description
-The `add` function calculates the sum of two numbers.
+The calculator.py file contains a set of functions for basic arithmetic operations. 
 
-##### Parameters
+### add(a, b)
+#### Description
+The `add` function calculates the sum of two numbers.
+#### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-
-##### Returns
+#### Returns
 The sum of `a` and `b`.
-
-##### Example
+#### Example
 ```python
 result = add(5, 7)
-print(result)  # Outputs: 12
+print(result)  # Output: 12
 ```
 
-#### sub(c, d)
-##### Description
-The `sub` function calculates the difference of two numbers.
-
-##### Parameters
+### sub(c, d)
+#### Description
+The `sub` function calculates the difference between two numbers.
+#### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract.
-
-##### Returns
-The difference of `c` and `d`.
-
-##### Example
+#### Returns
+The difference between `c` and `d`.
+#### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
-#### mul(a, b)
-##### Description
+### mul(a, b)
+#### Description
 The `mul` function calculates the product of two numbers.
-
-##### Parameters
+#### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-
-##### Returns
+#### Returns
 The product of `a` and `b`.
-
-##### Example
+#### Example
 ```python
 result = mul(5, 6)
-print(result)  # Outputs: 30
+print(result)  # Output: 30
 ```
 
-### Execution Flow
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since there are multiple functions in the calculator.py file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -69,12 +60,9 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart represents the possible execution paths of the functions in this file. The actual execution flow may vary depending on how these functions are used in the program. 
+This flowchart shows that the execution can start with any of the three functions, and each function has its own separate execution path. 
 
-### Module-Level Code
-When run directly, this script does not have any module-level code that executes. It only defines the `add`, `sub`, and `mul` functions for use in other parts of the program. 
-
-No classes or variables are defined in this file.
+Note: There are no classes or variables in this file, and no module-level code that needs to be documented.
 
 ---
 
