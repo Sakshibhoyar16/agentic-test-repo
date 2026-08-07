@@ -5,9 +5,8 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
-
 ## calculator.py
-This file contains a set of basic arithmetic functions.
+The calculator.py file contains a set of mathematical functions for basic arithmetic operations.
 
 ### add(a, b)
 #### Description
@@ -16,11 +15,11 @@ The `add` function calculates the sum of two numbers.
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 #### Returns
-The sum of `a` and `b`.
+* `int` or `float`: The sum of `a` and `b`.
 #### Example
 ```python
-result = add(5, 7)
-print(result)  # Output: 12
+result = add(5, 3)
+print(result)  # Outputs: 8
 ```
 
 ### sub(c, d)
@@ -30,11 +29,11 @@ The `sub` function calculates the difference between two numbers.
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract.
 #### Returns
-The difference between `c` and `d`.
+* `int` or `float`: The difference between `c` and `d`.
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
 ### mul(a, b)
@@ -44,14 +43,14 @@ The `mul` function calculates the product of two numbers.
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 #### Returns
-The product of `a` and `b`.
+* `int` or `float`: The product of `a` and `b`.
 #### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(7, 2)
+print(result)  # Outputs: 14
 ```
 
-Since this file contains more than one function, the following flowchart illustrates the execution flow:
+Since the calculator.py file has more than one function, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -61,6 +60,7 @@ flowchart TD
     C --> E
     D --> E
 ```
+When run directly, the script does not have any specific execution flow, as it only defines functions without any main block or module-level code.
 
 ---
 
