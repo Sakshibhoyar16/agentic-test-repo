@@ -1,50 +1,54 @@
 # API Documentation
-## calculator.py
-The calculator.py file contains a set of functions for basic arithmetic operations.
 
-### add(a, b)
-#### Description
+## calculator.py
+### Overview
+The calculator.py file contains a set of mathematical functions for basic arithmetic operations.
+
+### Functions
+
+#### add(a, b)
+##### Description
 The `add` function calculates the sum of two numbers.
-#### Parameters
-* `a` (int or float): The first number to add.
-* `b` (int or float): The second number to add.
-#### Returns
+##### Parameters
+* `a` (int/float): The first number to add.
+* `b` (int/float): The second number to add.
+##### Returns
 The sum of `a` and `b`.
-#### Example
+##### Example
 ```python
-result = add(5, 7)
-print(result)  # Output: 12
+result = add(5, 3)
+print(result)  # Output: 8
 ```
 
-### sub(c, d)
-#### Description
-The `sub` function calculates the difference between two numbers.
-#### Parameters
-* `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
-#### Returns
-The difference between `c` and `d`.
-#### Example
+#### sub(c, d)
+##### Description
+The `sub` function calculates the difference of two numbers.
+##### Parameters
+* `c` (int/float): The first number.
+* `d` (int/float): The second number to subtract from the first.
+##### Returns
+The difference of `c` and `d`.
+##### Example
 ```python
 result = sub(10, 4)
 print(result)  # Output: 6
 ```
 
-### mul(a, b)
-#### Description
+#### mul(a, b)
+##### Description
 The `mul` function calculates the product of two numbers.
-#### Parameters
-* `a` (int or float): The first number to multiply.
-* `b` (int or float): The second number to multiply.
-#### Returns
+##### Parameters
+* `a` (int/float): The first number to multiply.
+* `b` (int/float): The second number to multiply.
+##### Returns
 The product of `a` and `b`.
-#### Example
+##### Example
 ```python
-result = mul(3, 9)
-print(result)  # Output: 27
+result = mul(5, 6)
+print(result)  # Output: 30
 ```
 
-Since there are multiple functions in this file, here is a flowchart showing the execution flow:
+### Execution Flow
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -54,4 +58,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart assumes that the functions can be called independently, and the order of execution may vary depending on the use case.
+Note: The execution flow chart shows the possible entry points for the calculator functions. Since these functions are not sequentially dependent, the flowchart represents the individual invocation of each function.
