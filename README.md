@@ -5,11 +5,7 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
-
 ## calculator.py
-### Overview
-This module provides basic arithmetic operations.
-
 ### Functions
 #### add(a, b)
 ##### Description
@@ -21,22 +17,22 @@ The `add` function calculates the sum of two numbers.
 The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function calculates the difference of two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract.
 ##### Returns
-The difference between `c` and `d`.
+The difference of `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
 #### mul(a, b)
@@ -50,10 +46,11 @@ The product of `a` and `b`.
 ##### Example
 ```python
 result = mul(5, 6)
-print(result)  # Output: 30
+print(result)  # Outputs: 30
 ```
 
 ### Execution Flow
+Since there are multiple functions in this file, the execution flow is as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -63,7 +60,10 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The execution flow chart shows the possible execution paths for the functions in this module. The `Start` node represents the beginning of the program, and the `End` node represents the termination of the program. The functions `add`, `sub`, and `mul` are represented as separate nodes, and the arrows indicate the possible flow of execution between them.
+Note: This flowchart represents the possible execution paths of the functions in this file. The actual execution flow may vary depending on how the functions are called.
+
+### Module-Level Code
+When run directly, this script does not have any module-level code that executes. It only defines functions that can be imported and used in other scripts.
 
 ---
 
