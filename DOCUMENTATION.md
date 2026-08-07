@@ -1,7 +1,6 @@
 # API Documentation
-
 ## calculator.py
-The calculator.py file contains a collection of mathematical functions. 
+The calculator.py file contains a set of functions for basic arithmetic operations.
 
 ### add(a, b)
 #### Description
@@ -22,7 +21,7 @@ print(result)  # Output: 12
 The `sub` function calculates the difference between two numbers.
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to subtract.
 #### Returns
 The difference between `c` and `d`.
 #### Example
@@ -41,8 +40,8 @@ The `mul` function calculates the product of two numbers.
 The product of `a` and `b`.
 #### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(3, 9)
+print(result)  # Output: 27
 ```
 
 Since there are multiple functions in this file, here is a flowchart showing the execution flow:
@@ -55,4 +54,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: When run directly, this script does not contain any module-level code, so there is no description for that. Similarly, there are no classes or variables to document.
+Note: This flowchart assumes that the functions can be called independently, and the order of execution may vary depending on the use case.
