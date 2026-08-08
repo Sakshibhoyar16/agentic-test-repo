@@ -7,11 +7,11 @@ Auto-documented by Agentic AI Documentation Maintainer.
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a set of functions for basic arithmetic operations.
+The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
 
 ### add(a, b)
 #### Description
-The `add` function calculates the sum of two numbers.
+The `add` function takes two numbers as input and returns their sum.
 
 #### Parameters
 * `a` (int or float): The first number to add.
@@ -28,14 +28,14 @@ print(result)  # Outputs: 12
 
 ### sub(c, d)
 #### Description
-The `sub` function calculates the difference of two numbers.
+The `sub` function takes two numbers as input and returns their difference.
 
 #### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
 
 #### Returns
-The difference of `c` and `d`.
+The difference between `c` and `d`.
 
 #### Example
 ```python
@@ -45,7 +45,7 @@ print(result)  # Outputs: 6
 
 ### mul(a, b)
 #### Description
-The `mul` function calculates the product of two numbers.
+The `mul` function takes two numbers as input and returns their product.
 
 #### Parameters
 * `a` (int or float): The first number to multiply.
@@ -56,11 +56,11 @@ The product of `a` and `b`.
 
 #### Example
 ```python
-result = mul(6, 9)
-print(result)  # Outputs: 54
+result = mul(5, 6)
+print(result)  # Outputs: 30
 ```
 
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since there are multiple functions in this file, the following flowchart illustrates the potential execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -70,7 +70,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-When run directly, this script does not have any specific functionality, as it only contains functions for arithmetic operations. To use these functions, you would need to import this module in another script or use them directly in the calculator.py file.
+This flowchart shows that the execution can start with any of the three functions (`add`, `sub`, or `mul`) and will eventually end. Note that this is a simplified representation and the actual execution flow may vary depending on how these functions are used in a larger program.
 
 ---
 
