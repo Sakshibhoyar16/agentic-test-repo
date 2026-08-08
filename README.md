@@ -6,14 +6,14 @@ Auto-documented by Agentic AI Documentation Maintainer.
 
 # API Documentation
 ## calculator.py
-The calculator.py file contains a set of mathematical functions to perform basic arithmetic operations.
+The calculator.py module provides basic arithmetic operations.
 
 ### add(a, b)
 #### Description
 The `add` function calculates the sum of two numbers.
 #### Parameters
-* `a` (int or float): The first number to be added.
-* `b` (int or float): The second number to be added.
+* `a` (number): The first number to add.
+* `b` (number): The second number to add.
 #### Returns
 The sum of `a` and `b`.
 #### Example
@@ -26,8 +26,8 @@ print(result)  # Outputs: 8
 #### Description
 The `sub` function calculates the difference of two numbers.
 #### Parameters
-* `c` (int or float): The first number.
-* `d` (int or float): The second number to be subtracted from the first.
+* `c` (number): The first number.
+* `d` (number): The second number to subtract.
 #### Returns
 The difference of `c` and `d`.
 #### Example
@@ -40,27 +40,27 @@ print(result)  # Outputs: 6
 #### Description
 The `mul` function calculates the product of two numbers.
 #### Parameters
-* `a` (int or float): The first number to be multiplied.
-* `b` (int or float): The second number to be multiplied.
+* `a` (number): The first number to multiply.
+* `b` (number): The second number to multiply.
 #### Returns
 The product of `a` and `b`.
 #### Example
 ```python
-result = mul(6, 7)
-print(result)  # Outputs: 42
+result = mul(7, 2)
+print(result)  # Outputs: 14
 ```
 
-Since the calculator.py file has more than one function, the following Mermaid flowchart illustrates the execution flow:
+Since there are multiple functions in this module, the following flowchart illustrates the execution flow:
 ```mermaid
-   flowchart TD
-       A[Start] --> B[add]
-       B --> C[sub]
-       C --> D[mul]
-       D --> E[End]
+flowchart TD
+    A[Start] --> B[add]
+    A --> C[sub]
+    A --> D[mul]
+    B --> E[End]
+    C --> E
+    D --> E
 ```
-Note that this flowchart is a simplified representation and the actual execution flow may vary depending on the specific use case. 
-
-There are no classes or variables defined in this file, and there is no module-level code. Therefore, no additional documentation is required for these elements.
+When run directly, this script does not have a main block or any module-level code that performs a specific task. It is designed to be imported and used as a module in other scripts.
 
 ---
 
