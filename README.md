@@ -6,49 +6,47 @@ Auto-documented by Agentic AI Documentation Maintainer.
 
 # API Documentation
 ## calculator.py
-The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
-
 ### Functions
 #### add(a, b)
 ##### Description
-The `add` function takes two numbers as input and returns their sum.
+The `add` function calculates the sum of two numbers.
 ##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 ##### Returns
-* `int` or `float`: The sum of `a` and `b`.
+The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function takes two numbers as input and returns their difference.
+The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
 ##### Returns
-* `int` or `float`: The difference between `c` and `d`.
+The difference between `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
 #### mul(a, b)
 ##### Description
-The `mul` function takes two numbers as input and returns their product.
+The `mul` function calculates the product of two numbers.
 ##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 ##### Returns
-* `int` or `float`: The product of `a` and `b`.
+The product of `a` and `b`.
 ##### Example
 ```python
 result = mul(5, 6)
-print(result)  # Output: 30
+print(result)  # Outputs: 30
 ```
 
 ### Execution Flow
@@ -62,15 +60,10 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note that the execution flow is not necessarily sequential, as the functions can be called independently. This flowchart simply illustrates the possible entry points into the calculator module.
+Note: The execution flow assumes that the functions are called independently, and the actual flow may vary depending on the specific use case.
 
 ### Module-Level Code
-When run directly, the calculator.py script does not execute any specific code, as it only contains function definitions. To use the calculator functions, you need to import the module and call the functions explicitly. For example:
-```python
-import calculator
-result = calculator.add(5, 3)
-print(result)  # Output: 8
-```
+When run directly, this script does not contain any module-level code (e.g., print statements, main blocks) that would execute. It is designed to be imported and used as a module by other scripts.
 
 ---
 
