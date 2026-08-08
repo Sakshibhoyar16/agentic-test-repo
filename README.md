@@ -5,10 +5,9 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
-
 ## calculator.py
-### Overview
-The calculator.py file contains a collection of mathematical functions to perform basic arithmetic operations.
+### Introduction
+The `calculator.py` file contains a set of basic mathematical functions.
 
 ### Functions
 #### add(a, b)
@@ -18,7 +17,7 @@ The `add` function calculates the sum of two numbers.
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 ##### Returns
-The sum of `a` and `b`.
+* `int` or `float`: The sum of `a` and `b`.
 ##### Example
 ```python
 result = add(5, 3)
@@ -27,12 +26,12 @@ print(result)  # Output: 8
 
 #### sub(c, d)
 ##### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function calculates the difference of two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract.
 ##### Returns
-The difference between `c` and `d`.
+* `int` or `float`: The difference of `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
@@ -46,7 +45,7 @@ The `mul` function calculates the product of two numbers.
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 ##### Returns
-The product of `a` and `b`.
+* `int` or `float`: The product of `a` and `b`.
 ##### Example
 ```python
 result = mul(5, 6)
@@ -54,20 +53,18 @@ print(result)  # Output: 30
 ```
 
 ### Execution Flow
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since there are multiple functions in this file, the following flowchart illustrates a possible execution order:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
-    A --> C[sub]
-    A --> D[mul]
-    B --> E[End]
-    C --> E
-    D --> E
+    B --> C[sub]
+    C --> D[mul]
+    D --> E[End]
 ```
-Note that this flowchart illustrates the possible execution paths, but the actual flow depends on how the functions are used in the code.
+Note that the actual execution flow may vary depending on the specific use case.
 
 ### Module-Level Code
-When run directly, this script does not have any specific main block or print statements, so it will not execute any code by default. The functions can be imported and used in other scripts to perform the desired calculations.
+When run directly, this script does not execute any specific code, as it only contains function definitions. To use these functions, you would need to import this module in another Python script or call the functions directly in an interactive Python environment.
 
 ---
 
