@@ -7,7 +7,7 @@ Auto-documented by Agentic AI Documentation Maintainer.
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a set of mathematical functions to perform basic arithmetic operations.
+The calculator.py file contains a collection of mathematical functions. 
 
 ### add(a, b)
 #### Description
@@ -18,7 +18,7 @@ The `add` function calculates the sum of two numbers.
 * `b` (int or float): The second number to add.
 
 #### Returns
-The sum of `a` and `b` as an integer or float.
+The sum of `a` and `b` as an integer or floating point number.
 
 #### Example
 ```python
@@ -28,14 +28,14 @@ print(result)  # Outputs: 12
 
 ### sub(c, d)
 #### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function calculates the difference of two numbers.
 
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
+* `d` (int or float): The second number to subtract from the first.
 
 #### Returns
-The difference between `c` and `d` as an integer or float.
+The difference of `c` and `d` as an integer or floating point number.
 
 #### Example
 ```python
@@ -52,15 +52,15 @@ The `mul` function calculates the product of two numbers.
 * `b` (int or float): The second number to multiply.
 
 #### Returns
-The product of `a` and `b` as an integer or float.
+The product of `a` and `b` as an integer or floating point number.
 
 #### Example
 ```python
-result = mul(6, 9)
-print(result)  # Outputs: 54
+result = mul(5, 6)
+print(result)  # Outputs: 30
 ```
 
-## Execution Flow
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -70,9 +70,9 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart illustrates the possible execution paths for the functions in the calculator.py file. The `add`, `sub`, and `mul` functions can be called independently, and the flowchart shows the entry point for each function. 
+This flowchart shows that the script can start with any of the three functions (`add`, `sub`, or `mul`) and will execute each one independently. 
 
-Note: Since there are no classes, variables, or module-level code in this file, those sections are not included in the documentation.
+Note: There is no module-level code, classes, or variables to document in this file.
 
 ---
 
