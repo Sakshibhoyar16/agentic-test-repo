@@ -5,54 +5,53 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
+
 ## calculator.py
 The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
 
-### Functions
-#### add(a, b)
-##### Description
+### add(a, b)
+#### Description
 The `add` function takes two numbers as input and returns their sum.
-##### Parameters
+#### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-##### Returns
+#### Returns
 * `int` or `float`: The sum of `a` and `b`.
-##### Example
+#### Example
 ```python
 result = add(5, 3)
-print(result)  # Outputs: 8
+print(result)  # Output: 8
 ```
 
-#### sub(c, d)
-##### Description
+### sub(c, d)
+#### Description
 The `sub` function takes two numbers as input and returns their difference.
-##### Parameters
+#### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
-##### Returns
+#### Returns
 * `int` or `float`: The difference between `c` and `d`.
-##### Example
+#### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
-#### mul(a, b)
-##### Description
+### mul(a, b)
+#### Description
 The `mul` function takes two numbers as input and returns their product.
-##### Parameters
+#### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-##### Returns
+#### Returns
 * `int` or `float`: The product of `a` and `b`.
-##### Example
+#### Example
 ```python
 result = mul(5, 6)
-print(result)  # Outputs: 30
+print(result)  # Output: 30
 ```
 
-### Execution Flow
-Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
+Since the calculator.py file contains more than one function, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -62,9 +61,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The execution flow is not strictly sequential, as the functions can be called independently. This flowchart is meant to illustrate the possible paths of execution when using these functions. 
-
-No module-level code or classes were found in this file.
+Note that this flowchart shows the possible execution paths for each function, but does not imply a specific order of execution. The actual execution flow will depend on how the functions are called in the code.
 
 ---
 
