@@ -5,51 +5,53 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
+
 ## calculator.py
-### Functions
-#### add(a, b)
-##### Description
+This file contains a collection of basic mathematical functions.
+
+### add(a, b)
+#### Description
 The `add` function calculates the sum of two numbers.
-##### Parameters
+#### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-##### Returns
+#### Returns
 The sum of `a` and `b`.
-##### Example
+#### Example
 ```python
 result = add(5, 7)
-print(result)  # Output: 12
+print(result)  # Outputs: 12
 ```
 
-#### sub(c, d)
-##### Description
-The `sub` function calculates the difference of two numbers.
-##### Parameters
+### sub(c, d)
+#### Description
+The `sub` function calculates the difference between two numbers.
+#### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
-##### Returns
-The difference of `c` and `d`.
-##### Example
+#### Returns
+The difference between `c` and `d`.
+#### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
-#### mul(a, b)
-##### Description
+### mul(a, b)
+#### Description
 The `mul` function calculates the product of two numbers.
-##### Parameters
+#### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-##### Returns
+#### Returns
 The product of `a` and `b`.
-##### Example
+#### Example
 ```python
 result = mul(5, 6)
-print(result)  # Output: 30
+print(result)  # Outputs: 30
 ```
 
-### Execution Flow
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -59,10 +61,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-
-Note: This flowchart shows the possible execution paths for the functions in the `calculator.py` file. The actual flow may vary depending on the specific use case. 
-
-No classes or variables are defined in this file, so there is no documentation for those. The provided functions can be used as shown in the examples to perform basic arithmetic operations.
+Note: The execution flow is not necessarily sequential, as these functions can be called independently. The flowchart is meant to illustrate the possible paths of execution.
 
 ---
 
