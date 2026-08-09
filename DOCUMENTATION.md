@@ -1,30 +1,26 @@
 # API Documentation
-
 ## calculator.py
-### Overview
-The calculator.py file contains a set of basic arithmetic functions. 
-
 ### Functions
 #### add(a, b)
 ##### Description
 The `add` function calculates the sum of two numbers.
 ##### Parameters
-* `a` (number): The first number to add.
-* `b` (number): The second number to add.
+* `a` (int or float): The first number to add.
+* `b` (int or float): The second number to add.
 ##### Returns
 The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Output: 12
 ```
 
 #### sub(c, d)
 ##### Description
 The `sub` function calculates the difference between two numbers.
 ##### Parameters
-* `c` (number): The first number.
-* `d` (number): The second number to subtract from the first.
+* `c` (int or float): The first number.
+* `d` (int or float): The second number to subtract.
 ##### Returns
 The difference between `c` and `d`.
 ##### Example
@@ -37,8 +33,8 @@ print(result)  # Output: 6
 ##### Description
 The `mul` function calculates the product of two numbers.
 ##### Parameters
-* `a` (number): The first number to multiply.
-* `b` (number): The second number to multiply.
+* `a` (int or float): The first number to multiply.
+* `b` (int or float): The second number to multiply.
 ##### Returns
 The product of `a` and `b`.
 ##### Example
@@ -49,14 +45,14 @@ print(result)  # Output: 30
 
 ### Execution Flow
 ```mermaid
-flowchart TD
-    A[Start] --> B[add]
-    A --> C[sub]
-    A --> D[mul]
-    B --> E[End]
-    C --> E
-    D --> E
+   flowchart TD
+       A[Start] --> B[add]
+       A --> C[sub]
+       A --> D[mul]
+       B --> E[End]
+       C --> E
+       D --> E
 ```
-Note: The execution flow chart shows the possible paths of execution when the calculator.py file is run directly. The actual flow depends on how the functions are called. 
+Note: This flowchart shows the possible execution paths for the functions in the calculator.py file. The actual execution flow may vary depending on how the functions are called. 
 
-No classes or variables are defined in this file. The file can be used as a module to perform basic arithmetic operations.
+No module-level code, classes, or variables are present in this file. This documentation provides a clear understanding of the functions available in the calculator.py file and how to use them.
