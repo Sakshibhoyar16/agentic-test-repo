@@ -20,7 +20,7 @@ print(result)  # Output: 12
 The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
+* `d` (int or float): The second number to subtract from the first.
 ##### Returns
 The difference between `c` and `d`.
 ##### Example
@@ -53,6 +53,6 @@ print(result)  # Output: 30
        C --> E
        D --> E
 ```
-Note: This flowchart shows the possible execution paths for the functions in the calculator.py file. The actual execution flow may vary depending on how the functions are called. 
+Note: The execution flow chart shows that the `calculator.py` file can be executed from the start, and it can call any of the `add`, `sub`, or `mul` functions. The end result will be the same, which is the completion of the execution. 
 
-No module-level code, classes, or variables are present in this file. This documentation provides a clear understanding of the functions available in the calculator.py file and how to use them.
+No classes or variables are defined in this file, and there is no module-level code, so those sections are omitted.
