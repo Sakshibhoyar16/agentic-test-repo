@@ -6,6 +6,8 @@ Auto-documented by Agentic AI Documentation Maintainer.
 
 # API Documentation
 ## calculator.py
+The calculator.py file contains a set of functions for basic arithmetic operations.
+
 ### Functions
 #### add(a, b)
 ##### Description
@@ -14,25 +16,25 @@ The `add` function calculates the sum of two numbers.
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 ##### Returns
-The sum of `a` and `b`.
+* `int` or `float`: The sum of `a` and `b`.
 ##### Example
 ```python
 result = add(5, 3)
-print(result)  # Outputs: 8
+print(result)  # Output: 8
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function calculates the difference of two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to subtract.
 ##### Returns
-The difference between `c` and `d`.
+* `int` or `float`: The difference of `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 #### mul(a, b)
@@ -42,14 +44,14 @@ The `mul` function calculates the product of two numbers.
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 ##### Returns
-The product of `a` and `b`.
+* `int` or `float`: The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(7, 2)
-print(result)  # Outputs: 14
+result = mul(5, 6)
+print(result)  # Output: 30
 ```
 
-### Execution Flow
+Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -59,9 +61,10 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The execution flow chart shows the possible execution paths for the functions in the calculator.py file. The actual flow may vary depending on how the functions are called. 
 
-Since the provided code does not contain any module-level code (like print statements or main blocks), class definitions, or variables, only the functions and their execution flow are documented.
+Note: This flowchart assumes that the functions are called independently, and the execution flow may vary depending on the actual usage. 
+
+No classes or variables are defined in this file. When run directly, the script does not have any module-level code, so there is no additional description required.
 
 ---
 
