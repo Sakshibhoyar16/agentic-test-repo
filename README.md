@@ -5,61 +5,55 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
+
 ## calculator.py
+This module provides basic arithmetic operations.
+
 ### Functions
 #### add(a, b)
 ##### Description
-The `add` function takes two numbers as input and returns their sum.
-
+The `add` function calculates the sum of two numbers.
 ##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-
 ##### Returns
 * `int` or `float`: The sum of `a` and `b`.
-
 ##### Example
 ```python
 result = add(5, 3)
-print(result)  # Outputs: 8
+print(result)  # Output: 8
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function takes two numbers as input and returns their difference.
-
+The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
-
+* `d` (int or float): The second number to subtract.
 ##### Returns
 * `int` or `float`: The difference between `c` and `d`.
-
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 #### mul(a, b)
 ##### Description
-The `mul` function takes two numbers as input and returns their product.
-
+The `mul` function calculates the product of two numbers.
 ##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-
 ##### Returns
 * `int` or `float`: The product of `a` and `b`.
-
 ##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Outputs: 30
+result = mul(7, 2)
+print(result)  # Output: 14
 ```
 
 ### Execution Flow
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since there are multiple functions in this module, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -69,10 +63,10 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The execution flow chart shows that the program can start with any of the functions (`add`, `sub`, or `mul`) and will end after executing the chosen function.
+Note: The execution flow is not necessarily sequential, as the functions can be called independently.
 
 ### Module-Level Code
-When run directly, this script does not contain any module-level code, such as print statements or a main block, that would execute when the script is run as the main program. The functions provided can be imported and used in other scripts.
+When run directly, this script does not execute any specific code, as it only defines functions for arithmetic operations. To use these functions, import the module and call the desired function.
 
 ---
 
