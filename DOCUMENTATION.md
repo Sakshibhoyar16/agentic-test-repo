@@ -20,7 +20,7 @@ print(result)  # Output: 12
 The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to subtract.
 ##### Returns
 The difference between `c` and `d`.
 ##### Example
@@ -44,15 +44,17 @@ print(result)  # Output: 30
 ```
 
 ### Execution Flow
+Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
 ```mermaid
-   flowchart TD
-       A[Start] --> B[add]
-       A --> C[sub]
-       A --> D[mul]
-       B --> E[End]
-       C --> E
-       D --> E
+flowchart TD
+    A[Start] --> B[add]
+    A --> C[sub]
+    A --> D[mul]
+    B --> E[End]
+    C --> E
+    D --> E
 ```
-Note: The execution flow chart shows that the `calculator.py` file can be executed from the start, and it can call any of the `add`, `sub`, or `mul` functions. The end result will be the same, which is the completion of the execution. 
+Note: This flowchart assumes that the functions are called independently, and there is no specific order of execution. 
 
-No classes or variables are defined in this file, and there is no module-level code, so those sections are omitted.
+### Module-Level Code
+When run directly, this script does not have any module-level code that executes. It provides a set of functions for mathematical operations.
