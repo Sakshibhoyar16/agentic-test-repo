@@ -1,52 +1,60 @@
 # API Documentation
-## calculator.py
-The calculator.py file contains a set of functions for basic arithmetic operations.
 
-### Functions
-#### add(a, b)
-##### Description
+## calculator.py
+The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
+
+### add(a, b)
+#### Description
 The `add` function takes two numbers as input and returns their sum.
-##### Parameters
+
+#### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-##### Returns
+
+#### Returns
 * `int` or `float`: The sum of `a` and `b`.
-##### Example
+
+#### Example
 ```python
-result = add(5, 3)
+result = add(3, 5)
 print(result)  # Output: 8
 ```
 
-#### sub(c, d)
-##### Description
+### sub(c, d)
+#### Description
 The `sub` function takes two numbers as input and returns their difference.
-##### Parameters
+
+#### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
-##### Returns
+
+#### Returns
 * `int` or `float`: The difference between `c` and `d`.
-##### Example
+
+#### Example
 ```python
 result = sub(10, 4)
 print(result)  # Output: 6
 ```
 
-#### mul(a, b)
-##### Description
+### mul(a, b)
+#### Description
 The `mul` function takes two numbers as input and returns their product.
-##### Parameters
+
+#### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-##### Returns
+
+#### Returns
 * `int` or `float`: The product of `a` and `b`.
-##### Example
+
+#### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(4, 5)
+print(result)  # Output: 20
 ```
 
-### Execution Flow
-Since there are multiple functions in this file, the following flowchart illustrates a possible execution flow:
+Since the calculator.py file contains more than one function, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -56,7 +64,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The actual execution flow may vary depending on how these functions are used in a larger program.
-
-### Module-Level Code
-When run directly, this script does not execute any module-level code, as it only defines functions. To use these functions, you would need to import this module in another Python script or call the functions directly in an interactive Python environment.
+Note: The flowchart shows the possible execution paths for each function, but it does not imply a specific order of execution. The actual execution flow may vary depending on how the functions are called and used in the program.
