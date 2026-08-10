@@ -1,19 +1,16 @@
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
+The calculator.py file contains a collection of basic mathematical functions.
 
 ### add(a, b)
 #### Description
-The add function takes two parameters and returns their sum.
-
+The `add` function calculates the sum of two numbers.
 #### Parameters
-* a (int or float): The first number to be added.
-* b (int or float): The second number to be added.
-
+* `a` (int or float): The first number to add.
+* `b` (int or float): The second number to add.
 #### Returns
-* int or float: The sum of a and b.
-
+The sum of `a` and `b`.
 #### Example
 ```python
 result = add(5, 7)
@@ -22,15 +19,12 @@ print(result)  # Output: 12
 
 ### sub(c, d)
 #### Description
-The sub function takes two parameters and returns their difference.
-
+The `sub` function calculates the difference of two numbers.
 #### Parameters
-* c (int or float): The first number.
-* d (int or float): The second number to be subtracted from the first.
-
+* `c` (int or float): The first number.
+* `d` (int or float): The second number to subtract.
 #### Returns
-* int or float: The difference between c and d.
-
+The difference of `c` and `d`.
 #### Example
 ```python
 result = sub(10, 4)
@@ -39,22 +33,19 @@ print(result)  # Output: 6
 
 ### mul(a, b)
 #### Description
-The mul function takes two parameters and returns their product.
-
+The `mul` function calculates the product of two numbers.
 #### Parameters
-* a (int or float): The first number to be multiplied.
-* b (int or float): The second number to be multiplied.
-
+* `a` (int or float): The first number to multiply.
+* `b` (int or float): The second number to multiply.
 #### Returns
-* int or float: The product of a and b.
-
+The product of `a` and `b`.
 #### Example
 ```python
-result = mul(6, 8)
-print(result)  # Output: 48
+result = mul(3, 9)
+print(result)  # Output: 27
 ```
 
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since the calculator.py file has more than one function, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -64,4 +55,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart illustrates the possible paths of execution when using the functions in the calculator.py file. The start point represents the beginning of the program, and the end point represents the conclusion of the program. The add, sub, and mul functions are the possible paths that can be taken.
+Note: This flowchart represents the possible execution paths when calling the functions directly. The actual execution flow may vary depending on how the functions are used in the program.
