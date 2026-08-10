@@ -1,7 +1,7 @@
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a set of mathematical functions for basic arithmetic operations. 
+The calculator.py file contains a collection of mathematical functions for basic arithmetic operations.
 
 ### add(a, b)
 #### Description
@@ -12,12 +12,12 @@ The `add` function calculates the sum of two numbers.
 * `b` (int or float): The second number to add.
 
 #### Returns
-The sum of `a` and `b`.
+The sum of `a` and `b` as an integer or float.
 
 #### Example
 ```python
-result = add(5, 7)
-print(result)  # Outputs: 12
+result = add(5, 3)
+print(result)  # Output: 8
 ```
 
 ### sub(c, d)
@@ -29,12 +29,12 @@ The `sub` function calculates the difference between two numbers.
 * `d` (int or float): The second number to subtract from the first.
 
 #### Returns
-The difference between `c` and `d`.
+The difference between `c` and `d` as an integer or float.
 
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 ### mul(a, b)
@@ -46,15 +46,15 @@ The `mul` function calculates the product of two numbers.
 * `b` (int or float): The second number to multiply.
 
 #### Returns
-The product of `a` and `b`.
+The product of `a` and `b` as an integer or float.
 
 #### Example
 ```python
-result = mul(5, 6)
-print(result)  # Outputs: 30
+result = mul(7, 2)
+print(result)  # Output: 14
 ```
 
-Since the calculator.py file contains more than one function, the execution flow can be visualized as follows:
+Since there are multiple functions in the calculator.py file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -64,6 +64,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart illustrates the possible execution paths for the functions in the calculator.py file. Note that the actual execution flow may vary depending on how the functions are called and used in the program. 
-
-When run directly, the calculator.py script does not have a main block or any print statements, so it does not perform any specific actions. It is intended to be imported as a module and used by other scripts.
+This flowchart shows that the script can start with any of the three functions (`add`, `sub`, or `mul`) and will execute the chosen function before ending.
