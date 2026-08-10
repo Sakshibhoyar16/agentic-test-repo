@@ -1,7 +1,7 @@
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a collection of mathematical functions.
+The calculator.py file contains a set of functions for basic arithmetic operations. 
 
 ### add(a, b)
 #### Description
@@ -12,29 +12,29 @@ The `add` function calculates the sum of two numbers.
 * `b` (int or float): The second number to add.
 
 #### Returns
-* `int` or `float`: The sum of `a` and `b`.
+The sum of `a` and `b`.
 
 #### Example
 ```python
-result = add(5, 3)
-print(result)  # Outputs: 8
+result = add(5, 7)
+print(result)  # Output: 12
 ```
 
 ### sub(c, d)
 #### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function calculates the difference of two numbers.
 
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
+* `d` (int or float): The second number to subtract from the first.
 
 #### Returns
-* `int` or `float`: The difference between `c` and `d`.
+The difference of `c` and `d`.
 
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 ### mul(a, b)
@@ -46,15 +46,15 @@ The `mul` function calculates the product of two numbers.
 * `b` (int or float): The second number to multiply.
 
 #### Returns
-* `int` or `float`: The product of `a` and `b`.
+The product of `a` and `b`.
 
 #### Example
 ```python
-result = mul(4, 5)
-print(result)  # Outputs: 20
+result = mul(5, 6)
+print(result)  # Output: 30
 ```
 
-Since there are multiple functions in this file, here is a flowchart showing the execution flow:
+Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -64,4 +64,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart is a simple representation and may not cover all possible execution paths, as the actual flow depends on how these functions are called and used in the code.
+Note: This flowchart assumes that each function can be called independently from the start. In a real-world scenario, the actual flow may vary based on how these functions are used within a larger program.
