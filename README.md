@@ -5,12 +5,13 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
+
 ## calculator.py
-The calculator.py file contains a set of functions for basic arithmetic operations. 
+The calculator.py file contains a collection of mathematical functions.
 
 ### add(a, b)
 #### Description
-The `add` function takes two numbers as input and returns their sum.
+The `add` function calculates the sum of two numbers.
 
 #### Parameters
 * `a` (int or float): The first number to add.
@@ -21,17 +22,17 @@ The `add` function takes two numbers as input and returns their sum.
 
 #### Example
 ```python
-result = add(5, 7)
-print(result)  # Output: 12
+result = add(5, 3)
+print(result)  # Outputs: 8
 ```
 
 ### sub(c, d)
 #### Description
-The `sub` function takes two numbers as input and returns their difference.
+The `sub` function calculates the difference between two numbers.
 
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to subtract.
 
 #### Returns
 * `int` or `float`: The difference between `c` and `d`.
@@ -39,12 +40,12 @@ The `sub` function takes two numbers as input and returns their difference.
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
 ### mul(a, b)
 #### Description
-The `mul` function takes two numbers as input and returns their product.
+The `mul` function calculates the product of two numbers.
 
 #### Parameters
 * `a` (int or float): The first number to multiply.
@@ -55,11 +56,11 @@ The `mul` function takes two numbers as input and returns their product.
 
 #### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(4, 5)
+print(result)  # Outputs: 20
 ```
 
-Since the calculator.py file has more than one function, the execution flow can be represented as follows:
+Since there are multiple functions in this file, here is a flowchart showing the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -69,7 +70,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The execution flow chart shows the possible entry points for the functions in the calculator.py file. The actual execution flow will depend on how the functions are called in the script or by other parts of the program.
+Note: This flowchart is a simple representation and may not cover all possible execution paths, as the actual flow depends on how these functions are called and used in the code.
 
 ---
 
