@@ -6,6 +6,8 @@ Auto-documented by Agentic AI Documentation Maintainer.
 
 # API Documentation
 ## calculator.py
+The calculator.py file contains functions for basic arithmetic operations.
+
 ### Functions
 #### add(a, b)
 ##### Description
@@ -18,21 +20,21 @@ The sum of `a` and `b`.
 ##### Example
 ```python
 result = add(5, 7)
-print(result)  # Outputs: 12
+print(result)  # Output: 12
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function calculates the difference of two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
 ##### Returns
-The difference between `c` and `d`.
+The difference of `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 #### mul(a, b)
@@ -45,12 +47,12 @@ The `mul` function calculates the product of two numbers.
 The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(6, 9)
-print(result)  # Outputs: 54
+result = mul(3, 9)
+print(result)  # Output: 27
 ```
 
 ### Execution Flow
-Since `calculator.py` contains multiple functions, the following flowchart illustrates the execution flow:
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -60,7 +62,10 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The `Start` node represents the beginning of the program, and the `End` node represents the end of the program. The `add`, `sub`, and `mul` nodes represent the corresponding functions. The flowchart demonstrates that the program can start with any of the three functions, and the execution flow ends after any of these functions is called.
+Note: The execution flow chart shows the possible paths of execution, but the actual flow depends on how the functions are called in the script.
+
+### Module-Level Code
+When run directly, this script does not have any module-level code, so there is no specific behavior to describe. However, the functions can be called and used as shown in the examples above.
 
 ---
 
