@@ -1,59 +1,61 @@
 # API Documentation
 
 ## calculator.py
-This file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
+The `calculator.py` file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
 
-### add(a, b)
-#### Description
+### Functions
+#### add(a, b)
+##### Description
 The `add` function takes two numbers as input and returns their sum.
 
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 
-#### Returns
+##### Returns
 * `int` or `float`: The sum of `a` and `b`.
 
-#### Example
+##### Example
 ```python
 result = add(5, 3)
 print(result)  # Output: 8
 ```
 
-### sub(c, d)
-#### Description
+#### sub(c, d)
+##### Description
 The `sub` function takes two numbers as input and returns their difference.
 
-#### Parameters
+##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
 
-#### Returns
+##### Returns
 * `int` or `float`: The difference between `c` and `d`.
 
-#### Example
+##### Example
 ```python
 result = sub(10, 4)
 print(result)  # Output: 6
 ```
 
-### mul(a, b)
-#### Description
+#### mul(a, b)
+##### Description
 The `mul` function takes two numbers as input and returns their product.
 
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 
-#### Returns
+##### Returns
 * `int` or `float`: The product of `a` and `b`.
 
-#### Example
+##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(7, 2)
+print(result)  # Output: 14
 ```
 
+### Execution Flow
 Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
@@ -64,4 +66,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The execution flow chart shows the possible paths of execution when using the functions in this file. The actual flow may vary depending on how the functions are called and used in a specific program.
+This flowchart shows that the script can start with any of the three functions (`add`, `sub`, or `mul`) and will execute the chosen function before ending. 
+
+Note: There are no classes or variables defined in this file, and there is no module-level code, so those sections are not included in this documentation.
