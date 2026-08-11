@@ -1,53 +1,52 @@
 # API Documentation
-
 ## calculator.py
-### Overview
-The calculator.py file contains a set of functions for basic arithmetic operations.
+The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
 
 ### Functions
 #### add(a, b)
 ##### Description
-The `add` function takes two numbers as input and returns their sum.
+The `add` function calculates the sum of two numbers.
 ##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 ##### Returns
-* `int` or `float`: The sum of `a` and `b`.
+The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function takes two numbers as input and returns their difference.
+The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
 ##### Returns
-* `int` or `float`: The difference between `c` and `d`.
+The difference between `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
 #### mul(a, b)
 ##### Description
-The `mul` function takes two numbers as input and returns their product.
+The `mul` function calculates the product of two numbers.
 ##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 ##### Returns
-* `int` or `float`: The product of `a` and `b`.
+The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(3, 9)
+print(result)  # Outputs: 27
 ```
 
 ### Execution Flow
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -57,7 +56,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart illustrates the possible execution paths when using the functions in calculator.py. The actual flow depends on how the functions are called in the code. 
+This flowchart illustrates the possible execution paths for the functions in the calculator.py file. Note that the actual execution flow will depend on how the functions are called and used in a specific program.
 
 ### Module-Level Code
-When run directly, this script does not execute any specific code, as it only defines functions for arithmetic operations. To use these functions, you need to import the calculator.py module in another Python script or call the functions directly from this file.
+When run directly, this script does not execute any specific code, as it only contains function definitions. To use these functions, you would need to import this module into another Python script or program.
