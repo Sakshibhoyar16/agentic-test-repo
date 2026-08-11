@@ -1,64 +1,60 @@
 # API Documentation
-
 ## calculator.py
-The calculator.py module contains a set of basic mathematical functions for addition, subtraction, and multiplication.
-
 ### Functions
 #### add(a, b)
 ##### Description
-The `add` function takes two numbers as input and returns their sum.
+The `add` function calculates the sum of two numbers.
 ##### Parameters
-* `a` (int or float): The first number to add.
-* `b` (int or float): The second number to add.
+* `a` (int or float): The first number to be added.
+* `b` (int or float): The second number to be added.
 ##### Returns
-* `int` or `float`: The sum of `a` and `b`.
+The sum of `a` and `b`.
 ##### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function takes two numbers as input and returns their difference.
+The `sub` function calculates the difference between two numbers.
 ##### Parameters
-* `c` (int or float): The first number to subtract.
-* `d` (int or float): The second number to subtract.
+* `c` (int or float): The first number.
+* `d` (int or float): The second number to be subtracted.
 ##### Returns
-* `int` or `float`: The difference of `c` and `d`.
+The difference between `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
 #### mul(a, b)
 ##### Description
-The `mul` function takes two numbers as input and returns their product.
+The `mul` function calculates the product of two numbers.
 ##### Parameters
-* `a` (int or float): The first number to multiply.
-* `b` (int or float): The second number to multiply.
+* `a` (int or float): The first number to be multiplied.
+* `b` (int or float): The second number to be multiplied.
 ##### Returns
-* `int` or `float`: The product of `a` and `b`.
+The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(7, 2)
-print(result)  # Output: 14
+result = mul(6, 8)
+print(result)  # Outputs: 48
 ```
 
 ### Execution Flow
-Since there are multiple functions in this module, the following flowchart illustrates the execution flow:
+Since there are multiple functions in this file, the following flowchart illustrates a possible execution flow:
 ```mermaid
-   flowchart TD
-       A[Start] --> B[add]
-       A --> C[sub]
-       A --> D[mul]
-       B --> E[End]
-       C --> E
-       D --> E
+flowchart TD
+    A[Start] --> B[add]
+    A --> C[sub]
+    A --> D[mul]
+    B --> E[End]
+    C --> E
+    D --> E
 ```
-This flowchart shows that the program can start with any of the three functions (`add`, `sub`, or `mul`) and will terminate at the end of the function execution. 
+Note that this flowchart assumes that the functions are called sequentially, but in practice, the actual execution flow may vary depending on the specific use case.
 
-There are no classes or variables in this module. 
-
-Note: This module does not contain any module-level code (e.g., print statements, main blocks), so there is no description for that.
+### Module-Level Code
+When run directly, this script does not contain any module-level code, such as print statements or main blocks, that would execute automatically. The functions provided must be called explicitly to perform calculations.
