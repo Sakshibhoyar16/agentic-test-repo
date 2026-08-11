@@ -1,58 +1,55 @@
 # API Documentation
 ## calculator.py
-### Functions
-#### add(a, b)
-##### Description
+### add(a, b)
+#### Description
 The `add` function calculates the sum of two numbers.
-##### Parameters
+#### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-##### Returns
+#### Returns
 The sum of `a` and `b`.
-##### Example
+#### Example
 ```python
 result = add(5, 7)
 print(result)  # Outputs: 12
 ```
 
-#### sub(c, d)
-##### Description
+### sub(c, d)
+#### Description
 The `sub` function calculates the difference between two numbers.
-##### Parameters
+#### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
-##### Returns
+* `d` (int or float): The second number to subtract.
+#### Returns
 The difference between `c` and `d`.
-##### Example
+#### Example
 ```python
 result = sub(10, 4)
 print(result)  # Outputs: 6
 ```
 
-#### mul(a, b)
-##### Description
+### mul(a, b)
+#### Description
 The `mul` function calculates the product of two numbers.
-##### Parameters
+#### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-##### Returns
+#### Returns
 The product of `a` and `b`.
-##### Example
+#### Example
 ```python
-result = mul(6, 9)
-print(result)  # Outputs: 54
+result = mul(5, 6)
+print(result)  # Outputs: 30
 ```
 
-### Execution Flow
-Since there are multiple functions in this file, the following Mermaid flowchart illustrates a possible execution flow:
+Since there are multiple functions in this file, here is a Mermaid flowchart showing the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
-    B --> C[sub]
-    C --> D[mul]
-    D --> E[End]
+    A --> C[sub]
+    A --> D[mul]
+    B --> E[End]
+    C --> E
+    D --> E
 ```
-Note: The actual execution flow may vary depending on the specific use case and how these functions are called in the code.
-
-### Module-Level Code
-When run directly, this script does not execute any specific code, as it only contains function definitions. To use these functions, you would need to call them from another script or from the Python interpreter.
+Note: This flowchart is a simple representation and does not imply any specific order of execution. In a real-world scenario, the execution flow would depend on how these functions are called and used in the program.
