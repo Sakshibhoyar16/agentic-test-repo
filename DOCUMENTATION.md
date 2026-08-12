@@ -1,35 +1,35 @@
 # API Documentation
 
 ## calculator.py
-This module provides basic arithmetic operations.
+The `calculator.py` file contains three mathematical functions for basic arithmetic operations.
 
 ### add(a, b)
 #### Description
-The `add` function takes two numbers as input and returns their sum.
+The `add` function calculates the sum of two numbers.
 
 #### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 
 #### Returns
-* `int` or `float`: The sum of `a` and `b`.
+The sum of `a` and `b` as an integer or float.
 
 #### Example
 ```python
-result = add(5, 3)
-print(result)  # Outputs: 8
+result = add(5, 7)
+print(result)  # Outputs: 12
 ```
 
 ### sub(c, d)
 #### Description
-The `sub` function takes two numbers as input and returns their difference.
+The `sub` function calculates the difference between two numbers.
 
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
+* `d` (int or float): The second number to subtract from the first.
 
 #### Returns
-* `int` or `float`: The difference between `c` and `d`.
+The difference between `c` and `d` as an integer or float.
 
 #### Example
 ```python
@@ -39,22 +39,22 @@ print(result)  # Outputs: 6
 
 ### mul(a, b)
 #### Description
-The `mul` function takes two numbers as input and returns their product.
+The `mul` function calculates the product of two numbers.
 
 #### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 
 #### Returns
-* `int` or `float`: The product of `a` and `b`.
+The product of `a` and `b` as an integer or float.
 
 #### Example
 ```python
-result = mul(7, 2)
-print(result)  # Outputs: 14
+result = mul(6, 9)
+print(result)  # Outputs: 54
 ```
 
-Since this module has more than one function, the execution flow can be represented as follows:
+Since `calculator.py` has more than one function, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
