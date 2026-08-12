@@ -6,6 +6,8 @@ Auto-documented by Agentic AI Documentation Maintainer.
 
 # API Documentation
 ## calculator.py
+The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
+
 ### Functions
 #### add(a, b)
 ##### Description
@@ -23,12 +25,12 @@ print(result)  # Output: 8
 
 #### sub(c, d)
 ##### Description
-The `sub` function calculates the difference of two numbers.
+The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
 ##### Returns
-The difference of `c` and `d`.
+The difference between `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
@@ -50,18 +52,20 @@ print(result)  # Output: 30
 ```
 
 ### Execution Flow
+Since there are multiple functions in this file, here is a high-level overview of the execution flow:
 ```mermaid
-    flowchart TD
-        A[Start] --> B[add]
-        A --> C[sub]
-        A --> D[mul]
-        B --> E[End]
-        C --> E
-        D --> E
+flowchart TD
+    A[Start] --> B[add]
+    A --> C[sub]
+    A --> D[mul]
+    B --> E[End]
+    C --> E
+    D --> E
 ```
+Note that the execution flow is not necessarily linear, as the functions can be called independently depending on the use case.
 
 ### Module-Level Code
-When run directly, this script does not execute any specific task, as it only defines functions for basic arithmetic operations. To use these functions, you would need to import this module into another Python script or use them within this script by adding a main block.
+When run directly, the calculator.py script does not contain any module-level code that executes automatically. It is designed to be imported and used as a module in other Python scripts.
 
 ---
 
