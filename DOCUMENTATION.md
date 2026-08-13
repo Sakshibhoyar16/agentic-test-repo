@@ -5,31 +5,31 @@ The calculator.py file contains a set of functions for basic arithmetic operatio
 
 ### add(a, b)
 #### Description
-The `add` function takes two numbers as input and returns their sum.
+The `add` function calculates the sum of two numbers.
 
 #### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 
 #### Returns
-* `result` (int or float): The sum of `a` and `b`.
+The sum of `a` and `b`.
 
 #### Example
 ```python
-result = add(3, 5)
+result = add(5, 3)
 print(result)  # Output: 8
 ```
 
 ### sub(c, d)
 #### Description
-The `sub` function takes two numbers as input and returns their difference.
+The `sub` function calculates the difference between two numbers.
 
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
+* `d` (int or float): The second number to subtract from the first.
 
 #### Returns
-* `result` (int or float): The difference between `c` and `d`.
+The difference between `c` and `d`.
 
 #### Example
 ```python
@@ -39,22 +39,23 @@ print(result)  # Output: 6
 
 ### mul(a, b)
 #### Description
-The `mul` function takes two numbers as input and returns their product.
+The `mul` function calculates the product of two numbers.
 
 #### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 
 #### Returns
-* `result` (int or float): The product of `a` and `b`.
+The product of `a` and `b`.
 
 #### Example
 ```python
-result = mul(4, 5)
-print(result)  # Output: 20
+result = mul(5, 6)
+print(result)  # Output: 30
 ```
 
-Since the calculator.py file contains multiple functions, the following flowchart shows the execution flow:
+Since the calculator.py file has more than one function, the following flowchart illustrates the execution flow:
+
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -64,8 +65,5 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart is a simple representation and does not cover all possible execution paths. In a real-world scenario, you would need to consider the specific use case and requirements of your application. 
 
-When run directly, the calculator.py script does not contain any module-level code, so there is no specific behavior to describe. 
-
-There are no classes or variables in this file.
+Note that this flowchart represents the possible execution paths when calling these functions from an external script or interactive environment. When run directly, the calculator.py file does not have a main block or any module-level code, so there is no specific execution flow to describe in that context.
