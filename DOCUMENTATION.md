@@ -1,5 +1,7 @@
 # API Documentation
 ## calculator.py
+The calculator.py file contains a set of functions for performing basic arithmetic operations. When run directly, this script does not execute any specific code, as it only defines functions for use in other programs.
+
 ### Functions
 #### add(a, b)
 ##### Description
@@ -8,7 +10,7 @@ The `add` function calculates the sum of two numbers.
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 ##### Returns
-The sum of `a` and `b`.
+The sum of `a` and `b` as an integer or floating-point number.
 ##### Example
 ```python
 result = add(5, 7)
@@ -22,7 +24,7 @@ The `sub` function calculates the difference between two numbers.
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
 ##### Returns
-The difference between `c` and `d`.
+The difference between `c` and `d` as an integer or floating-point number.
 ##### Example
 ```python
 result = sub(10, 4)
@@ -36,24 +38,20 @@ The `mul` function calculates the product of two numbers.
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 ##### Returns
-The product of `a` and `b`.
+The product of `a` and `b` as an integer or floating-point number.
 ##### Example
 ```python
-result = mul(5, 7)
-print(result)  # Outputs: 35
+result = mul(6, 9)
+print(result)  # Outputs: 54
 ```
 
-### Module-Level Code
-When run directly, this script does not execute any specific code as it only contains function definitions.
-
 ### Execution Flow
+Since the calculator.py file contains more than one function, the following flowchart illustrates a potential execution sequence when using these functions together:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
-    A --> C[sub]
-    A --> D[mul]
-    B --> E[End]
-    C --> E
-    D --> E
+    B --> C[sub]
+    C --> D[mul]
+    D --> E[End]
 ```
-Note: The execution flow chart shows that the script starts and can execute any of the three functions (`add`, `sub`, `mul`) directly, as there is no specific entry point or order of execution defined.
+This flowchart suggests a sequence where the `add` function is called first, followed by the `sub` function, and then the `mul` function. However, the actual execution order depends on how these functions are used in a specific program or script.
