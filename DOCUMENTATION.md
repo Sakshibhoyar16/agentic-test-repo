@@ -1,15 +1,14 @@
 # API Documentation
-
 ## calculator.py
-This file contains a set of mathematical functions to perform basic arithmetic operations.
+The calculator.py file contains a set of mathematical functions for basic arithmetic operations.
 
 ### Functions
 #### add(a, b)
 ##### Description
 The `add` function calculates the sum of two numbers.
 ##### Parameters
-* `a` (int or float): The first number to add.
-* `b` (int or float): The second number to add.
+* `a` (int or float): The first number to be added.
+* `b` (int or float): The second number to be added.
 ##### Returns
 The sum of `a` and `b`.
 ##### Example
@@ -23,7 +22,7 @@ print(result)  # Output: 8
 The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
+* `d` (int or float): The second number to be subtracted from the first.
 ##### Returns
 The difference between `c` and `d`.
 ##### Example
@@ -36,14 +35,14 @@ print(result)  # Output: 6
 ##### Description
 The `mul` function calculates the product of two numbers.
 ##### Parameters
-* `a` (int or float): The first number to multiply.
-* `b` (int or float): The second number to multiply.
+* `a` (int or float): The first number to be multiplied.
+* `b` (int or float): The second number to be multiplied.
 ##### Returns
 The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(7, 2)
+print(result)  # Output: 14
 ```
 
 ### Execution Flow
@@ -57,7 +56,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The execution flow chart shows the possible entry points for each function, but does not imply a specific order of execution. The actual execution flow will depend on how the functions are called in the code.
+Note: The execution flow is a simple representation and does not imply any specific order of function calls, as the functions are independent and can be called separately.
 
 ### Module-Level Code
-When run directly, this script does not contain any module-level code that executes. It is intended to be used as a library, with the functions being imported and called from other scripts.
+When run directly, this script does not have any module-level code that executes. It is designed to be used as a library, with the functions being imported and used in other scripts.
