@@ -7,7 +7,7 @@ Auto-documented by Agentic AI Documentation Maintainer.
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a set of basic arithmetic functions.
+This module provides basic arithmetic operations.
 
 ### Functions
 #### add(a, b)
@@ -29,7 +29,7 @@ print(result)  # Outputs: 12
 The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to subtract.
 ##### Returns
 The difference between `c` and `d`.
 ##### Example
@@ -48,23 +48,23 @@ The `mul` function calculates the product of two numbers.
 The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(6, 9)
-print(result)  # Outputs: 54
+result = mul(5, 6)
+print(result)  # Outputs: 30
 ```
 
-Since the file has more than one function, the following flowchart illustrates the execution flow:
+### Execution Flow
 ```mermaid
-flowchart TD
-    A[Start] --> B[add]
-    A --> C[sub]
-    A --> D[mul]
-    B --> E[End]
-    C --> E
-    D --> E
+   flowchart TD
+       A[Start] --> B[add]
+       A --> C[sub]
+       A --> D[mul]
+       B --> E[End]
+       C --> E
+       D --> E
 ```
-Note that this flowchart is a simplified representation, as the actual execution flow may vary depending on how the functions are called and used in the program. 
+Note: The execution flow chart shows that the `add`, `sub`, and `mul` functions can be called independently, and each function has its own execution path. 
 
-No classes or variables are defined in this file, and there is no module-level code, so those sections are omitted.
+This module does not contain any classes or variables. When run directly, this script does not have a main block or any print statements, it is designed to be imported and used in other python scripts.
 
 ---
 
