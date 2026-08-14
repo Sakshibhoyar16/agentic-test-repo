@@ -7,19 +7,16 @@ Auto-documented by Agentic AI Documentation Maintainer.
 # API Documentation
 
 ## calculator.py
-The calculator.py file contains a set of functions for performing basic arithmetic operations.
+This file contains a collection of basic arithmetic functions.
 
 ### add(a, b)
 #### Description
-The `add` function takes two numbers as input and returns their sum.
-
+The `add` function calculates the sum of two numbers.
 #### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-
 #### Returns
-* `int` or `float`: The sum of `a` and `b`.
-
+The sum of `a` and `b`.
 #### Example
 ```python
 result = add(5, 3)
@@ -28,15 +25,12 @@ print(result)  # Output: 8
 
 ### sub(c, d)
 #### Description
-The `sub` function takes two numbers as input and returns their difference.
-
+The `sub` function calculates the difference of two numbers.
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
-
+* `d` (int or float): The second number to subtract.
 #### Returns
-* `int` or `float`: The difference between `c` and `d`.
-
+The difference of `c` and `d`.
 #### Example
 ```python
 result = sub(10, 4)
@@ -45,22 +39,19 @@ print(result)  # Output: 6
 
 ### mul(a, b)
 #### Description
-The `mul` function takes two numbers as input and returns their product.
-
+The `mul` function calculates the product of two numbers.
 #### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-
 #### Returns
-* `int` or `float`: The product of `a` and `b`.
-
+The product of `a` and `b`.
 #### Example
 ```python
 result = mul(7, 2)
 print(result)  # Output: 14
 ```
 
-Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
+Since this file contains more than one function, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -70,9 +61,7 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note that this flowchart is a simplified representation and does not account for any potential error handling or edge cases. 
-
-When run directly, this script does not have any specific behavior as it only contains function definitions. To use these functions, you would need to call them from another script or from an interactive Python session.
+This script provides basic arithmetic operations when run directly, allowing users to perform addition, subtraction, and multiplication.
 
 ---
 
