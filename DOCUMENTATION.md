@@ -1,58 +1,60 @@
 # API Documentation
+
 ## calculator.py
-The calculator.py file contains a set of mathematical functions that can be used for basic arithmetic operations. When run directly, this script does not have a main block, so it does not perform any operations on its own.
+### Description
+This module provides basic arithmetic operations.
 
 ### Functions
 #### add(a, b)
 ##### Description
-The `add` function takes two numbers as input and returns their sum.
+The `add` function calculates the sum of two numbers.
 ##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 ##### Returns
-* `int` or `float`: The sum of `a` and `b`.
+The sum of `a` and `b`.
 ##### Example
 ```python
 result = add(5, 7)
-print(result)  # Output: 12
+print(result)  # Outputs: 12
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function takes two numbers as input and returns their difference.
+The `sub` function calculates the difference of two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to subtract.
 ##### Returns
-* `int` or `float`: The difference between `c` and `d`.
+The difference of `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
 #### mul(a, b)
 ##### Description
-The `mul` function takes two numbers as input and returns their product.
+The `mul` function calculates the product of two numbers.
 ##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 ##### Returns
-* `int` or `float`: The product of `a` and `b`.
+The product of `a` and `b`.
 ##### Example
 ```python
 result = mul(5, 6)
-print(result)  # Output: 30
+print(result)  # Outputs: 30
 ```
 
 ### Execution Flow
-Since there are multiple functions in this file, here is a flowchart showing a possible execution flow:
 ```mermaid
-flowchart TD
-    A[Start] --> B[add]
-    A --> C[sub]
-    A --> D[mul]
-    B --> E[End]
-    C --> E
-    D --> E
+    flowchart TD
+        A[Start] --> B[add]
+        A --> C[sub]
+        A --> D[mul]
+        B --> E[End]
+        C --> E
+        D --> E
 ```
+Note: This flowchart illustrates the possible execution paths for the functions in the `calculator.py` module. The actual execution flow may vary depending on the specific use case.
