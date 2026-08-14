@@ -5,52 +5,51 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
-
 ## calculator.py
-The calculator.py file contains a collection of mathematical functions. 
-
-### add(a, b)
-#### Description
+### Functions
+#### add(a, b)
+##### Description
 The `add` function calculates the sum of two numbers.
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-#### Returns
+##### Returns
 The sum of `a` and `b`.
-#### Example
+##### Example
 ```python
 result = add(5, 7)
-print(result)  # Outputs: 12
+print(result)  # Output: 12
 ```
 
-### sub(c, d)
-#### Description
+#### sub(c, d)
+##### Description
 The `sub` function calculates the difference between two numbers.
-#### Parameters
+##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract.
-#### Returns
+##### Returns
 The difference between `c` and `d`.
-#### Example
+##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
-### mul(a, b)
-#### Description
+#### mul(a, b)
+##### Description
 The `mul` function calculates the product of two numbers.
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-#### Returns
+##### Returns
 The product of `a` and `b`.
-#### Example
+##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Outputs: 30
+result = mul(3, 9)
+print(result)  # Output: 27
 ```
 
+### Execution Flow
 Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
@@ -61,7 +60,12 @@ flowchart TD
     C --> E
     D --> E
 ```
-When run directly, this script does not have a main block, so it does not perform any actions on its own. It is intended to be imported as a module in other Python scripts.
+Note: The execution flow chart shows the possible paths of execution, but the actual flow depends on how the functions are called in the code. 
+
+### Module-Level Code
+When run directly, this script does not have any module-level code, so there is no description to provide. 
+
+Note: As per the problem statement, there are no classes or variables defined in this file, so those sections are not included in this documentation.
 
 ---
 
