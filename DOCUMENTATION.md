@@ -1,6 +1,6 @@
 # API Documentation
 ## calculator.py
-The calculator.py file contains a set of functions for basic arithmetic operations.
+The calculator.py file contains a set of basic arithmetic functions.
 
 ### add(a, b)
 #### Description
@@ -9,11 +9,11 @@ The `add` function takes two numbers as input and returns their sum.
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 #### Returns
-* `int` or `float`: The sum of `a` and `b`.
+* `result` (int or float): The sum of `a` and `b`.
 #### Example
 ```python
-result = add(5, 3)
-print(result)  # Output: 8
+result = add(5, 7)
+print(result)  # Output: 12
 ```
 
 ### sub(c, d)
@@ -23,7 +23,7 @@ The `sub` function takes two numbers as input and returns their difference.
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
 #### Returns
-* `int` or `float`: The difference between `c` and `d`.
+* `result` (int or float): The difference between `c` and `d`.
 #### Example
 ```python
 result = sub(10, 4)
@@ -37,14 +37,14 @@ The `mul` function takes two numbers as input and returns their product.
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 #### Returns
-* `int` or `float`: The product of `a` and `b`.
+* `result` (int or float): The product of `a` and `b`.
 #### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(5, 7)
+print(result)  # Output: 35
 ```
 
-Since there are multiple functions in this file, here is a flowchart showing the execution flow:
+Since the calculator.py file contains more than one function, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -54,6 +54,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart demonstrates that the execution can start with any of the three functions (`add`, `sub`, or `mul`) and will end after the chosen function executes. 
-
-When run directly, the calculator.py script does not have a main block or any print statements, so it does not perform any actions on its own. It is intended to be imported and used by other scripts.
+Note: This flowchart assumes that the functions can be called independently, and the execution flow may vary depending on the actual usage.
