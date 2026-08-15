@@ -1,16 +1,12 @@
 # API Documentation
-
 ## calculator.py
-### Overview
-The calculator.py file contains a collection of mathematical functions. When run directly, this script does not execute any specific task as it only comprises function definitions.
-
 ### Functions
 #### add(a, b)
 ##### Description
 The `add` function calculates the sum of two numbers.
 ##### Parameters
-* `a` (int or float): The first number to be added.
-* `b` (int or float): The second number to be added.
+* `a` (int or float): The first number to add.
+* `b` (int or float): The second number to add.
 ##### Returns
 The sum of `a` and `b`.
 ##### Example
@@ -24,7 +20,7 @@ print(result)  # Outputs: 12
 The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to be subtracted from the first.
+* `d` (int or float): The second number to subtract.
 ##### Returns
 The difference between `c` and `d`.
 ##### Example
@@ -37,8 +33,8 @@ print(result)  # Outputs: 6
 ##### Description
 The `mul` function calculates the product of two numbers.
 ##### Parameters
-* `a` (int or float): The first number to be multiplied.
-* `b` (int or float): The second number to be multiplied.
+* `a` (int or float): The first number to multiply.
+* `b` (int or float): The second number to multiply.
 ##### Returns
 The product of `a` and `b`.
 ##### Example
@@ -48,7 +44,6 @@ print(result)  # Outputs: 30
 ```
 
 ### Execution Flow
-Since there are multiple functions in this file, the following flowchart illustrates a possible execution sequence. Note that the actual flow may vary depending on how these functions are called and used in a larger program.
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -58,4 +53,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart shows that the execution can start with any of the `add`, `sub`, or `mul` functions and ends after any one of them is completed. In a real-world application, these functions would likely be called conditionally based on user input or other program logic.
+Note: Since the provided code analysis does not include any specific execution order or relationships between the functions, the flowchart shows each function as a separate branch from the start. In a real-world scenario, the actual execution flow would depend on how these functions are used within the larger program.
