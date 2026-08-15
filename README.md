@@ -5,7 +5,11 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
+
 ## calculator.py
+### Overview
+The calculator.py file contains a collection of mathematical functions to perform basic arithmetic operations.
+
 ### Functions
 #### add(a, b)
 ##### Description
@@ -14,7 +18,7 @@ The `add` function calculates the sum of two numbers.
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 ##### Returns
-The sum of `a` and `b`.
+* `int` or `float`: The sum of `a` and `b`.
 ##### Example
 ```python
 result = add(5, 7)
@@ -28,7 +32,7 @@ The `sub` function calculates the difference between two numbers.
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract.
 ##### Returns
-The difference between `c` and `d`.
+* `int` or `float`: The difference between `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
@@ -42,14 +46,15 @@ The `mul` function calculates the product of two numbers.
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 ##### Returns
-The product of `a` and `b`.
+* `int` or `float`: The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Outputs: 30
+result = mul(6, 9)
+print(result)  # Outputs: 54
 ```
 
 ### Execution Flow
+Since there are multiple functions in this file, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -59,7 +64,9 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: Since the provided code analysis does not include any specific execution order or relationships between the functions, the flowchart shows each function as a separate branch from the start. In a real-world scenario, the actual execution flow would depend on how these functions are used within the larger program.
+Note: The flowchart assumes that the user can choose to execute any of the functions (`add`, `sub`, or `mul`) from the start. The actual execution flow may vary depending on the specific use case. 
+
+No module-level code, classes, or variables are present in this file.
 
 ---
 
