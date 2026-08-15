@@ -1,6 +1,7 @@
 # API Documentation
+
 ## calculator.py
-The `calculator.py` file contains a set of mathematical functions for basic arithmetic operations. 
+This module provides basic arithmetic operations.
 
 ### add(a, b)
 #### Description
@@ -15,8 +16,8 @@ The `add` function takes two numbers as input and returns their sum.
 
 #### Example
 ```python
-result = add(5, 7)
-print(result)  # Outputs: 12
+result = add(5, 3)
+print(result)  # Outputs: 8
 ```
 
 ### sub(c, d)
@@ -25,7 +26,7 @@ The `sub` function takes two numbers as input and returns their difference.
 
 #### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to subtract.
 
 #### Returns
 * `int` or `float`: The difference between `c` and `d`.
@@ -49,11 +50,11 @@ The `mul` function takes two numbers as input and returns their product.
 
 #### Example
 ```python
-result = mul(5, 6)
-print(result)  # Outputs: 30
+result = mul(7, 2)
+print(result)  # Outputs: 14
 ```
 
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since this module has more than one function, here is a flowchart showing the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -63,4 +64,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-When run directly, the `calculator.py` script does not have a main block or any module-level code that executes a specific task. It is designed to be imported and used as a module in other scripts.
+Note: This flowchart assumes that the functions can be called independently, and the execution flow may vary depending on the actual usage.
