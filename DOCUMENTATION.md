@@ -1,60 +1,59 @@
 # API Documentation
-
 ## calculator.py
-The calculator.py file contains a collection of mathematical functions that can be used to perform basic arithmetic operations.
+### Functions
+#### add(a, b)
+##### Description
+The `add` function calculates the sum of two numbers.
 
-### add(a, b)
-#### Description
-The `add` function takes two numbers as input and returns their sum.
+##### Parameters
+* `a` (int or float): The first number to be added.
+* `b` (int or float): The second number to be added.
 
-#### Parameters
-* `a` (int or float): The first number to add.
-* `b` (int or float): The second number to add.
+##### Returns
+The sum of `a` and `b`.
 
-#### Returns
-* `int` or `float`: The sum of `a` and `b`.
-
-#### Example
+##### Example
 ```python
 result = add(5, 7)
 print(result)  # Outputs: 12
 ```
 
-### sub(c, d)
-#### Description
-The `sub` function takes two numbers as input and returns their difference.
+#### sub(c, d)
+##### Description
+The `sub` function calculates the difference between two numbers.
 
-#### Parameters
+##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to be subtracted from the first.
 
-#### Returns
-* `int` or `float`: The difference between `c` and `d`.
+##### Returns
+The difference between `c` and `d`.
 
-#### Example
+##### Example
 ```python
 result = sub(10, 4)
 print(result)  # Outputs: 6
 ```
 
-### mul(a, b)
-#### Description
-The `mul` function takes two numbers as input and returns their product.
+#### mul(a, b)
+##### Description
+The `mul` function calculates the product of two numbers.
 
-#### Parameters
-* `a` (int or float): The first number to multiply.
-* `b` (int or float): The second number to multiply.
+##### Parameters
+* `a` (int or float): The first number to be multiplied.
+* `b` (int or float): The second number to be multiplied.
 
-#### Returns
-* `int` or `float`: The product of `a` and `b`.
+##### Returns
+The product of `a` and `b`.
 
-#### Example
+##### Example
 ```python
 result = mul(5, 6)
 print(result)  # Outputs: 30
 ```
 
-Since the calculator.py file has more than one function, the execution flow can be represented by the following flowchart:
+### Execution Flow
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -64,6 +63,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The flowchart shows that the execution starts at the beginning and can flow into any of the three functions (`add`, `sub`, or `mul`) before reaching the end. 
+Note: The execution flow is not necessarily sequential, as the functions can be called independently. This flowchart represents the possible paths of execution when the functions are called. 
 
-There are no classes or variables to document in this file. When run directly, this script does not execute any specific code, as it only defines functions for use in other scripts or interactive Python sessions.
+No classes or variables are defined in this file. The script does not contain any module-level code, so there is no description for what the script does when run directly.
