@@ -5,8 +5,9 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
+
 ## calculator.py
-The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
+This file provides basic arithmetic operations.
 
 ### add(a, b)
 #### Description
@@ -17,7 +18,7 @@ The `add` function takes two numbers as input and returns their sum.
 * `b` (int or float): The second number to be added.
 
 #### Returns
-* `int` or `float`: The sum of `a` and `b`.
+* `result` (int or float): The sum of `a` and `b`.
 
 #### Example
 ```python
@@ -34,7 +35,7 @@ The `sub` function takes two numbers as input and returns their difference.
 * `d` (int or float): The second number to be subtracted from the first.
 
 #### Returns
-* `int` or `float`: The difference between `c` and `d`.
+* `result` (int or float): The difference between `c` and `d`.
 
 #### Example
 ```python
@@ -51,15 +52,15 @@ The `mul` function takes two numbers as input and returns their product.
 * `b` (int or float): The second number to be multiplied.
 
 #### Returns
-* `int` or `float`: The product of `a` and `b`.
+* `result` (int or float): The product of `a` and `b`.
 
 #### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(7, 2)
+print(result)  # Output: 14
 ```
 
-Since the calculator.py file contains more than one function, the following flowchart illustrates the execution flow:
+Since this file has more than one function, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -69,7 +70,9 @@ flowchart TD
     C --> E
     D --> E
 ```
-When run directly, the script does not contain any module-level code, so there is no additional functionality to describe.
+Note: This flowchart shows that the execution can start with any of the three functions (`add`, `sub`, `mul`) and then ends. 
+
+There are no classes or variables defined in this file. When run directly, this script does not have a main block to execute, so no description is provided for module-level code.
 
 ---
 
