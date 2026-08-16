@@ -1,67 +1,61 @@
 # API Documentation
-
 ## calculator.py
-The calculator.py file contains a set of functions for performing basic arithmetic operations.
+The calculator.py module provides basic arithmetic operations.
 
-### add(a, b)
-#### Description
+### Functions
+#### add(a, b)
+##### Description
 The `add` function takes two numbers as input and returns their sum.
-
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
-
-#### Returns
+##### Returns
 * `int` or `float`: The sum of `a` and `b`.
-
-#### Example
+##### Example
 ```python
 result = add(5, 3)
 print(result)  # Output: 8
 ```
 
-### sub(c, d)
-#### Description
+#### sub(c, d)
+##### Description
 The `sub` function takes two numbers as input and returns their difference.
-
-#### Parameters
+##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract from the first.
-
-#### Returns
+##### Returns
 * `int` or `float`: The difference between `c` and `d`.
-
-#### Example
+##### Example
 ```python
 result = sub(10, 4)
 print(result)  # Output: 6
 ```
 
-### mul(a, b)
-#### Description
+#### mul(a, b)
+##### Description
 The `mul` function takes two numbers as input and returns their product.
-
-#### Parameters
+##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
-
-#### Returns
+##### Returns
 * `int` or `float`: The product of `a` and `b`.
-
-#### Example
+##### Example
 ```python
 result = mul(5, 6)
 print(result)  # Output: 30
 ```
 
-Since the calculator.py file contains more than one function, the execution flow can be represented by the following Mermaid flowchart:
+### Execution Flow
+Since there are multiple functions in this module, the following flowchart illustrates the execution flow:
 ```mermaid
-   flowchart TD
-       A[Start] --> B[add]
-       A --> C[sub]
-       A --> D[mul]
-       B --> E[End]
-       C --> E
-       D --> E
+flowchart TD
+    A[Start] --> B[add]
+    A --> C[sub]
+    A --> D[mul]
+    B --> E[End]
+    C --> E
+    D --> E
 ```
-Note: This flowchart shows the possible execution paths for the functions in the calculator.py file. The actual execution flow may vary depending on how the functions are called.
+Note that the execution flow depends on the specific use case and the functions called by the user. The flowchart above represents a general overview of the possible execution paths. 
+
+There are no classes or variables in this module. The script can be run directly to use the provided functions.
