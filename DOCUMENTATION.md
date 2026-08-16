@@ -1,6 +1,6 @@
 # API Documentation
 ## calculator.py
-The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
+The calculator.py module provides basic arithmetic operations. 
 
 ### add(a, b)
 #### Description
@@ -9,25 +9,25 @@ The `add` function calculates the sum of two numbers.
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
 #### Returns
-The sum of `a` and `b`.
+* `int` or `float`: The sum of `a` and `b`.
 #### Example
 ```python
 result = add(5, 7)
-print(result)  # Output: 12
+print(result)  # Outputs: 12
 ```
 
 ### sub(c, d)
 #### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function calculates the difference of two numbers.
 #### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract.
 #### Returns
-The difference between `c` and `d`.
+* `int` or `float`: The difference of `c` and `d`.
 #### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
 ### mul(a, b)
@@ -37,14 +37,14 @@ The `mul` function calculates the product of two numbers.
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
 #### Returns
-The product of `a` and `b`.
+* `int` or `float`: The product of `a` and `b`.
 #### Example
 ```python
-result = mul(6, 8)
-print(result)  # Output: 48
+result = mul(5, 6)
+print(result)  # Outputs: 30
 ```
 
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since the calculator.py module contains more than one function, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -54,6 +54,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-This flowchart shows that the script can start with any of the three functions (`add`, `sub`, `mul`) and will end after the function execution is complete. 
-
-Note: When run directly, this script does not have any module-level code, so there is no description for that. Also, there are no classes or variables defined in this file.
+When run directly, this script does not have any specific module-level code. It is designed to be imported and used in other scripts for basic arithmetic operations.
