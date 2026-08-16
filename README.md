@@ -5,13 +5,10 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
-
 ## calculator.py
-### Overview
-The calculator.py file contains a set of functions for basic arithmetic operations. 
+The calculator.py module provides basic arithmetic operations.
 
 ### Functions
-
 #### add(a, b)
 ##### Description
 The `add` function calculates the sum of two numbers.
@@ -23,21 +20,21 @@ The `add` function calculates the sum of two numbers.
 ##### Example
 ```python
 result = add(5, 7)
-print(result)  # Output: 12
+print(result)  # Outputs: 12
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function calculates the difference of two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
 * `d` (int or float): The second number to subtract.
 ##### Returns
-* `int` or `float`: The difference between `c` and `d`.
+* `int` or `float`: The difference of `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
 #### mul(a, b)
@@ -50,24 +47,25 @@ The `mul` function calculates the product of two numbers.
 * `int` or `float`: The product of `a` and `b`.
 ##### Example
 ```python
-result = mul(5, 6)
-print(result)  # Output: 30
+result = mul(3, 9)
+print(result)  # Outputs: 27
 ```
 
 ### Execution Flow
-Since there are multiple functions in this file, the execution flow can be represented as follows:
+Since the calculator.py module has multiple functions, the following flowchart shows the execution flow:
 ```mermaid
-   flowchart TD
-       A[Start] --> B[add]
-       A --> C[sub]
-       A --> D[mul]
-       B --> E[End]
-       C --> E
-       D --> E
+flowchart TD
+    A[Start] --> B[add]
+    A --> C[sub]
+    A --> D[mul]
+    B --> E[End]
+    C --> E
+    D --> E
 ```
-Note: The execution flow is not necessarily a linear sequence, as the functions can be called independently depending on the program's logic. 
+Note: The flowchart shows that the execution can start with any of the three functions (`add`, `sub`, or `mul`), and each function will execute independently.
 
-There are no classes or variables in this file. The provided functions can be used as building blocks for more complex arithmetic operations or as part of a larger program. When run directly, this script does not execute any specific task but provides these functions for import and use in other Python scripts.
+### Module-Level Code
+When run directly, this script does not have any module-level code (e.g., print statements or main blocks). It is designed to be used as a module, importing the functions as needed.
 
 ---
 
