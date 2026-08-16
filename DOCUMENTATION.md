@@ -1,11 +1,9 @@
 # API Documentation
 ## calculator.py
-The calculator.py module provides basic arithmetic operations.
-
 ### Functions
 #### add(a, b)
 ##### Description
-The `add` function takes two numbers as input and returns their sum.
+The `add` function calculates the sum of two numbers.
 ##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
@@ -14,26 +12,26 @@ The `add` function takes two numbers as input and returns their sum.
 ##### Example
 ```python
 result = add(5, 3)
-print(result)  # Output: 8
+print(result)  # Outputs: 8
 ```
 
 #### sub(c, d)
 ##### Description
-The `sub` function takes two numbers as input and returns their difference.
+The `sub` function calculates the difference between two numbers.
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract from the first.
+* `d` (int or float): The second number to subtract.
 ##### Returns
 * `int` or `float`: The difference between `c` and `d`.
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Output: 6
+print(result)  # Outputs: 6
 ```
 
 #### mul(a, b)
 ##### Description
-The `mul` function takes two numbers as input and returns their product.
+The `mul` function calculates the product of two numbers.
 ##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
@@ -42,11 +40,10 @@ The `mul` function takes two numbers as input and returns their product.
 ##### Example
 ```python
 result = mul(5, 6)
-print(result)  # Output: 30
+print(result)  # Outputs: 30
 ```
 
 ### Execution Flow
-Since there are multiple functions in this module, the following flowchart illustrates the execution flow:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -56,6 +53,4 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note that the execution flow depends on the specific use case and the functions called by the user. The flowchart above represents a general overview of the possible execution paths. 
-
-There are no classes or variables in this module. The script can be run directly to use the provided functions.
+Note: Since the provided code does not include any specific execution order or conditional statements, the flowchart represents a simple start and end for each function, assuming they can be called independently.
