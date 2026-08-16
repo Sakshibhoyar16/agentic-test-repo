@@ -1,11 +1,10 @@
 # API Documentation
-
 ## calculator.py
 The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
 
 ### add(a, b)
 #### Description
-The `add` function calculates the sum of two numbers.
+The `add` function takes two numbers as input and returns their sum.
 
 #### Parameters
 * `a` (int or float): The first number to be added.
@@ -22,7 +21,7 @@ print(result)  # Outputs: 8
 
 ### sub(c, d)
 #### Description
-The `sub` function calculates the difference between two numbers.
+The `sub` function takes two numbers as input and returns their difference.
 
 #### Parameters
 * `c` (int or float): The first number.
@@ -39,7 +38,7 @@ print(result)  # Outputs: 6
 
 ### mul(a, b)
 #### Description
-The `mul` function calculates the product of two numbers.
+The `mul` function takes two numbers as input and returns their product.
 
 #### Parameters
 * `a` (int or float): The first number to be multiplied.
@@ -54,7 +53,7 @@ result = mul(5, 6)
 print(result)  # Outputs: 30
 ```
 
-Since the calculator.py file contains more than one function, the following flowchart illustrates the execution flow:
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -64,8 +63,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: This flowchart shows that the execution flow starts at the beginning of the script and can proceed to any of the three functions (`add`, `sub`, or `mul`) before reaching the end. 
+This flowchart shows that the script can start with any of the three functions (`add`, `sub`, or `mul`) and will end after executing the chosen function. 
 
-There are no classes or variables in this file. 
-
-When run directly, this script does not contain any module-level code (e.g., print statements, main blocks) beyond the function definitions.
+Note: There are no classes or variables defined in this file, and there is no module-level code. Therefore, no additional documentation is provided for these sections.
