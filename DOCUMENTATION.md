@@ -1,52 +1,59 @@
 # API Documentation
 ## calculator.py
-The calculator.py module provides basic arithmetic operations.
-
 ### Functions
 #### add(a, b)
 ##### Description
 The `add` function calculates the sum of two numbers.
+
 ##### Parameters
 * `a` (int or float): The first number to add.
 * `b` (int or float): The second number to add.
+
 ##### Returns
-* `int` or `float`: The sum of `a` and `b`.
+The sum of `a` and `b`.
+
 ##### Example
 ```python
-result = add(5, 7)
-print(result)  # Outputs: 12
+result = add(5, 3)
+print(result)  # Output: 8
 ```
 
 #### sub(c, d)
 ##### Description
 The `sub` function calculates the difference of two numbers.
+
 ##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to subtract.
+* `d` (int or float): The second number to subtract from the first.
+
 ##### Returns
-* `int` or `float`: The difference of `c` and `d`.
+The difference of `c` and `d`.
+
 ##### Example
 ```python
 result = sub(10, 4)
-print(result)  # Outputs: 6
+print(result)  # Output: 6
 ```
 
 #### mul(a, b)
 ##### Description
 The `mul` function calculates the product of two numbers.
+
 ##### Parameters
 * `a` (int or float): The first number to multiply.
 * `b` (int or float): The second number to multiply.
+
 ##### Returns
-* `int` or `float`: The product of `a` and `b`.
+The product of `a` and `b`.
+
 ##### Example
 ```python
-result = mul(3, 9)
-print(result)  # Outputs: 27
+result = mul(5, 6)
+print(result)  # Output: 30
 ```
 
 ### Execution Flow
-Since the calculator.py module has multiple functions, the following flowchart shows the execution flow:
+Since there are multiple functions in this file, the execution flow can be represented as follows:
 ```mermaid
 flowchart TD
     A[Start] --> B[add]
@@ -56,7 +63,6 @@ flowchart TD
     C --> E
     D --> E
 ```
-Note: The flowchart shows that the execution can start with any of the three functions (`add`, `sub`, or `mul`), and each function will execute independently.
+This flowchart shows that the script can start with any of the three functions, and each function executes independently. 
 
-### Module-Level Code
-When run directly, this script does not have any module-level code (e.g., print statements or main blocks). It is designed to be used as a module, importing the functions as needed.
+Note: There are no classes or variables in this file, and no module-level code, so those sections are not included in this documentation.
