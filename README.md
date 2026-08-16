@@ -5,60 +5,54 @@ Auto-documented by Agentic AI Documentation Maintainer.
 ---
 
 # API Documentation
+
 ## calculator.py
-The calculator.py file contains a set of mathematical functions that can be used for basic arithmetic operations.
+The calculator.py file contains a set of mathematical functions that can be used to perform basic arithmetic operations.
 
-### add(a, b)
-#### Description
+### Functions
+#### add(a, b)
+##### Description
 The `add` function takes two numbers as input and returns their sum.
-
-#### Parameters
-* `a` (int or float): The first number to be added.
-* `b` (int or float): The second number to be added.
-
-#### Returns
+##### Parameters
+* `a` (int or float): The first number to add.
+* `b` (int or float): The second number to add.
+##### Returns
 * `int` or `float`: The sum of `a` and `b`.
-
-#### Example
+##### Example
 ```python
-result = add(5, 7)
-print(result)  # Output: 12
+result = add(5, 3)
+print(result)  # Output: 8
 ```
 
-### sub(c, d)
-#### Description
+#### sub(c, d)
+##### Description
 The `sub` function takes two numbers as input and returns their difference.
-
-#### Parameters
+##### Parameters
 * `c` (int or float): The first number.
-* `d` (int or float): The second number to be subtracted from the first.
-
-#### Returns
+* `d` (int or float): The second number to subtract from the first.
+##### Returns
 * `int` or `float`: The difference between `c` and `d`.
-
-#### Example
+##### Example
 ```python
 result = sub(10, 4)
 print(result)  # Output: 6
 ```
 
-### mul(a, b)
-#### Description
+#### mul(a, b)
+##### Description
 The `mul` function takes two numbers as input and returns their product.
-
-#### Parameters
-* `a` (int or float): The first number to be multiplied.
-* `b` (int or float): The second number to be multiplied.
-
-#### Returns
+##### Parameters
+* `a` (int or float): The first number to multiply.
+* `b` (int or float): The second number to multiply.
+##### Returns
 * `int` or `float`: The product of `a` and `b`.
-
-#### Example
+##### Example
 ```python
-result = mul(6, 9)
-print(result)  # Output: 54
+result = mul(4, 5)
+print(result)  # Output: 20
 ```
 
+### Execution Flow
 Since there are multiple functions in this file, here is a Mermaid flowchart showing the execution flow:
 ```mermaid
 flowchart TD
@@ -69,8 +63,9 @@ flowchart TD
     C --> E
     D --> E
 ```
+Note: This flowchart shows that the execution flow starts at the beginning of the script and can proceed to any of the three functions (`add`, `sub`, or `mul`) before ending. 
 
-When run directly, this script does not have a main block or any print statements, so it will not produce any output on its own. To use these functions, you need to import them in another script or call them from an interactive Python environment.
+There is no module-level code or variables in this file, so no additional documentation is needed.
 
 ---
 
